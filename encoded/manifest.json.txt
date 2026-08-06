@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-08-06T08:31:22.934689+00:00",
+  "source_repository": "notofonts/noto-cjk",
+  "requested_or_resolved_ref": "main",
+  "source_commit_sha": "f8d157532fbfaeda587e826d4cd5b21a49186f7c",
+  "source_path": "Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+  "original_filename": "NotoSansCJKsc-Regular.otf",
+  "original_size_bytes": 16437364,
+  "original_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "encoding": "base64",
+  "encoded_size_bytes": 22204863,
+  "parts_in_order": [
+    "NotoSansCJKsc-Regular.otf.b64.txt"
+  ],
+  "decode_linux_macos": "cat NotoSansCJKsc-Regular.otf.b64.txt | base64 -d > NotoSansCJKsc-Regular.otf",
+  "verification": "sha256sum NotoSansCJKsc-Regular.otf  # expected 2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+}
