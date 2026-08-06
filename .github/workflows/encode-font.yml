@@ -1,0 +1,201 @@
+name: Encode GitHub file as Base64 text
+
+on:
+  workflow_dispatch:
+    inputs:
+      upstream_repo:
+        description: "上游仓库，格式 owner/repo"
+        required: true
+        type: string
+        default: "notofonts/noto-cjk"
+      ref:
+        description: "分支/标签；留空=默认分支最新提交；LATEST_RELEASE=仓库最新 Release"
+        required: false
+        type: string
+        default: ""
+      file_path:
+        description: "仓库内的准确文件路径"
+        required: true
+        type: string
+        default: "Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf"
+
+permissions:
+  contents: write
+
+jobs:
+  encode:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout destination repository
+        uses: actions/checkout@v4
+
+      - name: Validate inputs and resolve ref
+        id: resolve
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          UPSTREAM_REPO: ${{ inputs.upstream_repo }}
+          REQUESTED_REF: ${{ inputs.ref }}
+          FILE_PATH: ${{ inputs.file_path }}
+        run: |
+          set -euo pipefail
+
+          if [[ ! "$UPSTREAM_REPO" =~ ^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$ ]]; then
+            echo "upstream_repo 格式无效，应为 owner/repo" >&2
+            exit 1
+          fi
+
+          if [[ -z "$FILE_PATH" || "$FILE_PATH" = /* || "$FILE_PATH" == *".."* ]]; then
+            echo "file_path 无效：必须是仓库内相对路径，且不能包含 .." >&2
+            exit 1
+          fi
+
+          if [[ "$REQUESTED_REF" == "LATEST_RELEASE" ]]; then
+            RESOLVED_REF="$(gh release view --repo "$UPSTREAM_REPO" --json tagName --jq .tagName)"
+          else
+            RESOLVED_REF="$REQUESTED_REF"
+          fi
+
+          echo "resolved_ref=$RESOLVED_REF" >> "$GITHUB_OUTPUT"
+
+      - name: Fetch only the selected upstream file
+        shell: bash
+        env:
+          UPSTREAM_REPO: ${{ inputs.upstream_repo }}
+          RESOLVED_REF: ${{ steps.resolve.outputs.resolved_ref }}
+          FILE_PATH: ${{ inputs.file_path }}
+        run: |
+          set -euo pipefail
+          rm -rf upstream
+
+          if [[ -n "$RESOLVED_REF" ]]; then
+            git clone \
+              --depth 1 \
+              --filter=blob:none \
+              --no-checkout \
+              --branch "$RESOLVED_REF" \
+              "https://github.com/${UPSTREAM_REPO}.git" upstream
+          else
+            git clone \
+              --depth 1 \
+              --filter=blob:none \
+              --no-checkout \
+              "https://github.com/${UPSTREAM_REPO}.git" upstream
+          fi
+
+          cd upstream
+          git sparse-checkout init --no-cone
+          printf '%s\n' "$FILE_PATH" > .git/info/sparse-checkout
+          git checkout
+
+          test -f "$FILE_PATH" || {
+            echo "找不到文件：$FILE_PATH" >&2
+            exit 1
+          }
+
+      - name: Encode, split when necessary, and write manifest
+        shell: bash
+        env:
+          UPSTREAM_REPO: ${{ inputs.upstream_repo }}
+          RESOLVED_REF: ${{ steps.resolve.outputs.resolved_ref }}
+          FILE_PATH: ${{ inputs.file_path }}
+        run: |
+          set -euo pipefail
+          rm -rf encoded
+          mkdir -p encoded
+
+          python3 <<'PY'
+          from __future__ import annotations
+
+          import base64
+          import hashlib
+          import json
+          import os
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          repo = os.environ["UPSTREAM_REPO"]
+          requested_ref = os.environ["RESOLVED_REF"]
+          file_path = os.environ["FILE_PATH"]
+
+          source = Path("upstream") / file_path
+          raw = source.read_bytes()
+          original_sha256 = hashlib.sha256(raw).hexdigest()
+
+          # GitHub 普通 Git 文件不能超过 100 MiB。
+          # 对常见字体保留单个 .b64.txt；较大文件拆成多个 20 MiB 文本块。
+          single_file_limit = 40 * 1024 * 1024
+          part_size = 20 * 1024 * 1024
+
+          encoded = base64.b64encode(raw)
+          # 每 76 个字符换行，仍可用普通 base64 解码器无损恢复。
+          wrapped = b"\n".join(
+              encoded[i:i + 76] for i in range(0, len(encoded), 76)
+          ) + b"\n"
+
+          out_dir = Path("encoded")
+          base_name = source.name + ".b64.txt"
+          parts: list[str] = []
+
+          if len(wrapped) <= single_file_limit:
+              output = out_dir / base_name
+              output.write_bytes(wrapped)
+              parts.append(output.name)
+          else:
+              for index, start in enumerate(range(0, len(wrapped), part_size), 1):
+                  output = out_dir / f"{base_name}.part{index:03d}"
+                  output.write_bytes(wrapped[start:start + part_size])
+                  parts.append(output.name)
+
+          commit_sha = os.popen("git -C upstream rev-parse HEAD").read().strip()
+          actual_ref = requested_ref or os.popen(
+              "git -C upstream branch --show-current"
+          ).read().strip() or commit_sha
+
+          manifest = {
+              "generated_at_utc": datetime.now(timezone.utc).isoformat(),
+              "source_repository": repo,
+              "requested_or_resolved_ref": actual_ref,
+              "source_commit_sha": commit_sha,
+              "source_path": file_path,
+              "original_filename": source.name,
+              "original_size_bytes": len(raw),
+              "original_sha256": original_sha256,
+              "encoding": "base64",
+              "encoded_size_bytes": len(wrapped),
+              "parts_in_order": parts,
+              "decode_linux_macos": (
+                  f"cat {' '.join(parts)} | base64 -d > {source.name}"
+              ),
+              "verification": (
+                  f"sha256sum {source.name}  # expected {original_sha256}"
+              ),
+          }
+
+          (out_dir / "manifest.json.txt").write_text(
+              json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+
+          print(json.dumps(manifest, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Commit generated text back to this repository
+        shell: bash
+        env:
+          UPSTREAM_REPO: ${{ inputs.upstream_repo }}
+          FILE_PATH: ${{ inputs.file_path }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add encoded
+          if git diff --cached --quiet; then
+            echo "内容没有变化，无需提交。"
+            exit 0
+          fi
+
+          git commit -m "Encode ${UPSTREAM_REPO}:${FILE_PATH} as Base64 text"
+          git push
