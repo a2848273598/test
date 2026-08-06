@@ -1,17 +1,17 @@
 {
-  "generated_at_utc": "2026-08-06T10:10:50.768358+00:00",
+  "generated_at_utc": "2026-08-06T11:01:33.059849+00:00",
   "source_repository": "notofonts/noto-cjk",
   "requested_or_resolved_ref": "Sans2.004",
   "source_commit_sha": "523d033d6cb47f4a80c58a35753646f5c3608a78",
-  "source_path": "Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
-  "original_filename": "NotoSansCJKsc-Regular.otf",
-  "original_size_bytes": 16437364,
-  "original_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "source_path": "Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Bold.otf",
+  "original_filename": "NotoSansCJKsc-Bold.otf",
+  "original_size_bytes": 17002248,
+  "original_sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a",
   "encoding": "base64",
-  "encoded_size_bytes": 22204863,
+  "encoded_size_bytes": 22967950,
   "parts_in_order": [
-    "NotoSansCJKsc-Regular.otf.b64.txt"
+    "NotoSansCJKsc-Bold.otf.b64.txt"
   ],
-  "decode_linux_macos": "cat NotoSansCJKsc-Regular.otf.b64.txt | base64 -d > NotoSansCJKsc-Regular.otf",
-  "verification": "sha256sum NotoSansCJKsc-Regular.otf  # expected 2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+  "decode_linux_macos": "cat NotoSansCJKsc-Bold.otf.b64.txt | base64 -d > NotoSansCJKsc-Bold.otf",
+  "verification": "sha256sum NotoSansCJKsc-Bold.otf  # expected b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
 }
