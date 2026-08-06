@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-08-06T08:31:22.934689+00:00",
+  "generated_at_utc": "2026-08-06T09:17:56.866583+00:00",
   "source_repository": "notofonts/noto-cjk",
-  "requested_or_resolved_ref": "main",
-  "source_commit_sha": "f8d157532fbfaeda587e826d4cd5b21a49186f7c",
+  "requested_or_resolved_ref": "Sans2.004",
+  "source_commit_sha": "523d033d6cb47f4a80c58a35753646f5c3608a78",
   "source_path": "Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
   "original_filename": "NotoSansCJKsc-Regular.otf",
   "original_size_bytes": 16437364,
