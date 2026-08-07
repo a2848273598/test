@@ -1,0 +1,592 @@
+name: Package GitHub font as PDF attachment
+
+run-name: >-
+  Package ${{ inputs.filename }}
+  [${{ inputs.output_key }}]
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_url:
+        description: Direct raw.githubusercontent.com font URL
+        required: true
+        type: string
+
+      filename:
+        description: Safe output font filename
+        required: true
+        type: string
+
+      output_key:
+        description: Unique 32-character task key
+        required: true
+        type: string
+
+      repository:
+        description: Source GitHub repository
+        required: true
+        type: string
+
+      source_page:
+        description: Source font page on GitHub
+        required: true
+        type: string
+
+      license_name:
+        description: Detected license name
+        required: true
+        type: string
+
+      license_page:
+        description: License page on GitHub
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: >-
+    package-font-pdf-${{ inputs.output_key }}
+  cancel-in-progress: false
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      SOURCE_URL: ${{ inputs.source_url }}
+      REQUESTED_FILENAME: ${{ inputs.filename }}
+      OUTPUT_KEY: ${{ inputs.output_key }}
+      SOURCE_REPOSITORY: ${{ inputs.repository }}
+      SOURCE_PAGE: ${{ inputs.source_page }}
+      LICENSE_NAME: ${{ inputs.license_name }}
+      LICENSE_PAGE: ${{ inputs.license_page }}
+
+      # 512 MiB. GitHub Release 单个资产上限远高于此值；
+      # 这里主要是限制 runner 的内存和处理时间。
+      MAX_BYTES: "536870912"
+
+      RELEASE_TAG: font-package-${{ inputs.output_key }}
+
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PDF libraries
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install \
+            --disable-pip-version-check \
+            "pypdf>=6.2,<7" \
+            "reportlab>=4.2,<5"
+
+      - name: Download, validate, and package font
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python <<'PY'
+          from __future__ import annotations
+
+          import hashlib
+          import ipaddress
+          import json
+          import os
+          import re
+          import socket
+          import textwrap
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          from pypdf import PdfReader, PdfWriter
+          from reportlab.lib.pagesizes import A4
+          from reportlab.pdfgen import canvas
+
+
+          source_url = os.environ["SOURCE_URL"].strip()
+          filename = os.environ["REQUESTED_FILENAME"].strip()
+          output_key = os.environ["OUTPUT_KEY"].strip()
+          source_repository = os.environ["SOURCE_REPOSITORY"].strip()
+          source_page = os.environ["SOURCE_PAGE"].strip()
+          license_name = os.environ["LICENSE_NAME"].strip()
+          license_page = os.environ["LICENSE_PAGE"].strip()
+          max_bytes = int(os.environ["MAX_BYTES"])
+          release_tag = os.environ["RELEASE_TAG"].strip()
+
+          if not re.fullmatch(r"[a-f0-9]{32}", output_key):
+              raise RuntimeError("Invalid output_key")
+
+          if not re.fullmatch(
+              r"[A-Za-z0-9][A-Za-z0-9._-]{0,119}",
+              filename,
+          ):
+              raise RuntimeError("Invalid filename")
+
+          if not re.fullmatch(
+              r"[A-Za-z0-9-]{1,39}/[A-Za-z0-9._-]{1,100}",
+              source_repository,
+          ):
+              raise RuntimeError("Invalid source repository")
+
+          if not re.fullmatch(
+              rf"font-package-{output_key}",
+              release_tag,
+          ):
+              raise RuntimeError("Invalid release tag")
+
+          if len(source_url) > 4096:
+              raise RuntimeError("source_url is too long")
+
+          def validate_github_https_url(value: str) -> str:
+              parsed = urllib.parse.urlsplit(value)
+
+              if parsed.scheme.lower() != "https":
+                  raise RuntimeError("Only HTTPS URLs are allowed")
+
+              if not parsed.hostname:
+                  raise RuntimeError("URL has no hostname")
+
+              if parsed.username or parsed.password:
+                  raise RuntimeError("Embedded credentials are not allowed")
+
+              hostname = parsed.hostname.rstrip(".").lower()
+
+              allowed = (
+                  hostname == "raw.githubusercontent.com"
+                  or hostname == "github.com"
+                  or hostname.endswith(".githubusercontent.com")
+              )
+
+              if not allowed:
+                  raise RuntimeError(
+                      f"Only GitHub download hosts are allowed: {hostname}"
+                  )
+
+              try:
+                  port = parsed.port or 443
+              except ValueError as exc:
+                  raise RuntimeError("Invalid URL port") from exc
+
+              try:
+                  address_info = socket.getaddrinfo(
+                      hostname,
+                      port,
+                      type=socket.SOCK_STREAM,
+                  )
+              except socket.gaierror as exc:
+                  raise RuntimeError(
+                      f"DNS resolution failed for {hostname}: {exc}"
+                  ) from exc
+
+              resolved = {
+                  item[4][0].split("%", 1)[0]
+                  for item in address_info
+              }
+
+              if not resolved:
+                  raise RuntimeError("Hostname resolved to no addresses")
+
+              for ip_text in resolved:
+                  if not ipaddress.ip_address(ip_text).is_global:
+                      raise RuntimeError(
+                          f"Non-public destination is not allowed: {ip_text}"
+                      )
+
+              return urllib.parse.urlunsplit(parsed)
+
+          class SafeRedirectHandler(urllib.request.HTTPRedirectHandler):
+              def redirect_request(
+                  self,
+                  req,
+                  fp,
+                  code,
+                  msg,
+                  headers,
+                  newurl,
+              ):
+                  absolute = urllib.parse.urljoin(req.full_url, newurl)
+                  validate_github_https_url(absolute)
+                  return super().redirect_request(
+                      req,
+                      fp,
+                      code,
+                      msg,
+                      headers,
+                      absolute,
+                  )
+
+          def detect_font_format(prefix: bytes, total_size: int) -> str:
+              signatures = (
+                  (b"OTTO", "OpenType/CFF"),
+                  (b"\x00\x01\x00\x00", "TrueType/OpenType"),
+                  (b"true", "TrueType"),
+                  (b"typ1", "OpenType/Type1"),
+                  (b"ttcf", "TrueType/OpenType Collection"),
+                  (b"wOFF", "WOFF"),
+                  (b"wOF2", "WOFF2"),
+                  (b"%!PS-AdobeFont", "PostScript Type 1 ASCII"),
+                  (b"%!FontType1", "PostScript Type 1 ASCII"),
+                  (b"\x80\x01", "PostScript Type 1 Binary"),
+              )
+
+              for signature, name in signatures:
+                  if prefix.startswith(signature):
+                      return name
+
+              if (
+                  total_size >= 36
+                  and len(prefix) >= 36
+                  and prefix[34:36] == b"LP"
+              ):
+                  return "Embedded OpenType"
+
+              if len(prefix) >= 4:
+                  major = prefix[0]
+                  minor = prefix[1]
+                  header_size = prefix[2]
+
+                  if (
+                      major == 1
+                      and minor == 0
+                      and 4 <= header_size <= 64
+                  ):
+                      return "CFF"
+
+                  if major == 2 and minor == 0 and header_size == 5:
+                      return "CFF2"
+
+              raise RuntimeError(
+                  "Downloaded content does not have a recognized "
+                  f"font signature: {prefix[:16]!r}"
+              )
+
+          validated_url = validate_github_https_url(source_url)
+
+          request = urllib.request.Request(
+              validated_url,
+              headers={
+                  "User-Agent": "github-font-pdf-packager/1.0",
+                  "Accept": "*/*",
+                  "Accept-Encoding": "identity",
+              },
+              method="GET",
+          )
+
+          opener = urllib.request.build_opener(SafeRedirectHandler())
+
+          work_dir = Path("dist")
+          work_dir.mkdir(parents=True, exist_ok=False)
+
+          downloaded_path = work_dir / filename
+          metadata_path = work_dir / "metadata.json"
+          summary_pdf_path = work_dir / "summary.pdf"
+          package_path = work_dir / f"{filename}.font-package.pdf"
+          notes_path = work_dir / "release-notes.md"
+
+          sha256 = hashlib.sha256()
+          total = 0
+          prefix = bytearray()
+
+          try:
+              response = opener.open(request, timeout=60)
+          except urllib.error.HTTPError as exc:
+              raise RuntimeError(
+                  f"Font download returned HTTP {exc.code}: {exc.reason}"
+              ) from exc
+          except urllib.error.URLError as exc:
+              raise RuntimeError(
+                  f"Font download failed: {exc.reason}"
+              ) from exc
+
+          with response:
+              status = getattr(response, "status", response.getcode())
+
+              if status < 200 or status >= 300:
+                  raise RuntimeError(
+                      f"Font download returned HTTP {status}"
+                  )
+
+              final_url = validate_github_https_url(response.geturl())
+              content_type = response.headers.get("Content-Type", "")
+              content_length = response.headers.get("Content-Length")
+
+              if content_length:
+                  try:
+                      declared_size = int(content_length)
+                  except ValueError:
+                      declared_size = None
+
+                  if declared_size is not None and declared_size > max_bytes:
+                      raise RuntimeError(
+                          "Font is too large: declared "
+                          f"{declared_size} bytes; limit is {max_bytes}"
+                      )
+
+              with downloaded_path.open("wb") as target:
+                  while True:
+                      chunk = response.read(1024 * 1024)
+
+                      if not chunk:
+                          break
+
+                      total += len(chunk)
+
+                      if total > max_bytes:
+                          raise RuntimeError(
+                              f"Font exceeded the {max_bytes}-byte limit"
+                          )
+
+                      if len(prefix) < 128:
+                          prefix.extend(chunk[: 128 - len(prefix)])
+
+                      sha256.update(chunk)
+                      target.write(chunk)
+
+          if total < 4:
+              raise RuntimeError("Downloaded file is too small to be a font")
+
+          detected_format = detect_font_format(bytes(prefix), total)
+          font_sha256 = sha256.hexdigest()
+          created_at = datetime.now(timezone.utc).isoformat()
+
+          metadata = {
+              "output_key": output_key,
+              "release_tag": release_tag,
+              "filename": filename,
+              "source_repository": source_repository,
+              "source_page": source_page,
+              "source_url": source_url,
+              "final_url": final_url,
+              "license": license_name,
+              "license_page": license_page,
+              "content_type": content_type,
+              "detected_format": detected_format,
+              "size_bytes": total,
+              "sha256": font_sha256,
+              "header_hex": bytes(prefix[:4]).hex(),
+              "created_at": created_at,
+          }
+
+          metadata_bytes = (
+              json.dumps(metadata, ensure_ascii=False, indent=2) + "\n"
+          ).encode("utf-8")
+
+          metadata_path.write_bytes(metadata_bytes)
+
+          page = canvas.Canvas(str(summary_pdf_path), pagesize=A4)
+          page.setTitle(f"Font package {filename}")
+
+          width, height = A4
+          left = 46
+          y = height - 54
+
+          page.setFont("Helvetica-Bold", 18)
+          page.drawString(left, y, "GitHub Font Package")
+          y -= 30
+
+          page.setFont("Helvetica", 10)
+
+          lines = [
+              ("Filename", filename),
+              ("Format", detected_format),
+              ("Size", f"{total} bytes"),
+              ("SHA-256", font_sha256),
+              ("Repository", source_repository),
+              ("License", license_name),
+              ("Output key", output_key),
+              ("Created", created_at),
+              ("Source page", source_page),
+              ("License page", license_page),
+          ]
+
+          for label, value in lines:
+              wrapped = textwrap.wrap(
+                  f"{label}: {value}",
+                  width=95,
+                  break_long_words=True,
+                  break_on_hyphens=False,
+              ) or [f"{label}:"]
+
+              for line in wrapped:
+                  if y < 50:
+                      page.showPage()
+                      page.setFont("Helvetica", 10)
+                      y = height - 54
+
+                  page.drawString(left, y, line)
+                  y -= 14
+
+          y -= 12
+          page.setFont("Helvetica-Bold", 11)
+          page.drawString(
+              left,
+              y,
+              "Embedded attachments: original font file and metadata.json",
+          )
+          page.save()
+
+          writer = PdfWriter(clone_from=str(summary_pdf_path))
+          writer.add_metadata(
+              {
+                  "/Title": f"GitHub font package: {filename}",
+                  "/Subject": "Original font embedded as a PDF attachment",
+                  "/Creator": "GitHub Actions font PDF packager",
+              }
+          )
+          writer.add_attachment(
+              filename=filename,
+              data=downloaded_path.read_bytes(),
+          )
+          writer.add_attachment(
+              filename="metadata.json",
+              data=metadata_bytes,
+          )
+          writer.write(str(package_path))
+
+          if not package_path.read_bytes().startswith(b"%PDF-"):
+              raise RuntimeError("Generated package does not have a PDF header")
+
+          reader = PdfReader(str(package_path))
+          attachments = reader.attachments
+
+          font_contents = attachments.get(filename, [])
+          metadata_contents = attachments.get("metadata.json", [])
+
+          if len(font_contents) != 1:
+              raise RuntimeError(
+                  f"Expected one embedded font attachment, got {len(font_contents)}"
+              )
+
+          if len(metadata_contents) != 1:
+              raise RuntimeError(
+                  "Expected one embedded metadata attachment, "
+                  f"got {len(metadata_contents)}"
+              )
+
+          extracted_font = font_contents[0]
+
+          if len(extracted_font) != total:
+              raise RuntimeError(
+                  "Embedded font size does not match downloaded font size"
+              )
+
+          extracted_sha256 = hashlib.sha256(extracted_font).hexdigest()
+
+          if extracted_sha256 != font_sha256:
+              raise RuntimeError(
+                  "Embedded font SHA-256 does not match downloaded font"
+              )
+
+          if metadata_contents[0] != metadata_bytes:
+              raise RuntimeError("Embedded metadata does not match metadata.json")
+
+          package_sha256 = hashlib.sha256(package_path.read_bytes()).hexdigest()
+          package_size = package_path.stat().st_size
+
+          notes_path.write_text(
+              "\n".join(
+                  [
+                      f"Automated font package for `{filename}`.",
+                      "",
+                      f"- Source repository: `{source_repository}`",
+                      f"- Source page: {source_page}",
+                      f"- License: {license_name}",
+                      f"- License page: {license_page}",
+                      f"- Font format: `{detected_format}`",
+                      f"- Font size: `{total}` bytes",
+                      f"- Font SHA-256: `{font_sha256}`",
+                      f"- PDF size: `{package_size}` bytes",
+                      f"- PDF SHA-256: `{package_sha256}`",
+                      f"- Output key: `{output_key}`",
+                      "",
+                      "The original font is embedded in the PDF as an attachment.",
+                  ]
+              )
+              + "\n",
+              encoding="utf-8",
+          )
+
+          print(
+              json.dumps(
+                  {
+                      **metadata,
+                      "package_path": str(package_path),
+                      "package_size_bytes": package_size,
+                      "package_sha256": package_sha256,
+                      "attachments_verified": True,
+                  },
+                  ensure_ascii=False,
+                  indent=2,
+              )
+          )
+          PY
+
+      - name: Publish PDF as a GitHub Release asset
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          package_path="dist/${REQUESTED_FILENAME}.font-package.pdf"
+          metadata_path="dist/metadata.json"
+          notes_path="dist/release-notes.md"
+
+          if gh release view \
+            "${RELEASE_TAG}" \
+            --repo "${GITHUB_REPOSITORY}" \
+            >/dev/null 2>&1
+          then
+            echo "Release ${RELEASE_TAG} already exists; verifying assets."
+
+            gh release view \
+              "${RELEASE_TAG}" \
+              --repo "${GITHUB_REPOSITORY}" \
+              --json assets \
+              --jq '.assets[].name'
+
+            exit 0
+          fi
+
+          gh release create \
+            "${RELEASE_TAG}" \
+            "${package_path}#Font package PDF" \
+            "${metadata_path}#Font metadata JSON" \
+            --repo "${GITHUB_REPOSITORY}" \
+            --target "${GITHUB_SHA}" \
+            --title "Font package: ${REQUESTED_FILENAME}" \
+            --notes-file "${notes_path}" \
+            --prerelease \
+            --latest=false
+
+      - name: Show public download URLs
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          encoded_name="$({
+            python - <<'PY'
+          import os
+          import urllib.parse
+          print(
+              urllib.parse.quote(
+                  os.environ["REQUESTED_FILENAME"] + ".font-package.pdf",
+                  safe="",
+              )
+          )
+          PY
+          } | tr -d '\n')"
+
+          echo "Release page:"
+          echo "https://github.com/${GITHUB_REPOSITORY}/releases/tag/${RELEASE_TAG}"
+
+          echo "PDF download:"
+          echo "https://github.com/${GITHUB_REPOSITORY}/releases/download/${RELEASE_TAG}/${encoded_name}"
