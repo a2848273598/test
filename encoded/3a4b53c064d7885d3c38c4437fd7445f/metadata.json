@@ -1,0 +1,12 @@
+{
+  "source_url": "https://github.com/notofonts/noto-cjk/raw/refs/heads/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+  "final_url": "https://raw.githubusercontent.com/notofonts/noto-cjk/refs/heads/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+  "filename": "NotoSansCJKsc-Regular.otf",
+  "output_key": "3a4b53c064d7885d3c38c4437fd7445f",
+  "size_bytes": 16437364,
+  "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "detected_format": "OpenType/CFF",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/3a4b53c064d7885d3c38c4437fd7445f/NotoSansCJKsc-Regular.otf.b64.txt",
+  "base64_size_bytes": 22204863
+}
