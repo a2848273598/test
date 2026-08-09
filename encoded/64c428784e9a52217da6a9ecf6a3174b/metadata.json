@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-MediumItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-MediumItalic.ttf",
+  "filename": "IosevkaCharon-MediumItalic.ttf",
+  "output_key": "64c428784e9a52217da6a9ecf6a3174b",
+  "size_bytes": 1452616,
+  "sha256": "18396b7a0db5863e4e60bdab6d0d02bc57e31477a7a311d7eff94bc44d264914",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/64c428784e9a52217da6a9ecf6a3174b/IosevkaCharon-MediumItalic.ttf.b64.txt",
+  "base64_size_bytes": 1962309,
+  "validation_target_file": "encoded/64c428784e9a52217da6a9ecf6a3174b/validation-target.json",
+  "validation_source_file": "encoded/64c428784e9a52217da6a9ecf6a3174b/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "pass",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
