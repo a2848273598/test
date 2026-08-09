@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bpmfiansui/BpmfIansui-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bpmfiansui/BpmfIansui-Regular.ttf",
+  "filename": "BpmfIansui-Regular.ttf",
+  "output_key": "4e2afe5906f73e1d6a699b0f2dcc3f86",
+  "size_bytes": 7698176,
+  "sha256": "72716054f083b8c8953b45ab4c28dcf7a771e3be2eb58a848a459418058f1cb7",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/4e2afe5906f73e1d6a699b0f2dcc3f86/BpmfIansui-Regular.ttf.b64.txt",
+  "base64_size_bytes": 10399292,
+  "validation_target_file": "encoded/4e2afe5906f73e1d6a699b0f2dcc3f86/validation-target.json",
+  "validation_source_file": "encoded/4e2afe5906f73e1d6a699b0f2dcc3f86/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
