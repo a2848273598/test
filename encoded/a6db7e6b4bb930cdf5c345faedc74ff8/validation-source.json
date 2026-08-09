@@ -1,0 +1,872 @@
+{
+  "version": 2,
+  "profile": "source",
+  "strict": true,
+  "validation_policy": "strict-v2-cc-filtered",
+  "filename": "Iansui-Regular.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/iansui/Iansui-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/iansui/Iansui-Regular.ttf",
+  "size_bytes": 9420560,
+  "sha256": "6e6340d80d618a42b48ade9370c34fa37a8210750c6fbc8efe65f23716538a2b",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "Iansui-Regular",
+    "glyph_count": 15188,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 12307
+      },
+      {
+        "table": "platform=0, encoding=4, format=12",
+        "count": 12639
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 12307
+      },
+      {
+        "table": "platform=3, encoding=10, format=12",
+        "count": 12639
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [],
+    "unicode_codepoint_count": 12639,
+    "cmap_conflict_count": 0,
+    "raw_reverse_alias_count": 271,
+    "reverse_alias_count": 271,
+    "ignored_cc_alias_group_count": 0,
+    "ambiguous_glyph_count": 1,
+    "ambiguous_standard_codepoint_count": 1,
+    "pua_codepoint_count": 0,
+    "cmap_conflict_sample": [],
+    "raw_reverse_alias_sample": [
+      {
+        "glyph": "hyphen",
+        "gid": 14,
+        "unicode": [
+          {
+            "codepoint": "U+002D",
+            "char": "-",
+            "name": "HYPHEN-MINUS",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+2011",
+            "char": "‑",
+            "name": "NON-BREAKING HYPHEN",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "underscore",
+        "gid": 64,
+        "unicode": [
+          {
+            "codepoint": "U+005F",
+            "char": "_",
+            "name": "LOW LINE",
+            "category": "Pc"
+          },
+          {
+            "codepoint": "U+0332",
+            "char": "̲",
+            "name": "COMBINING LOW LINE",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "asciitilde",
+        "gid": 100,
+        "unicode": [
+          {
+            "codepoint": "U+007E",
+            "char": "~",
+            "name": "TILDE",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+223C",
+            "char": "∼",
+            "name": "TILDE OPERATOR",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "periodcentered",
+        "gid": 13647,
+        "unicode": [
+          {
+            "codepoint": "U+00B7",
+            "char": "·",
+            "name": "MIDDLE DOT",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+2219",
+            "char": "∙",
+            "name": "BULLET OPERATOR",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "cedilla",
+        "gid": 15047,
+        "unicode": [
+          {
+            "codepoint": "U+00B8",
+            "char": "¸",
+            "name": "CEDILLA",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+0327",
+            "char": "̧",
+            "name": "COMBINING CEDILLA",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "quoteleft",
+        "gid": 98,
+        "unicode": [
+          {
+            "codepoint": "U+02BB",
+            "char": "ʻ",
+            "name": "MODIFIER LETTER TURNED COMMA",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+2018",
+            "char": "‘",
+            "name": "LEFT SINGLE QUOTATION MARK",
+            "category": "Pi"
+          }
+        ]
+      },
+      {
+        "glyph": "quoteright",
+        "gid": 96,
+        "unicode": [
+          {
+            "codepoint": "U+02BC",
+            "char": "ʼ",
+            "name": "MODIFIER LETTER APOSTROPHE",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+2019",
+            "char": "’",
+            "name": "RIGHT SINGLE QUOTATION MARK",
+            "category": "Pf"
+          }
+        ]
+      },
+      {
+        "glyph": "circumflex",
+        "gid": 15038,
+        "unicode": [
+          {
+            "codepoint": "U+02C6",
+            "char": "ˆ",
+            "name": "MODIFIER LETTER CIRCUMFLEX ACCENT",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+2303",
+            "char": "⌃",
+            "name": "UP ARROWHEAD",
+            "category": "So"
+          }
+        ]
+      },
+      {
+        "glyph": "ring",
+        "gid": 15045,
+        "unicode": [
+          {
+            "codepoint": "U+02DA",
+            "char": "˚",
+            "name": "RING ABOVE",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+030A",
+            "char": "̊",
+            "name": "COMBINING RING ABOVE",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "tilde",
+        "gid": 95,
+        "unicode": [
+          {
+            "codepoint": "U+02DC",
+            "char": "˜",
+            "name": "SMALL TILDE",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+0303",
+            "char": "̃",
+            "name": "COMBINING TILDE",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3000",
+        "gid": 13623,
+        "unicode": [
+          {
+            "codepoint": "U+2003",
+            "char": " ",
+            "name": "EM SPACE",
+            "category": "Zs"
+          },
+          {
+            "codepoint": "U+3000",
+            "char": "　",
+            "name": "IDEOGRAPHIC SPACE",
+            "category": "Zs"
+          }
+        ]
+      },
+      {
+        "glyph": "endash",
+        "gid": 13731,
+        "unicode": [
+          {
+            "codepoint": "U+2012",
+            "char": "‒",
+            "name": "FIGURE DASH",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+2013",
+            "char": "–",
+            "name": "EN DASH",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "uni205A",
+        "gid": 13662,
+        "unicode": [
+          {
+            "codepoint": "U+205A",
+            "char": "⁚",
+            "name": "TWO DOT PUNCTUATION",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FE30",
+            "char": "︰",
+            "name": "PRESENTATION FORM FOR VERTICAL TWO DOT LEADER",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "uni205D",
+        "gid": 13660,
+        "unicode": [
+          {
+            "codepoint": "U+205D",
+            "char": "⁝",
+            "name": "TRICOLON",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FE19",
+            "char": "︙",
+            "name": "PRESENTATION FORM FOR VERTICAL HORIZONTAL ELLIPSIS",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3008",
+        "gid": 13755,
+        "unicode": [
+          {
+            "codepoint": "U+2329",
+            "char": "〈",
+            "name": "LEFT-POINTING ANGLE BRACKET",
+            "category": "Ps"
+          },
+          {
+            "codepoint": "U+3008",
+            "char": "〈",
+            "name": "LEFT ANGLE BRACKET",
+            "category": "Ps"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3009",
+        "gid": 13756,
+        "unicode": [
+          {
+            "codepoint": "U+232A",
+            "char": "〉",
+            "name": "RIGHT-POINTING ANGLE BRACKET",
+            "category": "Pe"
+          },
+          {
+            "codepoint": "U+3009",
+            "char": "〉",
+            "name": "RIGHT ANGLE BRACKET",
+            "category": "Pe"
+          }
+        ]
+      },
+      {
+        "glyph": "uni239C",
+        "gid": 14613,
+        "unicode": [
+          {
+            "codepoint": "U+239C",
+            "char": "⎜",
+            "name": "LEFT PARENTHESIS EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+239F",
+            "char": "⎟",
+            "name": "RIGHT PARENTHESIS EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+23A2",
+            "char": "⎢",
+            "name": "LEFT SQUARE BRACKET EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+23A5",
+            "char": "⎥",
+            "name": "RIGHT SQUARE BRACKET EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+23AA",
+            "char": "⎪",
+            "name": "CURLY BRACKET EXTENSION",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "uni27A1",
+        "gid": 14751,
+        "unicode": [
+          {
+            "codepoint": "U+27A1",
+            "char": "➡",
+            "name": "BLACK RIGHTWARDS ARROW",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+2B95",
+            "char": "⮕",
+            "name": "RIGHTWARDS BLACK ARROW",
+            "category": "So"
+          }
+        ]
+      },
+      {
+        "glyph": "uni4E5A",
+        "gid": 11240,
+        "unicode": [
+          {
+            "codepoint": "U+2E83",
+            "char": "⺃",
+            "name": "CJK RADICAL SECOND TWO",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+4E5A",
+            "char": "乚",
+            "name": "CJK UNIFIED IDEOGRAPH-4E5A",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni4EBB",
+        "gid": 11241,
+        "unicode": [
+          {
+            "codepoint": "U+2E85",
+            "char": "⺅",
+            "name": "CJK RADICAL PERSON",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+4EBB",
+            "char": "亻",
+            "name": "CJK UNIFIED IDEOGRAPH-4EBB",
+            "category": "Lo"
+          }
+        ]
+      }
+    ],
+    "reverse_alias_sample": [
+      {
+        "glyph": "hyphen",
+        "gid": 14,
+        "unicode": [
+          {
+            "codepoint": "U+002D",
+            "char": "-",
+            "name": "HYPHEN-MINUS",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+2011",
+            "char": "‑",
+            "name": "NON-BREAKING HYPHEN",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "underscore",
+        "gid": 64,
+        "unicode": [
+          {
+            "codepoint": "U+005F",
+            "char": "_",
+            "name": "LOW LINE",
+            "category": "Pc"
+          },
+          {
+            "codepoint": "U+0332",
+            "char": "̲",
+            "name": "COMBINING LOW LINE",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "asciitilde",
+        "gid": 100,
+        "unicode": [
+          {
+            "codepoint": "U+007E",
+            "char": "~",
+            "name": "TILDE",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+223C",
+            "char": "∼",
+            "name": "TILDE OPERATOR",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "periodcentered",
+        "gid": 13647,
+        "unicode": [
+          {
+            "codepoint": "U+00B7",
+            "char": "·",
+            "name": "MIDDLE DOT",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+2219",
+            "char": "∙",
+            "name": "BULLET OPERATOR",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "cedilla",
+        "gid": 15047,
+        "unicode": [
+          {
+            "codepoint": "U+00B8",
+            "char": "¸",
+            "name": "CEDILLA",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+0327",
+            "char": "̧",
+            "name": "COMBINING CEDILLA",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "quoteleft",
+        "gid": 98,
+        "unicode": [
+          {
+            "codepoint": "U+02BB",
+            "char": "ʻ",
+            "name": "MODIFIER LETTER TURNED COMMA",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+2018",
+            "char": "‘",
+            "name": "LEFT SINGLE QUOTATION MARK",
+            "category": "Pi"
+          }
+        ]
+      },
+      {
+        "glyph": "quoteright",
+        "gid": 96,
+        "unicode": [
+          {
+            "codepoint": "U+02BC",
+            "char": "ʼ",
+            "name": "MODIFIER LETTER APOSTROPHE",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+2019",
+            "char": "’",
+            "name": "RIGHT SINGLE QUOTATION MARK",
+            "category": "Pf"
+          }
+        ]
+      },
+      {
+        "glyph": "circumflex",
+        "gid": 15038,
+        "unicode": [
+          {
+            "codepoint": "U+02C6",
+            "char": "ˆ",
+            "name": "MODIFIER LETTER CIRCUMFLEX ACCENT",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+2303",
+            "char": "⌃",
+            "name": "UP ARROWHEAD",
+            "category": "So"
+          }
+        ]
+      },
+      {
+        "glyph": "ring",
+        "gid": 15045,
+        "unicode": [
+          {
+            "codepoint": "U+02DA",
+            "char": "˚",
+            "name": "RING ABOVE",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+030A",
+            "char": "̊",
+            "name": "COMBINING RING ABOVE",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "tilde",
+        "gid": 95,
+        "unicode": [
+          {
+            "codepoint": "U+02DC",
+            "char": "˜",
+            "name": "SMALL TILDE",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+0303",
+            "char": "̃",
+            "name": "COMBINING TILDE",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3000",
+        "gid": 13623,
+        "unicode": [
+          {
+            "codepoint": "U+2003",
+            "char": " ",
+            "name": "EM SPACE",
+            "category": "Zs"
+          },
+          {
+            "codepoint": "U+3000",
+            "char": "　",
+            "name": "IDEOGRAPHIC SPACE",
+            "category": "Zs"
+          }
+        ]
+      },
+      {
+        "glyph": "endash",
+        "gid": 13731,
+        "unicode": [
+          {
+            "codepoint": "U+2012",
+            "char": "‒",
+            "name": "FIGURE DASH",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+2013",
+            "char": "–",
+            "name": "EN DASH",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "uni205A",
+        "gid": 13662,
+        "unicode": [
+          {
+            "codepoint": "U+205A",
+            "char": "⁚",
+            "name": "TWO DOT PUNCTUATION",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FE30",
+            "char": "︰",
+            "name": "PRESENTATION FORM FOR VERTICAL TWO DOT LEADER",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "uni205D",
+        "gid": 13660,
+        "unicode": [
+          {
+            "codepoint": "U+205D",
+            "char": "⁝",
+            "name": "TRICOLON",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FE19",
+            "char": "︙",
+            "name": "PRESENTATION FORM FOR VERTICAL HORIZONTAL ELLIPSIS",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3008",
+        "gid": 13755,
+        "unicode": [
+          {
+            "codepoint": "U+2329",
+            "char": "〈",
+            "name": "LEFT-POINTING ANGLE BRACKET",
+            "category": "Ps"
+          },
+          {
+            "codepoint": "U+3008",
+            "char": "〈",
+            "name": "LEFT ANGLE BRACKET",
+            "category": "Ps"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3009",
+        "gid": 13756,
+        "unicode": [
+          {
+            "codepoint": "U+232A",
+            "char": "〉",
+            "name": "RIGHT-POINTING ANGLE BRACKET",
+            "category": "Pe"
+          },
+          {
+            "codepoint": "U+3009",
+            "char": "〉",
+            "name": "RIGHT ANGLE BRACKET",
+            "category": "Pe"
+          }
+        ]
+      },
+      {
+        "glyph": "uni239C",
+        "gid": 14613,
+        "unicode": [
+          {
+            "codepoint": "U+239C",
+            "char": "⎜",
+            "name": "LEFT PARENTHESIS EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+239F",
+            "char": "⎟",
+            "name": "RIGHT PARENTHESIS EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+23A2",
+            "char": "⎢",
+            "name": "LEFT SQUARE BRACKET EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+23A5",
+            "char": "⎥",
+            "name": "RIGHT SQUARE BRACKET EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+23AA",
+            "char": "⎪",
+            "name": "CURLY BRACKET EXTENSION",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "uni27A1",
+        "gid": 14751,
+        "unicode": [
+          {
+            "codepoint": "U+27A1",
+            "char": "➡",
+            "name": "BLACK RIGHTWARDS ARROW",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+2B95",
+            "char": "⮕",
+            "name": "RIGHTWARDS BLACK ARROW",
+            "category": "So"
+          }
+        ]
+      },
+      {
+        "glyph": "uni4E5A",
+        "gid": 11240,
+        "unicode": [
+          {
+            "codepoint": "U+2E83",
+            "char": "⺃",
+            "name": "CJK RADICAL SECOND TWO",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+4E5A",
+            "char": "乚",
+            "name": "CJK UNIFIED IDEOGRAPH-4E5A",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni4EBB",
+        "gid": 11241,
+        "unicode": [
+          {
+            "codepoint": "U+2E85",
+            "char": "⺅",
+            "name": "CJK RADICAL PERSON",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+4EBB",
+            "char": "亻",
+            "name": "CJK UNIFIED IDEOGRAPH-4EBB",
+            "category": "Lo"
+          }
+        ]
+      }
+    ],
+    "cjk_compat_alias_sample": [
+      {
+        "glyph": "u20984",
+        "gid": 10943,
+        "unicode": [
+          {
+            "codepoint": "U+20984",
+            "char": "𠦄",
+            "name": "CJK UNIFIED IDEOGRAPH-20984",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F82C",
+            "char": "卉",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F82C",
+            "category": "Lo"
+          }
+        ]
+      }
+    ]
+  },
+  "coverage": {
+    "required_count": 103,
+    "missing_count": 2,
+    "missing": [
+      {
+        "codepoint": "U+2264",
+        "char": "≤",
+        "name": "LESS-THAN OR EQUAL TO",
+        "category": "Sm"
+      },
+      {
+        "codepoint": "U+2265",
+        "char": "≥",
+        "name": "GREATER-THAN OR EQUAL TO",
+        "category": "Sm"
+      }
+    ],
+    "passed": false
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "Iansui Regular",
+    "glyph_count": 15188
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "reverse_aliases_present",
+    "required_characters_missing"
+  ],
+  "result": "fail",
+  "failure_stage": "strict_cmap"
+}
