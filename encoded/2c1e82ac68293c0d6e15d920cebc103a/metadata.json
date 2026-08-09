@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ufl/ubuntusans/UbuntuSans-Italic%5Bwdth%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ufl/ubuntusans/UbuntuSans-Italic%5Bwdth%2Cwght%5D.ttf",
+  "filename": "UbuntuSans-Italic_wdth_wght_.ttf",
+  "output_key": "2c1e82ac68293c0d6e15d920cebc103a",
+  "size_bytes": 738444,
+  "sha256": "603f7a4b837143b742a8df3ad3ad80164a50e4529f02e3f6aa533b78e209d3df",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/2c1e82ac68293c0d6e15d920cebc103a/UbuntuSans-Italic_wdth_wght_.ttf.b64.txt",
+  "base64_size_bytes": 997548,
+  "validation_target_file": "encoded/2c1e82ac68293c0d6e15d920cebc103a/validation-target.json",
+  "validation_source_file": "encoded/2c1e82ac68293c0d6e15d920cebc103a/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
