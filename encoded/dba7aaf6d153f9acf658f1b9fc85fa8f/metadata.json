@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mplus2/MPLUS2%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mplus2/MPLUS2%5Bwght%5D.ttf",
+  "filename": "MPLUS2_wght_.ttf",
+  "output_key": "dba7aaf6d153f9acf658f1b9fc85fa8f",
+  "size_bytes": 4201608,
+  "sha256": "2e4f45c2391355fb03195da4854ffbe85fea49bfdff5cc51020238083af6b75c",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/dba7aaf6d153f9acf658f1b9fc85fa8f/MPLUS2_wght_.ttf.b64.txt",
+  "base64_size_bytes": 5675857,
+  "validation_target_file": "encoded/dba7aaf6d153f9acf658f1b9fc85fa8f/validation-target.json",
+  "validation_source_file": "encoded/dba7aaf6d153f9acf658f1b9fc85fa8f/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
