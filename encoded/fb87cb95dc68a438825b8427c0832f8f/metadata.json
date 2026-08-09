@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/apache/kosugi/Kosugi-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/apache/kosugi/Kosugi-Regular.ttf",
+  "filename": "Kosugi-Regular.ttf",
+  "output_key": "fb87cb95dc68a438825b8427c0832f8f",
+  "size_bytes": 2288848,
+  "sha256": "f5e81d6a6b865d9b88c54d2d3c16bcaa3b239dfcefaf2a62976ac9dc7574bab7",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/fb87cb95dc68a438825b8427c0832f8f/Kosugi-Regular.ttf.b64.txt",
+  "base64_size_bytes": 3091956,
+  "validation_target_file": "encoded/fb87cb95dc68a438825b8427c0832f8f/validation-target.json",
+  "validation_source_file": "encoded/fb87cb95dc68a438825b8427c0832f8f/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
