@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/charissil/CharisSIL-BoldItalic.ttf",
+  "filename": "CharisSIL-BoldItalic.ttf",
+  "output_key": "3689ef38d1cd6920a92aa3042cf666b1",
+  "size_bytes": 802588,
+  "sha256": "acdf6dc54c0ee5e03cae3398f64133c335084cd1ecab655f2a8636c5d56acedb",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/3689ef38d1cd6920a92aa3042cf666b1/CharisSIL-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 1084201,
+  "validation_target_file": "encoded/3689ef38d1cd6920a92aa3042cf666b1/validation-target.json",
+  "validation_source_file": "encoded/3689ef38d1cd6920a92aa3042cf666b1/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
