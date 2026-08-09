@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/roboto/Roboto%5Bwdth%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/roboto/Roboto%5Bwdth%2Cwght%5D.ttf",
+  "filename": "Roboto_wdth_wght_.ttf",
+  "output_key": "ca783fd06e658d921ebcfe6e6d0c6ddf",
+  "size_bytes": 488584,
+  "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/ca783fd06e658d921ebcfe6e6d0c6ddf/Roboto_wdth_wght_.ttf.b64.txt",
+  "base64_size_bytes": 660020,
+  "validation_target_file": "encoded/ca783fd06e658d921ebcfe6e6d0c6ddf/validation-target.json",
+  "validation_source_file": "encoded/ca783fd06e658d921ebcfe6e6d0c6ddf/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
