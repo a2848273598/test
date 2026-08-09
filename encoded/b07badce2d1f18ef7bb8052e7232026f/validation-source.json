@@ -1,0 +1,125 @@
+{
+  "version": 2,
+  "profile": "source",
+  "strict": true,
+  "validation_policy": "strict-v2-cc-filtered",
+  "filename": "CrimsonText-BoldItalic.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-BoldItalic.ttf",
+  "size_bytes": 115112,
+  "sha256": "467013e913e46304760461c46661c994b2aa1769e3fbd31371026300315181b4",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "CrimsonText-BoldItalic",
+    "glyph_count": 720,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 675
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 675
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [],
+    "unicode_codepoint_count": 675,
+    "cmap_conflict_count": 0,
+    "raw_reverse_alias_count": 1,
+    "reverse_alias_count": 1,
+    "ignored_cc_alias_group_count": 0,
+    "ambiguous_glyph_count": 0,
+    "ambiguous_standard_codepoint_count": 0,
+    "pua_codepoint_count": 15,
+    "cmap_conflict_sample": [],
+    "raw_reverse_alias_sample": [
+      {
+        "glyph": "Dtail",
+        "gid": 48,
+        "unicode": [
+          {
+            "codepoint": "U+0189",
+            "char": "Ɖ",
+            "name": "LATIN CAPITAL LETTER AFRICAN D",
+            "category": "Lu"
+          },
+          {
+            "codepoint": "U+0256",
+            "char": "ɖ",
+            "name": "LATIN SMALL LETTER D WITH TAIL",
+            "category": "Ll"
+          }
+        ]
+      }
+    ],
+    "reverse_alias_sample": [
+      {
+        "glyph": "Dtail",
+        "gid": 48,
+        "unicode": [
+          {
+            "codepoint": "U+0189",
+            "char": "Ɖ",
+            "name": "LATIN CAPITAL LETTER AFRICAN D",
+            "category": "Lu"
+          },
+          {
+            "codepoint": "U+0256",
+            "char": "ɖ",
+            "name": "LATIN SMALL LETTER D WITH TAIL",
+            "category": "Ll"
+          }
+        ]
+      }
+    ],
+    "cjk_compat_alias_sample": []
+  },
+  "coverage": {
+    "required_count": 103,
+    "missing_count": 2,
+    "missing": [
+      {
+        "codepoint": "U+03A9",
+        "char": "Ω",
+        "name": "GREEK CAPITAL LETTER OMEGA",
+        "category": "Lu"
+      },
+      {
+        "codepoint": "U+2103",
+        "char": "℃",
+        "name": "DEGREE CELSIUS",
+        "category": "So"
+      }
+    ],
+    "passed": false
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "Crimson Text Bold Italic",
+    "glyph_count": 720
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "reverse_aliases_present",
+    "required_characters_missing"
+  ],
+  "result": "fail",
+  "failure_stage": "strict_cmap"
+}

@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsontext/CrimsonText-BoldItalic.ttf",
+  "filename": "CrimsonText-BoldItalic.ttf",
+  "output_key": "b07badce2d1f18ef7bb8052e7232026f",
+  "size_bytes": 115112,
+  "sha256": "467013e913e46304760461c46661c994b2aa1769e3fbd31371026300315181b4",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/b07badce2d1f18ef7bb8052e7232026f/CrimsonText-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 155504,
+  "validation_target_file": "encoded/b07badce2d1f18ef7bb8052e7232026f/validation-target.json",
+  "validation_source_file": "encoded/b07badce2d1f18ef7bb8052e7232026f/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
