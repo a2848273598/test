@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/nobile/Nobile-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/nobile/Nobile-BoldItalic.ttf",
+  "filename": "Nobile-BoldItalic.ttf",
+  "output_key": "540f490bf43be32d628d032d8ee0df84",
+  "size_bytes": 86044,
+  "sha256": "ddfc58964740d28b33eac62edde3b5807ffaf3f18199ca30667988d3a15eccad",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/540f490bf43be32d628d032d8ee0df84/Nobile-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 116238,
+  "validation_target_file": "encoded/540f490bf43be32d628d032d8ee0df84/validation-target.json",
+  "validation_source_file": "encoded/540f490bf43be32d628d032d8ee0df84/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
