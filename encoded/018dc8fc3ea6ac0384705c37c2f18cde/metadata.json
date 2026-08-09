@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lato/Lato-Italic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lato/Lato-Italic.ttf",
+  "filename": "Lato-Italic.ttf",
+  "output_key": "018dc8fc3ea6ac0384705c37c2f18cde",
+  "size_bytes": 722900,
+  "sha256": "e399c44efe1387100531d26c7e4800c5d12251b890d6654a3098c7c679cb1786",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/018dc8fc3ea6ac0384705c37c2f18cde/Lato-Italic.ttf.b64.txt",
+  "base64_size_bytes": 976551,
+  "validation_target_file": "encoded/018dc8fc3ea6ac0384705c37c2f18cde/validation-target.json",
+  "validation_source_file": "encoded/018dc8fc3ea6ac0384705c37c2f18cde/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
