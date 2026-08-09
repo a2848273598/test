@@ -1,0 +1,278 @@
+{
+  "version": 1,
+  "profile": "target",
+  "strict": true,
+  "filename": "WDXLLubrifontTC-Regular.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/wdxllubrifonttc/WDXLLubrifontTC-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/wdxllubrifonttc/WDXLLubrifontTC-Regular.ttf",
+  "size_bytes": 10345168,
+  "sha256": "acae31588d34ba66a51a6271209bdcbb6105962f0f77a74729e69e3938f96775",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "WDXLLubrifontTC-Regular",
+    "glyph_count": 15985,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 13147
+      },
+      {
+        "table": "platform=0, encoding=4, format=12",
+        "count": 13360
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 13147
+      },
+      {
+        "table": "platform=3, encoding=10, format=12",
+        "count": 13360
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [
+      "platform=0, encoding=5, format=14"
+    ],
+    "unicode_codepoint_count": 13360,
+    "cmap_conflict_count": 0,
+    "reverse_alias_count": 3,
+    "ambiguous_glyph_count": 0,
+    "ambiguous_standard_codepoint_count": 0,
+    "pua_codepoint_count": 0,
+    "cmap_conflict_sample": [],
+    "reverse_alias_sample": [
+      {
+        "glyph": "space",
+        "gid": 1,
+        "unicode": [
+          {
+            "codepoint": "U+0000",
+            "char": "\u0000",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0001",
+            "char": "\u0001",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0002",
+            "char": "\u0002",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0003",
+            "char": "\u0003",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0004",
+            "char": "\u0004",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0005",
+            "char": "\u0005",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0006",
+            "char": "\u0006",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0007",
+            "char": "\u0007",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0008",
+            "char": "\b",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0009",
+            "char": "\t",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+000B",
+            "char": "\u000b",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+000C",
+            "char": "\f",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+000D",
+            "char": "\r",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+000E",
+            "char": "\u000e",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+000F",
+            "char": "\u000f",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0010",
+            "char": "\u0010",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0011",
+            "char": "\u0011",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0012",
+            "char": "\u0012",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0013",
+            "char": "\u0013",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0014",
+            "char": "\u0014",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0015",
+            "char": "\u0015",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0016",
+            "char": "\u0016",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0017",
+            "char": "\u0017",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0018",
+            "char": "\u0018",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0019",
+            "char": "\u0019",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+001A",
+            "char": "\u001a",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+001B",
+            "char": "\u001b",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+001C",
+            "char": "\u001c",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+001D",
+            "char": "\u001d",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+001E",
+            "char": "\u001e",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+001F",
+            "char": "\u001f",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+0020",
+            "char": " ",
+            "name": "SPACE"
+          }
+        ]
+      },
+      {
+        "glyph": "cid02107",
+        "gid": 2107,
+        "unicode": [
+          {
+            "codepoint": "U+5373",
+            "char": "即",
+            "name": "CJK UNIFIED IDEOGRAPH-5373"
+          },
+          {
+            "codepoint": "U+537D",
+            "char": "卽",
+            "name": "CJK UNIFIED IDEOGRAPH-537D"
+          }
+        ]
+      },
+      {
+        "glyph": "cid13996",
+        "gid": 13996,
+        "unicode": [
+          {
+            "codepoint": "U+9751",
+            "char": "靑",
+            "name": "CJK UNIFIED IDEOGRAPH-9751"
+          },
+          {
+            "codepoint": "U+9752",
+            "char": "青",
+            "name": "CJK UNIFIED IDEOGRAPH-9752"
+          }
+        ]
+      }
+    ],
+    "cjk_compat_alias_sample": []
+  },
+  "coverage": {
+    "required_count": 177,
+    "missing_count": 0,
+    "missing": [],
+    "passed": true
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "WDXL Lubrifont TC Regular",
+    "glyph_count": 15985
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "reverse_aliases_present"
+  ],
+  "result": "fail",
+  "failure_stage": "strict_cmap"
+}
