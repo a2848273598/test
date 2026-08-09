@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bpmfhuninn/BpmfHuninn-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bpmfhuninn/BpmfHuninn-Regular.ttf",
+  "filename": "BpmfHuninn-Regular.ttf",
+  "output_key": "d8e1f91ce6fc7ddaa375981c0b623065",
+  "size_bytes": 4809404,
+  "sha256": "4ff9e6adaa3ef3646982a5538fa2d0ec443e9bf4659c8015c6aee888a54987ee",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/d8e1f91ce6fc7ddaa375981c0b623065/BpmfHuninn-Regular.ttf.b64.txt",
+  "base64_size_bytes": 6496916,
+  "validation_target_file": "encoded/d8e1f91ce6fc7ddaa375981c0b623065/validation-target.json",
+  "validation_source_file": "encoded/d8e1f91ce6fc7ddaa375981c0b623065/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
