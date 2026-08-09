@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/natasans/NataSans%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/natasans/NataSans%5Bwght%5D.ttf",
+  "filename": "NataSans_wght_.ttf",
+  "output_key": "c2eaa940f3f7ecac768129f8031a20b0",
+  "size_bytes": 434804,
+  "sha256": "f8867b7b2d02c3513398412d06f6bc264f414a90753943297fc44d53cfb60559",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/c2eaa940f3f7ecac768129f8031a20b0/NataSans_wght_.ttf.b64.txt",
+  "base64_size_bytes": 587369,
+  "validation_target_file": "encoded/c2eaa940f3f7ecac768129f8031a20b0/validation-target.json",
+  "validation_source_file": "encoded/c2eaa940f3f7ecac768129f8031a20b0/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
