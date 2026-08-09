@@ -1,0 +1,88 @@
+{
+  "version": 2,
+  "profile": "source",
+  "strict": true,
+  "validation_policy": "strict-v2-cc-filtered",
+  "filename": "GowunDodum-Regular.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/gowundodum/GowunDodum-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/gowundodum/GowunDodum-Regular.ttf",
+  "size_bytes": 7229088,
+  "sha256": "a6e457933227483a11758fd0947bc74422a106d46f0bf057fdaa5af94a30067d",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "GowunDodum-Regular",
+    "glyph_count": 12550,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 12468
+      },
+      {
+        "table": "platform=0, encoding=4, format=12",
+        "count": 12494
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 12468
+      },
+      {
+        "table": "platform=3, encoding=10, format=12",
+        "count": 12494
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [],
+    "unicode_codepoint_count": 12494,
+    "cmap_conflict_count": 0,
+    "raw_reverse_alias_count": 0,
+    "reverse_alias_count": 0,
+    "ignored_cc_alias_group_count": 0,
+    "ambiguous_glyph_count": 0,
+    "ambiguous_standard_codepoint_count": 0,
+    "pua_codepoint_count": 0,
+    "cmap_conflict_sample": [],
+    "raw_reverse_alias_sample": [],
+    "reverse_alias_sample": [],
+    "cjk_compat_alias_sample": []
+  },
+  "coverage": {
+    "required_count": 103,
+    "missing_count": 1,
+    "missing": [
+      {
+        "codepoint": "U+03A9",
+        "char": "Ω",
+        "name": "GREEK CAPITAL LETTER OMEGA",
+        "category": "Lu"
+      }
+    ],
+    "passed": false
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "Gowun Dodum Regular",
+    "glyph_count": 12550
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "required_characters_missing"
+  ],
+  "result": "fail",
+  "failure_stage": "coverage"
+}
