@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "profile": "target",
+  "strict": true,
+  "filename": "MPLUSU_wght_.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mplusu/MPLUSU%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mplusu/MPLUSU%5Bwght%5D.ttf",
+  "size_bytes": 4207732,
+  "sha256": "b8a7510c3cf3d1e330018eed21b6b603122d6eb724e9d1d5b9a91ba4013c3019",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "MPLUSU-Thin",
+    "glyph_count": 6969,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 6606
+      },
+      {
+        "table": "platform=0, encoding=4, format=12",
+        "count": 6613
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 6606
+      },
+      {
+        "table": "platform=3, encoding=10, format=12",
+        "count": 6613
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [],
+    "unicode_codepoint_count": 6613,
+    "cmap_conflict_count": 0,
+    "reverse_alias_count": 0,
+    "ambiguous_glyph_count": 0,
+    "ambiguous_standard_codepoint_count": 0,
+    "pua_codepoint_count": 0,
+    "cmap_conflict_sample": [],
+    "reverse_alias_sample": [],
+    "cjk_compat_alias_sample": []
+  },
+  "coverage": {
+    "required_count": 177,
+    "missing_count": 18,
+    "missing": [
+      {
+        "codepoint": "U+7535",
+        "char": "电",
+        "name": "CJK UNIFIED IDEOGRAPH-7535"
+      },
+      {
+        "codepoint": "U+538B",
+        "char": "压",
+        "name": "CJK UNIFIED IDEOGRAPH-538B"
+      },
+      {
+        "codepoint": "U+76D1",
+        "char": "监",
+        "name": "CJK UNIFIED IDEOGRAPH-76D1"
+      },
+      {
+        "codepoint": "U+62A4",
+        "char": "护",
+        "name": "CJK UNIFIED IDEOGRAPH-62A4"
+      },
+      {
+        "codepoint": "U+7EDD",
+        "char": "绝",
+        "name": "CJK UNIFIED IDEOGRAPH-7EDD"
+      },
+      {
+        "codepoint": "U+5BF9",
+        "char": "对",
+        "name": "CJK UNIFIED IDEOGRAPH-5BF9"
+      },
+      {
+        "codepoint": "U+989D",
+        "char": "额",
+        "name": "CJK UNIFIED IDEOGRAPH-989D"
+      },
+      {
+        "codepoint": "U+503C",
+        "char": "值",
+        "name": "CJK UNIFIED IDEOGRAPH-503C"
+      },
+      {
+        "codepoint": "U+672F",
+        "char": "术",
+        "name": "CJK UNIFIED IDEOGRAPH-672F"
+      },
+      {
+        "codepoint": "U+8F6C",
+        "char": "转",
+        "name": "CJK UNIFIED IDEOGRAPH-8F6C"
+      },
+      {
+        "codepoint": "U+6362",
+        "char": "换",
+        "name": "CJK UNIFIED IDEOGRAPH-6362"
+      },
+      {
+        "codepoint": "U+9A71",
+        "char": "驱",
+        "name": "CJK UNIFIED IDEOGRAPH-9A71"
+      },
+      {
+        "codepoint": "U+52A8",
+        "char": "动",
+        "name": "CJK UNIFIED IDEOGRAPH-52A8"
+      },
+      {
+        "codepoint": "U+6D4B",
+        "char": "测",
+        "name": "CJK UNIFIED IDEOGRAPH-6D4B"
+      },
+      {
+        "codepoint": "U+8FDE",
+        "char": "连",
+        "name": "CJK UNIFIED IDEOGRAPH-8FDE"
+      },
+      {
+        "codepoint": "U+6267",
+        "char": "执",
+        "name": "CJK UNIFIED IDEOGRAPH-6267"
+      },
+      {
+        "codepoint": "U+03A9",
+        "char": "Ω",
+        "name": "GREEK CAPITAL LETTER OMEGA"
+      },
+      {
+        "codepoint": "U+2103",
+        "char": "℃",
+        "name": "DEGREE CELSIUS"
+      }
+    ],
+    "passed": false
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "M PLUS U Thin",
+    "glyph_count": 6969
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "required_characters_missing"
+  ],
+  "result": "fail",
+  "failure_stage": "coverage"
+}
