@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansjp/IBMPlexSansJP-Bold.ttf",
+  "filename": "IBMPlexSansJP-Bold.ttf",
+  "output_key": "b795ca92642717a6801a0419c30d1933",
+  "size_bytes": 2391376,
+  "sha256": "bd8a98b9b55c9ea3f0fa1ed094c15981788cc9a41b0357f4453014fd1d44da19",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/b795ca92642717a6801a0419c30d1933/IBMPlexSansJP-Bold.ttf.b64.txt",
+  "base64_size_bytes": 3230458,
+  "validation_target_file": "encoded/b795ca92642717a6801a0419c30d1933/validation-target.json",
+  "validation_source_file": "encoded/b795ca92642717a6801a0419c30d1933/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
