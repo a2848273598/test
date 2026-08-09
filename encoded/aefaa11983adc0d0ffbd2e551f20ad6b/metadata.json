@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/figtree/Figtree%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/figtree/Figtree%5Bwght%5D.ttf",
+  "filename": "Figtree_wght_.ttf",
+  "output_key": "aefaa11983adc0d0ffbd2e551f20ad6b",
+  "size_bytes": 62712,
+  "sha256": "26ad3db9b31ff7dde67a91ff515d022d2f495cd506590699cf264f0bfe6fb714",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/aefaa11983adc0d0ffbd2e551f20ad6b/Figtree_wght_.ttf.b64.txt",
+  "base64_size_bytes": 84717,
+  "validation_target_file": "encoded/aefaa11983adc0d0ffbd2e551f20ad6b/validation-target.json",
+  "validation_source_file": "encoded/aefaa11983adc0d0ffbd2e551f20ad6b/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
