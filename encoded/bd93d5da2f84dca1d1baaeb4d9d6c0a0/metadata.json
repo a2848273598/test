@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/schibstedgrotesk/SchibstedGrotesk-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/schibstedgrotesk/SchibstedGrotesk-Italic%5Bwght%5D.ttf",
+  "filename": "SchibstedGrotesk-Italic_wght_.ttf",
+  "output_key": "bd93d5da2f84dca1d1baaeb4d9d6c0a0",
+  "size_bytes": 181440,
+  "sha256": "b49fedb6f3a2ff9b43e13351888641505dc8e5f300941e597eecbc3f52ba357b",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/bd93d5da2f84dca1d1baaeb4d9d6c0a0/SchibstedGrotesk-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 245104,
+  "validation_target_file": "encoded/bd93d5da2f84dca1d1baaeb4d9d6c0a0/validation-target.json",
+  "validation_source_file": "encoded/bd93d5da2f84dca1d1baaeb4d9d6c0a0/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
