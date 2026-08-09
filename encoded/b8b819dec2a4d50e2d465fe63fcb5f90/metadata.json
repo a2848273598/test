@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-BoldItalic.ttf",
+  "filename": "IBMPlexSansCondensed-BoldItalic.ttf",
+  "output_key": "b8b819dec2a4d50e2d465fe63fcb5f90",
+  "size_bytes": 117024,
+  "sha256": "fe1983c07a086fbee939e5f0f826e5428f7d02666c8e3bbb7295fb3504597a07",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/b8b819dec2a4d50e2d465fe63fcb5f90/IBMPlexSansCondensed-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 158086,
+  "validation_target_file": "encoded/b8b819dec2a4d50e2d465fe63fcb5f90/validation-target.json",
+  "validation_source_file": "encoded/b8b819dec2a4d50e2d465fe63fcb5f90/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
