@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiacode/CascadiaCode-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiacode/CascadiaCode-Italic%5Bwght%5D.ttf",
+  "filename": "CascadiaCode-Italic_wght_.ttf",
+  "output_key": "068744ee258868987182e84b07d4b558",
+  "size_bytes": 530444,
+  "sha256": "33559b4beb60523b824e25a416b5de2779a9bc7c7ce32ce128490b42acbf4681",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/068744ee258868987182e84b07d4b558/CascadiaCode-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 716567,
+  "validation_target_file": "encoded/068744ee258868987182e84b07d4b558/validation-target.json",
+  "validation_source_file": "encoded/068744ee258868987182e84b07d4b558/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
