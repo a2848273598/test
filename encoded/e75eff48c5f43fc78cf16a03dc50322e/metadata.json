@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinussans/LibertinusSans-Italic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinussans/LibertinusSans-Italic.ttf",
+  "filename": "LibertinusSans-Italic.ttf",
+  "output_key": "e75eff48c5f43fc78cf16a03dc50322e",
+  "size_bytes": 631960,
+  "sha256": "44527ec77f40df4a9f5b306ca4db46d973ddf90929e7e875f8dde0084754ef38",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/e75eff48c5f43fc78cf16a03dc50322e/LibertinusSans-Italic.ttf.b64.txt",
+  "base64_size_bytes": 853704,
+  "validation_target_file": "encoded/e75eff48c5f43fc78cf16a03dc50322e/validation-target.json",
+  "validation_source_file": "encoded/e75eff48c5f43fc78cf16a03dc50322e/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "pass",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
