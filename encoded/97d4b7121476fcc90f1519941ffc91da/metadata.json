@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusmath/LibertinusMath-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusmath/LibertinusMath-Regular.ttf",
+  "filename": "LibertinusMath-Regular.ttf",
+  "output_key": "97d4b7121476fcc90f1519941ffc91da",
+  "size_bytes": 1259804,
+  "sha256": "6eaebb1260c45328a49299a614eb20cee6d0b5c2fbb0d48314def159e0715318",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/97d4b7121476fcc90f1519941ffc91da/LibertinusMath-Regular.ttf.b64.txt",
+  "base64_size_bytes": 1701842,
+  "validation_target_file": "encoded/97d4b7121476fcc90f1519941ffc91da/validation-target.json",
+  "validation_source_file": "encoded/97d4b7121476fcc90f1519941ffc91da/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "pass",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
