@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mplusrounded1c/MPLUSRounded1c-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mplusrounded1c/MPLUSRounded1c-Regular.ttf",
+  "filename": "MPLUSRounded1c-Regular.ttf",
+  "output_key": "a4802caf0a3a04321599d9b73f0442a8",
+  "size_bytes": 3389792,
+  "sha256": "b75708b53e45b06d17d470aeeca5b766e3d1b3999f03f13ec4eb863ca846c14c",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/a4802caf0a3a04321599d9b73f0442a8/MPLUSRounded1c-Regular.ttf.b64.txt",
+  "base64_size_bytes": 4579195,
+  "validation_target_file": "encoded/a4802caf0a3a04321599d9b73f0442a8/validation-target.json",
+  "validation_source_file": "encoded/a4802caf0a3a04321599d9b73f0442a8/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "pass",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
