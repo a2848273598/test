@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/stixtwomath/STIXTwoMath-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/stixtwomath/STIXTwoMath-Regular.ttf",
+  "filename": "STIXTwoMath-Regular.ttf",
+  "output_key": "cb2288b382dca774b63ee01479f76847",
+  "size_bytes": 1517976,
+  "sha256": "562551b15b836e6e01d1b7350909baf3c8c8d83260c1190fbf4544333e6936de",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/cb2288b382dca774b63ee01479f76847/STIXTwoMath-Regular.ttf.b64.txt",
+  "base64_size_bytes": 2050600,
+  "validation_target_file": "encoded/cb2288b382dca774b63ee01479f76847/validation-target.json",
+  "validation_source_file": "encoded/cb2288b382dca774b63ee01479f76847/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "pass",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
