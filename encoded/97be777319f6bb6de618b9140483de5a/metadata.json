@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/Barlow-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/Barlow-Bold.ttf",
+  "filename": "Barlow-Bold.ttf",
+  "output_key": "97be777319f6bb6de618b9140483de5a",
+  "size_bytes": 108220,
+  "sha256": "84e6a4d61e7c3e21f3c50ea6a4f7e5303a3467864c038be6ea3759bab8d547f9",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/97be777319f6bb6de618b9140483de5a/Barlow-Bold.ttf.b64.txt",
+  "base64_size_bytes": 146195,
+  "validation_target_file": "encoded/97be777319f6bb6de618b9140483de5a/validation-target.json",
+  "validation_source_file": "encoded/97be777319f6bb6de618b9140483de5a/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
