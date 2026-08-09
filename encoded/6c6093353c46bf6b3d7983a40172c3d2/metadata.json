@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf",
+  "filename": "NotoSansJP_wght_.ttf",
+  "output_key": "6c6093353c46bf6b3d7983a40172c3d2",
+  "size_bytes": 9589900,
+  "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/6c6093353c46bf6b3d7983a40172c3d2/NotoSansJP_wght_.ttf.b64.txt",
+  "base64_size_bytes": 12954780,
+  "validation_target_file": "encoded/6c6093353c46bf6b3d7983a40172c3d2/validation-target.json",
+  "validation_source_file": "encoded/6c6093353c46bf6b3d7983a40172c3d2/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
