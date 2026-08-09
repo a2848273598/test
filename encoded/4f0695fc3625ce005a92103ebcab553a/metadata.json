@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/titilliumweb/TitilliumWeb-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/titilliumweb/TitilliumWeb-BoldItalic.ttf",
+  "filename": "TitilliumWeb-BoldItalic.ttf",
+  "output_key": "4f0695fc3625ce005a92103ebcab553a",
+  "size_bytes": 69772,
+  "sha256": "744068ee0f1623c61567b0981d51c49edba012d74c5ba73076847c0143284a25",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/4f0695fc3625ce005a92103ebcab553a/TitilliumWeb-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 94257,
+  "validation_target_file": "encoded/4f0695fc3625ce005a92103ebcab553a/validation-target.json",
+  "validation_source_file": "encoded/4f0695fc3625ce005a92103ebcab553a/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
