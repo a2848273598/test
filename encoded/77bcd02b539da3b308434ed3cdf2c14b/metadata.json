@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/SourceSerif4-Italic%5Bopsz%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/SourceSerif4-Italic%5Bopsz%2Cwght%5D.ttf",
+  "filename": "SourceSerif4-Italic_opsz_wght_.ttf",
+  "output_key": "77bcd02b539da3b308434ed3cdf2c14b",
+  "size_bytes": 855432,
+  "sha256": "15fbc7e4679489a501998c3669272637a6646388ef7e4bd77eebb5bf967a1f42",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/77bcd02b539da3b308434ed3cdf2c14b/SourceSerif4-Italic_opsz_wght_.ttf.b64.txt",
+  "base64_size_bytes": 1155584,
+  "validation_target_file": "encoded/77bcd02b539da3b308434ed3cdf2c14b/validation-target.json",
+  "validation_source_file": "encoded/77bcd02b539da3b308434ed3cdf2c14b/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
