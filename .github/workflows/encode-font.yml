@@ -49,10 +49,7 @@ jobs:
       # 70 MiB。
       MAX_BYTES: "73400320"
 
-      # 与生产环境保持完全一致。
       REQUIRED_PYMUPDF_VERSION: "1.26.7"
-
-      # 固定版本，便于验证结果长期可重复。
       REQUIRED_FONTTOOLS_VERSION: "4.63.0"
 
     steps:
@@ -93,7 +90,6 @@ jobs:
           import re
           import socket
           import string
-          import sys
           import unicodedata
           import urllib.error
           import urllib.parse
@@ -124,7 +120,9 @@ jobs:
           ].strip()
 
           max_bytes = int(
-              os.environ["MAX_BYTES"]
+              os.environ[
+                  "MAX_BYTES"
+              ]
           )
 
           required_pymupdf_version = (
@@ -139,12 +137,24 @@ jobs:
               ]
           )
 
+          validation_policy = (
+              "strict-v2-cc-filtered"
+          )
 
-          if fitz.__version__ != required_pymupdf_version:
+
+          # =========================================================
+          # 固定依赖版本
+          # =========================================================
+
+          if (
+              fitz.__version__
+              != required_pymupdf_version
+          ):
               raise RuntimeError(
                   "Unexpected PyMuPDF version: "
                   f"{fitz.__version__}; "
-                  f"required={required_pymupdf_version}"
+                  f"required="
+                  f"{required_pymupdf_version}"
               )
 
 
@@ -155,9 +165,14 @@ jobs:
               raise RuntimeError(
                   "Unexpected fontTools version: "
                   f"{fontTools.__version__}; "
-                  f"required={required_fonttools_version}"
+                  f"required="
+                  f"{required_fonttools_version}"
               )
 
+
+          # =========================================================
+          # 输入校验
+          # =========================================================
 
           if not re.fullmatch(
               r"[a-f0-9]{32}",
@@ -193,6 +208,7 @@ jobs:
           def validate_public_https_url(
               value: str,
           ) -> str:
+
               parsed = (
                   urllib.parse
                   .urlsplit(value)
@@ -209,7 +225,8 @@ jobs:
 
               if not parsed.hostname:
                   raise RuntimeError(
-                      "Source URL has no hostname"
+                      "Source URL has "
+                      "no hostname"
                   )
 
               if (
@@ -218,7 +235,8 @@ jobs:
               ):
                   raise RuntimeError(
                       "Source URL must not "
-                      "contain embedded credentials"
+                      "contain embedded "
+                      "credentials"
                   )
 
               try:
@@ -226,9 +244,11 @@ jobs:
                       parsed.port
                       or 443
                   )
+
               except ValueError as exc:
                   raise RuntimeError(
-                      "Source URL has an invalid port"
+                      "Source URL has "
+                      "an invalid port"
                   ) from exc
 
               hostname = (
@@ -247,7 +267,8 @@ jobs:
                   )
               ):
                   raise RuntimeError(
-                      "localhost is not allowed"
+                      "localhost is "
+                      "not allowed"
                   )
 
               if (
@@ -259,8 +280,9 @@ jobs:
                   )
               ):
                   raise RuntimeError(
-                      "Local/internal hostnames "
-                      "are not allowed"
+                      "Local/internal "
+                      "hostnames are "
+                      "not allowed"
                   )
 
               try:
@@ -268,21 +290,30 @@ jobs:
                       socket.getaddrinfo(
                           hostname,
                           port,
-                          type=socket.SOCK_STREAM,
+                          type=(
+                              socket
+                              .SOCK_STREAM
+                          ),
                       )
                   )
+
               except socket.gaierror as exc:
                   raise RuntimeError(
-                      "DNS resolution failed for "
-                      f"{hostname}: {exc}"
+                      "DNS resolution failed "
+                      f"for {hostname}: "
+                      f"{exc}"
                   ) from exc
 
               resolved = set()
 
               for item in addresses:
+
                   ip_text = (
                       item[4][0]
-                      .split("%", 1)[0]
+                      .split(
+                          "%",
+                          1,
+                      )[0]
                   )
 
                   resolved.add(
@@ -291,19 +322,23 @@ jobs:
 
               if not resolved:
                   raise RuntimeError(
-                      "Hostname resolved to "
-                      "no addresses"
+                      "Hostname resolved "
+                      "to no addresses"
                   )
 
               for ip_text in resolved:
-                  ip = ipaddress.ip_address(
-                      ip_text
+
+                  ip = (
+                      ipaddress.ip_address(
+                          ip_text
+                      )
                   )
 
                   if not ip.is_global:
                       raise RuntimeError(
-                          "Non-public destination "
-                          "is not allowed: "
+                          "Non-public "
+                          "destination is "
+                          "not allowed: "
                           f"{ip_text}"
                       )
 
@@ -314,8 +349,10 @@ jobs:
 
 
           class SafeRedirectHandler(
-              urllib.request.HTTPRedirectHandler
+              urllib.request
+              .HTTPRedirectHandler
           ):
+
               def redirect_request(
                   self,
                   req,
@@ -325,8 +362,10 @@ jobs:
                   headers,
                   newurl,
               ):
+
                   absolute = (
-                      urllib.parse.urljoin(
+                      urllib.parse
+                      .urljoin(
                           req.full_url,
                           newurl,
                       )
@@ -357,15 +396,20 @@ jobs:
               prefix: bytes,
               total_size: int,
           ) -> str:
+
               if prefix.startswith(
                   b"OTTO"
               ):
-                  return "OpenType/CFF"
+                  return (
+                      "OpenType/CFF"
+                  )
 
               if prefix.startswith(
                   b"\x00\x01\x00\x00"
               ):
-                  return "TrueType/OpenType"
+                  return (
+                      "TrueType/OpenType"
+                  )
 
               if prefix.startswith(
                   b"true"
@@ -375,13 +419,16 @@ jobs:
               if prefix.startswith(
                   b"typ1"
               ):
-                  return "OpenType/Type1"
+                  return (
+                      "OpenType/Type1"
+                  )
 
               if prefix.startswith(
                   b"ttcf"
               ):
                   return (
-                      "TrueType/OpenType Collection"
+                      "TrueType/OpenType "
+                      "Collection"
                   )
 
               if prefix.startswith(
@@ -398,42 +445,52 @@ jobs:
                   b"%!PS-AdobeFont"
               ):
                   return (
-                      "PostScript Type 1 ASCII"
+                      "PostScript "
+                      "Type 1 ASCII"
                   )
 
               if prefix.startswith(
                   b"%!FontType1"
               ):
                   return (
-                      "PostScript Type 1 ASCII"
+                      "PostScript "
+                      "Type 1 ASCII"
                   )
 
               if prefix.startswith(
                   b"\x80\x01"
               ):
                   return (
-                      "PostScript Type 1 Binary"
+                      "PostScript "
+                      "Type 1 Binary"
                   )
 
-              # Embedded OpenType：
-              # MagicNumber 0x504C 位于偏移 34。
+              # Embedded OpenType
               if (
                   total_size >= 36
                   and len(prefix) >= 36
-                  and prefix[34:36] == b"LP"
+                  and prefix[34:36]
+                  == b"LP"
               ):
-                  return "Embedded OpenType"
+                  return (
+                      "Embedded OpenType"
+                  )
 
-              # 独立 CFF / CFF2。
+              # 独立 CFF / CFF2
               if len(prefix) >= 4:
+
                   major = prefix[0]
                   minor = prefix[1]
-                  header_size = prefix[2]
+                  header_size = (
+                      prefix[2]
+                  )
 
                   if (
                       major == 1
                       and minor == 0
-                      and 4 <= header_size <= 64
+                      and 4
+                      <= header_size
+                      <= 64
                   ):
                       return "CFF"
 
@@ -445,8 +502,9 @@ jobs:
                       return "CFF2"
 
               raise RuntimeError(
-                  "Downloaded content does not "
-                  "have a recognized font "
+                  "Downloaded content "
+                  "does not have a "
+                  "recognized font "
                   "signature: "
                   f"{prefix[:16]!r}"
               )
@@ -473,7 +531,10 @@ jobs:
                           "Chrome/124 "
                           "Safari/537.36"
                       ),
-                      "Accept": "*/*",
+
+                      "Accept":
+                          "*/*",
+
                       "Accept-Encoding":
                           "identity",
                   },
@@ -482,7 +543,8 @@ jobs:
           )
 
           opener = (
-              urllib.request.build_opener(
+              urllib.request
+              .build_opener(
                   SafeRedirectHandler()
               )
           )
@@ -491,31 +553,41 @@ jobs:
               "/tmp/downloaded-font.bin"
           )
 
-          sha256 = hashlib.sha256()
+          sha256 = (
+              hashlib.sha256()
+          )
 
           total = 0
           prefix = bytearray()
 
+
           try:
+
               response = opener.open(
                   request,
                   timeout=45,
               )
 
           except urllib.error.HTTPError as exc:
+
               raise RuntimeError(
-                  "Font download returned HTTP "
-                  f"{exc.code}: {exc.reason}"
+                  "Font download "
+                  "returned HTTP "
+                  f"{exc.code}: "
+                  f"{exc.reason}"
               ) from exc
 
           except urllib.error.URLError as exc:
+
               raise RuntimeError(
-                  "Font download failed: "
+                  "Font download "
+                  "failed: "
                   f"{exc.reason}"
               ) from exc
 
 
           with response:
+
               status = getattr(
                   response,
                   "status",
@@ -527,7 +599,8 @@ jobs:
                   or status >= 300
               ):
                   raise RuntimeError(
-                      "Font download returned HTTP "
+                      "Font download "
+                      "returned HTTP "
                       f"{status}"
                   )
 
@@ -551,29 +624,39 @@ jobs:
               )
 
               if content_length:
+
                   try:
                       declared_size = int(
                           content_length
                       )
+
                   except ValueError:
                       declared_size = None
 
                   if (
-                      declared_size is not None
-                      and declared_size > max_bytes
+                      declared_size
+                      is not None
+                      and declared_size
+                      > max_bytes
                   ):
                       raise RuntimeError(
                           "Font is too large: "
-                          f"declared={declared_size} "
-                          f"limit={max_bytes}"
+                          f"declared="
+                          f"{declared_size} "
+                          f"limit="
+                          f"{max_bytes}"
                       )
 
               with temp_path.open(
                   "wb"
               ) as output:
+
                   while True:
-                      chunk = response.read(
-                          1024 * 1024
+
+                      chunk = (
+                          response.read(
+                              1024 * 1024
+                          )
                       )
 
                       if not chunk:
@@ -581,14 +664,17 @@ jobs:
 
                       total += len(chunk)
 
-                      if total > max_bytes:
+                      if (
+                          total > max_bytes
+                      ):
                           raise RuntimeError(
                               "Font exceeded "
-                              f"the {max_bytes}-byte "
-                              "limit"
+                              f"the {max_bytes}"
+                              "-byte limit"
                           )
 
                       if len(prefix) < 128:
+
                           needed = (
                               128
                               - len(prefix)
@@ -598,14 +684,19 @@ jobs:
                               chunk[:needed]
                           )
 
-                      sha256.update(chunk)
+                      sha256.update(
+                          chunk
+                      )
 
-                      output.write(chunk)
+                      output.write(
+                          chunk
+                      )
 
 
           if total < 4:
               raise RuntimeError(
-                  "Downloaded file is too small "
+                  "Downloaded file "
+                  "is too small "
                   "to be a font"
               )
 
@@ -638,7 +729,10 @@ jobs:
 
           base64_path = (
               output_dir
-              / f"{filename}.b64.txt"
+              / (
+                  f"{filename}"
+                  ".b64.txt"
+              )
           )
 
           metadata_path = (
@@ -662,8 +756,12 @@ jobs:
           # =========================================================
 
           with (
-              temp_path.open("rb") as source,
-              base64_path.open("wb") as target,
+              temp_path.open(
+                  "rb"
+              ) as source,
+              base64_path.open(
+                  "wb"
+              ) as target,
           ):
               base64.encode(
                   source,
@@ -672,7 +770,7 @@ jobs:
 
 
           # =========================================================
-          # 严格字体审计
+          # CJK 定义
           # =========================================================
 
           CJK_COMPAT_UNIFIED_EXCEPTIONS = {
@@ -694,13 +792,17 @@ jobs:
           def is_cjk_compat(
               cp: int,
           ) -> bool:
+
               return (
                   (
-                      0xF900 <= cp <= 0xFAFF
+                      0xF900
+                      <= cp
+                      <= 0xFAFF
                       and cp not in
                       CJK_COMPAT_UNIFIED_EXCEPTIONS
                   )
-                  or (
+                  or
+                  (
                       0x2F800
                       <= cp
                       <= 0x2FA1F
@@ -711,6 +813,7 @@ jobs:
           def is_cjk_unified(
               cp: int,
           ) -> bool:
+
               if (
                   cp
                   in CJK_COMPAT_UNIFIED_EXCEPTIONS
@@ -718,9 +821,12 @@ jobs:
                   return True
 
               try:
-                  name = unicodedata.name(
-                      chr(cp)
+                  name = (
+                      unicodedata.name(
+                          chr(cp)
+                      )
                   )
+
               except ValueError:
                   return False
 
@@ -732,22 +838,56 @@ jobs:
           def is_pua(
               cp: int,
           ) -> bool:
+
               return (
                   0xE000
                   <= cp
                   <= 0xF8FF
-                  or 0xF0000
+                  or
+                  0xF0000
                   <= cp
                   <= 0xFFFFD
-                  or 0x100000
+                  or
+                  0x100000
                   <= cp
                   <= 0x10FFFD
               )
 
 
+          # =========================================================
+          # reverse alias 忽略规则
+          # =========================================================
+
+          def is_reverse_alias_ignorable(
+              cp: int,
+          ) -> bool:
+              """
+              当前严格模式只忽略 General Category = Cc
+              的 Unicode 控制字符。
+
+              例如某些字体将 U+0000..U+001F 与 SPACE
+              映射到相同 glyph。这不会影响普通文本写入，
+              因此不作为有效 reverse alias。
+
+              Cf / Co / Cn 等类别仍然参与严格检查。
+              """
+
+              return (
+                  unicodedata.category(
+                      chr(cp)
+                  )
+                  == "Cc"
+              )
+
+
+          # =========================================================
+          # cmap 工具函数
+          # =========================================================
+
           def cp_summary(
               cp: int,
           ):
+
               ch = chr(cp)
 
               return {
@@ -762,12 +902,18 @@ jobs:
                           ch,
                           "<unnamed>",
                       ),
+
+                  "category":
+                      unicodedata.category(
+                          ch
+                      ),
               }
 
 
           def cmap_name(
               table,
           ):
+
               return (
                   "platform="
                   f"{table.platformID}, "
@@ -781,10 +927,13 @@ jobs:
           def get_font_name(
               font,
           ):
+
               if "name" not in font:
                   return "<unknown>"
 
-              table = font["name"]
+              table = (
+                  font["name"]
+              )
 
               return (
                   table.getDebugName(6)
@@ -794,16 +943,29 @@ jobs:
               )
 
 
+          # =========================================================
+          # 静态 cmap 审计
+          # =========================================================
+
           def audit_font(
               font,
           ):
+
               if "cmap" not in font:
+
                   return {
                       "font_name":
-                          get_font_name(font),
+                          get_font_name(
+                              font
+                          ),
 
                       "fatal":
                           "no_cmap_table",
+
+                      "glyph_count":
+                          len(
+                              font.getGlyphOrder()
+                          ),
 
                       "unicode_cmap_tables":
                           [],
@@ -817,15 +979,16 @@ jobs:
                       "unicode_codepoint_count":
                           0,
 
-                      "glyph_count":
-                          len(
-                              font.getGlyphOrder()
-                          ),
-
                       "cmap_conflict_count":
                           0,
 
+                      "raw_reverse_alias_count":
+                          0,
+
                       "reverse_alias_count":
+                          0,
+
+                      "ignored_cc_alias_group_count":
                           0,
 
                       "ambiguous_glyph_count":
@@ -840,6 +1003,9 @@ jobs:
                       "cmap_conflict_sample":
                           [],
 
+                      "raw_reverse_alias_sample":
+                          [],
+
                       "reverse_alias_sample":
                           [],
 
@@ -850,16 +1016,19 @@ jobs:
                           set(),
                   }
 
-              cp_to_glyphs = defaultdict(
-                  set
+
+              # Unicode -> {glyph}
+              cp_to_glyphs = (
+                  defaultdict(set)
               )
 
-              glyph_to_cps = defaultdict(
-                  set
+              # glyph -> {Unicode}
+              glyph_to_cps = (
+                  defaultdict(set)
               )
 
-              cp_sources = defaultdict(
-                  list
+              cp_sources = (
+                  defaultdict(list)
               )
 
               unicode_tables = []
@@ -868,17 +1037,26 @@ jobs:
 
               pua_chars = set()
 
-              for table in font[
-                  "cmap"
-              ].tables:
+
+              # -----------------------------------------------------
+              # 所有 cmap 子表
+              # -----------------------------------------------------
+
+              for table in (
+                  font["cmap"].tables
+              ):
+
                   table_name = (
                       cmap_name(table)
                   )
 
+                  # Unicode Variation Sequences
                   if table.format == 14:
+
                       variation_tables.append(
                           table_name
                       )
+
                       continue
 
                   cmap = getattr(
@@ -891,6 +1069,7 @@ jobs:
                       continue
 
                   if not table.isUnicode():
+
                       legacy_tables.append({
                           "table":
                               table_name,
@@ -898,6 +1077,7 @@ jobs:
                           "count":
                               len(cmap),
                       })
+
                       continue
 
                   unicode_tables.append({
@@ -908,9 +1088,11 @@ jobs:
                           len(cmap),
                   })
 
-                  for cp, glyph in (
-                      cmap.items()
-                  ):
+                  for (
+                      cp,
+                      glyph,
+                  ) in cmap.items():
+
                       cp_to_glyphs[
                           cp
                       ].add(
@@ -939,12 +1121,17 @@ jobs:
                           )
 
 
+              # -----------------------------------------------------
+              # 同 Unicode -> 不同 glyph
+              # -----------------------------------------------------
+
               cmap_conflicts = []
 
               for (
                   cp,
                   glyphs,
               ) in cp_to_glyphs.items():
+
                   if len(glyphs) <= 1:
                       continue
 
@@ -960,23 +1147,42 @@ jobs:
                   })
 
 
+              # -----------------------------------------------------
+              # glyph -> 多 Unicode
+              #
+              # raw_reverse_aliases:
+              #   不过滤任何 Unicode，仅作诊断。
+              #
+              # reverse_aliases:
+              #   忽略 Cc 后仍有 >=2 个 Unicode，
+              #   才算严格模式有效 alias。
+              # -----------------------------------------------------
+
+              raw_reverse_aliases = []
               reverse_aliases = []
+
               cjk_compat_aliases = []
 
-              ambiguous_standard_cps = set()
+              ambiguous_standard_cps = (
+                  set()
+              )
+
+              ignored_cc_alias_group_count = 0
+
 
               for (
                   glyph,
                   cps,
               ) in glyph_to_cps.items():
+
                   if len(cps) <= 1:
                       continue
 
-                  ordered_cps = sorted(
-                      cps
+                  ordered_cps = (
+                      sorted(cps)
                   )
 
-                  item = {
+                  raw_item = {
                       "glyph":
                           glyph,
 
@@ -991,23 +1197,75 @@ jobs:
                       ],
                   }
 
+                  raw_reverse_aliases.append(
+                      raw_item
+                  )
+
+
+                  effective_cps = {
+                      cp
+                      for cp in cps
+                      if not
+                      is_reverse_alias_ignorable(
+                          cp
+                      )
+                  }
+
+
+                  # 原始有 alias，但去掉 Cc 后
+                  # 只剩 0/1 个文本 Unicode。
+                  if (
+                      len(effective_cps)
+                      <= 1
+                  ):
+
+                      ignored_cc_alias_group_count += 1
+
+                      continue
+
+
+                  item = {
+                      "glyph":
+                          glyph,
+
+                      "gid":
+                          font.getGlyphID(
+                              glyph
+                          ),
+
+                      "unicode": [
+                          cp_summary(cp)
+                          for cp in sorted(
+                              effective_cps
+                          )
+                      ],
+                  }
+
                   reverse_aliases.append(
                       item
                   )
 
+
                   standard = {
                       cp
-                      for cp in cps
-                      if is_cjk_unified(cp)
+                      for cp
+                      in effective_cps
+                      if is_cjk_unified(
+                          cp
+                      )
                   }
 
                   compat = {
                       cp
-                      for cp in cps
-                      if is_cjk_compat(cp)
+                      for cp
+                      in effective_cps
+                      if is_cjk_compat(
+                          cp
+                      )
                   }
 
                   if standard and compat:
+
                       cjk_compat_aliases.append(
                           item
                       )
@@ -1019,7 +1277,9 @@ jobs:
 
               return {
                   "font_name":
-                      get_font_name(font),
+                      get_font_name(
+                          font
+                      ),
 
                   "glyph_count":
                       len(
@@ -1045,10 +1305,20 @@ jobs:
                           cmap_conflicts
                       ),
 
+                  # 原始多对一统计。
+                  "raw_reverse_alias_count":
+                      len(
+                          raw_reverse_aliases
+                      ),
+
+                  # 去除 Cc 后真正用于严格 FAIL 的统计。
                   "reverse_alias_count":
                       len(
                           reverse_aliases
                       ),
+
+                  "ignored_cc_alias_group_count":
+                      ignored_cc_alias_group_count,
 
                   "ambiguous_glyph_count":
                       len(
@@ -1065,10 +1335,12 @@ jobs:
                           pua_chars
                       ),
 
-                  # 只保留少量样本给模型或人工调试，
-                  # 避免验证 JSON 变得非常巨大。
+                  # 只输出样本，避免 JSON 巨大。
                   "cmap_conflict_sample":
                       cmap_conflicts[:20],
+
+                  "raw_reverse_alias_sample":
+                      raw_reverse_aliases[:20],
 
                   "reverse_alias_sample":
                       reverse_aliases[:20],
@@ -1092,11 +1364,25 @@ jobs:
                   "中文电源电压监控保护"
                   "绝对最大额定值技术数据手册"
               ),
+
               "器不量年行更路料串理便利",
-              "控制器寄存器转换器驱动器",
+
+              (
+                  "控制器寄存器转换器"
+                  "驱动器"
+              ),
+
               "测量数量容量电量",
-              "不能不同不使用不连接",
-              "年月更新执行管理系列",
+
+              (
+                  "不能不同不使用"
+                  "不连接"
+              ),
+
+              (
+                  "年月更新执行管理"
+                  "系列"
+              ),
           ]
 
 
@@ -1146,11 +1432,14 @@ jobs:
           def ordered_unique_chars(
               strings,
           ):
+
               seen = set()
               result = []
 
               for text in strings:
+
                   for ch in text:
+
                       if ch in seen:
                           continue
 
@@ -1180,8 +1469,11 @@ jobs:
           def extract_exact_chars(
               page,
           ) -> str:
-              raw = page.get_text(
-                  "rawdict"
+
+              raw = (
+                  page.get_text(
+                      "rawdict"
+                  )
               )
 
               chars = []
@@ -1190,6 +1482,7 @@ jobs:
                   "blocks",
                   [],
               ):
+
                   if (
                       block.get(
                           "type",
@@ -1203,14 +1496,17 @@ jobs:
                       "lines",
                       [],
                   ):
+
                       for span in line.get(
                           "spans",
                           [],
                       ):
+
                           for item in span.get(
                               "chars",
                               [],
                           ):
+
                               chars.append(
                                   item.get(
                                       "c",
@@ -1226,6 +1522,7 @@ jobs:
           def codepoint_or_none(
               value,
           ):
+
               if value is None:
                   return None
 
@@ -1240,6 +1537,7 @@ jobs:
               test_index,
               max_differences=30,
           ):
+
               differences = []
 
               for (
@@ -1252,9 +1550,11 @@ jobs:
                       fillvalue=None,
                   )
               ):
-                  expected_char, actual_char = (
-                      pair
-                  )
+
+                  (
+                      expected_char,
+                      actual_char,
+                  ) = pair
 
                   if (
                       expected_char
@@ -1295,18 +1595,24 @@ jobs:
               return differences
 
 
+          # =========================================================
+          # PyMuPDF roundtrip
+          # =========================================================
+
           def run_roundtrip_method(
               font_path,
               test_strings,
               method,
               profile,
           ):
-              output_pdf = Path(
-                  "/tmp"
-              ) / (
-                  "roundtrip-"
-                  f"{profile}-"
-                  f"{method}.pdf"
+
+              output_pdf = (
+                  Path("/tmp")
+                  / (
+                      "roundtrip-"
+                      f"{profile}-"
+                      f"{method}.pdf"
+                  )
               )
 
               result = {
@@ -1332,14 +1638,19 @@ jobs:
               doc = None
 
               try:
+
                   doc = fitz.open()
 
+
+                  # 每个测试字符串独立一页，
+                  # 避免布局换行干扰字符比较。
                   for (
                       index,
                       text,
                   ) in enumerate(
                       test_strings
                   ):
+
                       page = (
                           doc.new_page(
                               width=5000,
@@ -1364,7 +1675,12 @@ jobs:
                               False,
                       )
 
-                      if method == "insert_text":
+
+                      if (
+                          method
+                          == "insert_text"
+                      ):
+
                           page.insert_text(
                               (30, 120),
                               text,
@@ -1373,10 +1689,12 @@ jobs:
                               fontsize=18,
                           )
 
+
                       elif (
                           method
                           == "insert_textbox"
                       ):
+
                           rc = (
                               page.insert_textbox(
                                   fitz.Rect(
@@ -1394,14 +1712,18 @@ jobs:
                           )
 
                           if rc < 0:
+
                               raise RuntimeError(
                                   "insert_textbox "
                                   "did not fit: "
-                                  f"test_index={index} "
+                                  f"test_index="
+                                  f"{index} "
                                   f"rc={rc}"
                               )
 
+
                       else:
+
                           raise RuntimeError(
                               "Unknown method: "
                               f"{method}"
@@ -1416,6 +1738,7 @@ jobs:
                       "subset_fonts_tested"
                   ] = True
 
+
                   doc.save(
                       str(
                           output_pdf
@@ -1428,9 +1751,15 @@ jobs:
                   doc = None
 
 
-                  reopened = fitz.open(
-                      str(
-                          output_pdf
+                  # -------------------------------------------------
+                  # 必须关闭后重新打开。
+                  # -------------------------------------------------
+
+                  reopened = (
+                      fitz.open(
+                          str(
+                              output_pdf
+                          )
                       )
                   )
 
@@ -1441,15 +1770,21 @@ jobs:
                   )
 
                   try:
+
                       if (
                           reopened.page_count
-                          != len(test_strings)
+                          != len(
+                              test_strings
+                          )
                       ):
+
                           raise RuntimeError(
                               "Unexpected "
-                              "roundtrip page count: "
+                              "roundtrip "
+                              "page count: "
                               f"{reopened.page_count}"
                           )
+
 
                       for (
                           index,
@@ -1457,11 +1792,15 @@ jobs:
                       ) in enumerate(
                           test_strings
                       ):
+
                           actual = (
                               extract_exact_chars(
-                                  reopened[index]
+                                  reopened[
+                                      index
+                                  ]
                               )
                           )
+
 
                           if any(
                               is_cjk_compat(
@@ -1473,10 +1812,12 @@ jobs:
                                   True
                               )
 
+
                           if (
                               expected
                               != actual
                           ):
+
                               remaining = (
                                   30
                                   - len(
@@ -1485,6 +1826,7 @@ jobs:
                               )
 
                               if remaining > 0:
+
                                   all_differences.extend(
                                       compare_strings(
                                           expected,
@@ -1495,6 +1837,7 @@ jobs:
                                   )
 
                   finally:
+
                       reopened.close()
 
 
@@ -1514,6 +1857,7 @@ jobs:
 
 
                   if not all_differences:
+
                       result[
                           "status"
                       ] = "pass"
@@ -1524,6 +1868,7 @@ jobs:
 
 
               except Exception as exc:
+
                   result[
                       "error"
                   ] = (
@@ -1531,9 +1876,15 @@ jobs:
                       f"{exc}"
                   )
 
+
               finally:
+
                   if doc is not None:
-                      doc.close()
+
+                      try:
+                          doc.close()
+                      except Exception:
+                          pass
 
                   try:
                       output_pdf.unlink(
@@ -1547,21 +1898,25 @@ jobs:
 
 
           # =========================================================
-          # 单个 profile 验证
+          # 验证报告基础字段
           # =========================================================
 
           def build_base_validation(
               profile,
           ):
+
               return {
                   "version":
-                      1,
+                      2,
 
                   "profile":
                       profile,
 
                   "strict":
                       True,
+
+                  "validation_policy":
+                      validation_policy,
 
                   "filename":
                       filename,
@@ -1594,6 +1949,10 @@ jobs:
               }
 
 
+          # =========================================================
+          # 单 profile 验证
+          # =========================================================
+
           def build_validation(
               profile,
               audit,
@@ -1601,6 +1960,7 @@ jobs:
               test_strings,
               pymupdf_load,
           ):
+
               result = (
                   build_base_validation(
                       profile
@@ -1616,19 +1976,29 @@ jobs:
               )
 
 
-              # 阶段 0 生产字体严格限制。
+              # -----------------------------------------------------
+              # 阶段 0 生产字体：
+              # 仅允许 TTF / OTF。
+              # -----------------------------------------------------
+
               if suffix not in {
                   ".ttf",
                   ".otf",
               }:
+
                   failure_codes.append(
                       "unsupported_font_extension"
                   )
 
 
+              # -----------------------------------------------------
+              # fontTools / cmap
+              # -----------------------------------------------------
+
               if audit.get(
                   "fatal"
               ):
+
                   failure_codes.append(
                       audit["fatal"]
                   )
@@ -1638,6 +2008,7 @@ jobs:
                   "unicode_cmap_tables",
                   [],
               ):
+
                   failure_codes.append(
                       "no_unicode_cmap"
                   )
@@ -1650,13 +2021,21 @@ jobs:
                   )
                   > 0
               ):
+
                   failure_codes.append(
                       "cmap_conflicts_present"
                   )
 
 
-              # 当前按最严格策略：
-              # 任意 Unicode 多对一 glyph 都直接判失败。
+              # -----------------------------------------------------
+              # strict-v2：
+              #
+              # raw_reverse_alias_count 不参与 FAIL。
+              #
+              # reverse_alias_count 已经排除了 Cc，
+              # 只要剩余实际 Unicode 多对一，就 FAIL。
+              # -----------------------------------------------------
+
               if (
                   audit.get(
                       "reverse_alias_count",
@@ -1664,21 +2043,29 @@ jobs:
                   )
                   > 0
               ):
+
                   failure_codes.append(
                       "reverse_aliases_present"
                   )
 
 
-              # 当前按最严格策略：
-              # 任何 legacy cmap 都判失败。
+              # -----------------------------------------------------
+              # 仍然保持最严格 legacy cmap 策略。
+              # -----------------------------------------------------
+
               if audit.get(
                   "legacy_cmap_tables",
                   [],
               ):
+
                   failure_codes.append(
                       "legacy_cmap_present"
                   )
 
+
+              # -----------------------------------------------------
+              # coverage
+              # -----------------------------------------------------
 
               available_codepoints = (
                   audit.get(
@@ -1689,33 +2076,45 @@ jobs:
 
               missing_chars = [
                   ch
-                  for ch in required_chars
+                  for ch
+                  in required_chars
                   if ord(ch)
                   not in available_codepoints
               ]
 
-
               if missing_chars:
+
                   failure_codes.append(
                       "required_characters_missing"
                   )
 
 
+              # -----------------------------------------------------
+              # PyMuPDF load
+              # -----------------------------------------------------
+
               if not pymupdf_load[
                   "passed"
               ]:
+
                   failure_codes.append(
                       "pymupdf_load_failed"
                   )
 
 
+              # -----------------------------------------------------
+              # 删除内部字段
+              # -----------------------------------------------------
+
               public_audit = {
                   key:
                       value
+
                   for (
                       key,
                       value,
                   ) in audit.items()
+
                   if not key.startswith(
                       "_"
                   )
@@ -1730,6 +2129,7 @@ jobs:
               result[
                   "coverage"
               ] = {
+
                   "required_count":
                       len(
                           required_chars
@@ -1758,30 +2158,35 @@ jobs:
               ] = pymupdf_load
 
 
-              # 如果严格静态审计、coverage、
-              # 格式或 PyMuPDF load 已失败，
-              # 就不再浪费时间执行 roundtrip。
+              # -----------------------------------------------------
+              # 前置严格检查失败：
+              # 不浪费时间跑动态 roundtrip。
+              # -----------------------------------------------------
+
               if failure_codes:
+
                   result[
                       "roundtrip"
                   ] = {
+
                       "status":
                           "not_run",
 
                       "reason":
-                          "pre_roundtrip_validation_failed",
+                          (
+                              "pre_roundtrip_"
+                              "validation_failed"
+                          ),
 
-                      "insert_text":
-                          {
-                              "status":
-                                  "not_run"
-                          },
+                      "insert_text": {
+                          "status":
+                              "not_run"
+                      },
 
-                      "insert_textbox":
-                          {
-                              "status":
-                                  "not_run"
-                          },
+                      "insert_textbox": {
+                          "status":
+                              "not_run"
+                      },
 
                       "subset_fonts_tested":
                           False,
@@ -1790,7 +2195,13 @@ jobs:
                           False,
                   }
 
+
+              # -----------------------------------------------------
+              # 真正 PDF 精确往返
+              # -----------------------------------------------------
+
               else:
+
                   insert_text = (
                       run_roundtrip_method(
                           temp_path,
@@ -1814,13 +2225,16 @@ jobs:
                       insert_text[
                           "exact_roundtrip"
                       ]
-                      and insert_textbox[
+                      and
+                      insert_textbox[
                           "exact_roundtrip"
                       ]
-                      and insert_text[
+                      and
+                      insert_text[
                           "subset_fonts_tested"
                       ]
-                      and insert_textbox[
+                      and
+                      insert_textbox[
                           "subset_fonts_tested"
                       ]
                   )
@@ -1830,7 +2244,8 @@ jobs:
                       insert_text[
                           "compatibility_ideographs_found_after_extract"
                       ]
-                      or insert_textbox[
+                      or
+                      insert_textbox[
                           "compatibility_ideographs_found_after_extract"
                       ]
                   )
@@ -1839,6 +2254,7 @@ jobs:
                   result[
                       "roundtrip"
                   ] = {
+
                       "status":
                           (
                               "pass"
@@ -1857,7 +2273,8 @@ jobs:
                               insert_text[
                                   "subset_fonts_tested"
                               ]
-                              and insert_textbox[
+                              and
+                              insert_textbox[
                                   "subset_fonts_tested"
                               ]
                           ),
@@ -1870,26 +2287,42 @@ jobs:
                   if not insert_text[
                       "exact_roundtrip"
                   ]:
+
                       failure_codes.append(
-                          "insert_text_exact_roundtrip_failed"
+                          (
+                              "insert_text_"
+                              "exact_roundtrip_failed"
+                          )
                       )
 
 
                   if not insert_textbox[
                       "exact_roundtrip"
                   ]:
+
                       failure_codes.append(
-                          "insert_textbox_exact_roundtrip_failed"
+                          (
+                              "insert_textbox_"
+                              "exact_roundtrip_failed"
+                          )
                       )
 
 
                   if compatibility_found:
+
                       failure_codes.append(
-                          "compatibility_ideographs_found_after_extract"
+                          (
+                              "compatibility_"
+                              "ideographs_found_"
+                              "after_extract"
+                          )
                       )
 
 
-              # 去重，但保持顺序。
+              # -----------------------------------------------------
+              # 去重
+              # -----------------------------------------------------
+
               deduped_failure_codes = (
                   list(
                       dict.fromkeys(
@@ -1906,9 +2339,12 @@ jobs:
               )
 
 
-              if (
-                  deduped_failure_codes
-              ):
+              # -----------------------------------------------------
+              # 最终 PASS / FAIL
+              # -----------------------------------------------------
+
+              if deduped_failure_codes:
+
                   result[
                       "result"
                   ] = "fail"
@@ -1919,38 +2355,58 @@ jobs:
                       ]
                   )
 
+
                   if first in {
                       "unsupported_font_extension",
                   }:
+
                       stage = "format"
+
 
                   elif first in {
                       "no_cmap_table",
+                      "fonttools_open_failed",
                       "no_unicode_cmap",
                       "cmap_conflicts_present",
                       "reverse_aliases_present",
                       "legacy_cmap_present",
                   }:
-                      stage = "strict_cmap"
 
-                  elif first == (
-                      "required_characters_missing"
+                      stage = (
+                          "strict_cmap"
+                      )
+
+
+                  elif (
+                      first
+                      == "required_characters_missing"
                   ):
+
                       stage = "coverage"
 
-                  elif first == (
-                      "pymupdf_load_failed"
+
+                  elif (
+                      first
+                      == "pymupdf_load_failed"
                   ):
-                      stage = "pymupdf_load"
+
+                      stage = (
+                          "pymupdf_load"
+                      )
+
 
                   else:
+
                       stage = "roundtrip"
+
 
                   result[
                       "failure_stage"
                   ] = stage
 
+
               else:
+
                   result[
                       "result"
                   ] = "pass"
@@ -1960,22 +2416,26 @@ jobs:
 
 
           # =========================================================
-          # 打开 fontTools
+          # fontTools 打开字体
           # =========================================================
 
           audit = None
 
           try:
+
               font = TTFont(
                   str(temp_path),
                   lazy=False,
               )
 
+
           except (
               TTLibError,
               OSError,
           ) as exc:
+
               audit = {
+
                   "font_name":
                       "<unreadable>",
 
@@ -1987,6 +2447,9 @@ jobs:
                           f"{type(exc).__name__}: "
                           f"{exc}"
                       ),
+
+                  "glyph_count":
+                      0,
 
                   "unicode_cmap_tables":
                       [],
@@ -2000,13 +2463,16 @@ jobs:
                   "unicode_codepoint_count":
                       0,
 
-                  "glyph_count":
-                      0,
-
                   "cmap_conflict_count":
                       0,
 
+                  "raw_reverse_alias_count":
+                      0,
+
                   "reverse_alias_count":
+                      0,
+
+                  "ignored_cc_alias_group_count":
                       0,
 
                   "ambiguous_glyph_count":
@@ -2021,6 +2487,9 @@ jobs:
                   "cmap_conflict_sample":
                       [],
 
+                  "raw_reverse_alias_sample":
+                      [],
+
                   "reverse_alias_sample":
                       [],
 
@@ -2031,17 +2500,24 @@ jobs:
                       set(),
               }
 
+
           else:
+
               try:
-                  audit = audit_font(
-                      font
+
+                  audit = (
+                      audit_font(
+                          font
+                      )
                   )
+
               finally:
+
                   font.close()
 
 
           # =========================================================
-          # PyMuPDF 字体加载检查
+          # PyMuPDF 字体加载
           # =========================================================
 
           pymupdf_load = {
@@ -2049,10 +2525,15 @@ jobs:
                   False,
           }
 
+
           try:
-              fitz_font = fitz.Font(
-                  fontfile=str(
-                      temp_path
+
+              fitz_font = (
+                  fitz.Font(
+                      fontfile=
+                          str(
+                              temp_path
+                          )
                   )
               )
 
@@ -2067,7 +2548,9 @@ jobs:
                       fitz_font.glyph_count,
               })
 
+
           except Exception as exc:
+
               pymupdf_load[
                   "error"
               ] = (
@@ -2077,17 +2560,23 @@ jobs:
 
 
           # =========================================================
-          # Target / Source 两套严格验证
+          # target / source 验证
           # =========================================================
 
           target_validation = (
               build_validation(
-                  profile="target",
-                  audit=audit,
+                  profile=
+                      "target",
+
+                  audit=
+                      audit,
+
                   required_chars=
                       TARGET_REQUIRED_CHARS,
+
                   test_strings=
                       TARGET_TEST_STRINGS,
+
                   pymupdf_load=
                       pymupdf_load,
               )
@@ -2096,12 +2585,18 @@ jobs:
 
           source_validation = (
               build_validation(
-                  profile="source",
-                  audit=audit,
+                  profile=
+                      "source",
+
+                  audit=
+                      audit,
+
                   required_chars=
                       SOURCE_REQUIRED_CHARS,
+
                   test_strings=
                       SOURCE_TEST_STRINGS,
+
                   pymupdf_load=
                       pymupdf_load,
               )
@@ -2109,27 +2604,31 @@ jobs:
 
 
           # =========================================================
-          # 写验证 JSON
+          # 写 validation JSON
           # =========================================================
 
           target_validation_path.write_text(
-              json.dumps(
-                  target_validation,
-                  ensure_ascii=False,
-                  indent=2,
-              )
-              + "\n",
+              (
+                  json.dumps(
+                      target_validation,
+                      ensure_ascii=False,
+                      indent=2,
+                  )
+                  + "\n"
+              ),
               encoding="utf-8",
           )
 
 
           source_validation_path.write_text(
-              json.dumps(
-                  source_validation,
-                  ensure_ascii=False,
-                  indent=2,
-              )
-              + "\n",
+              (
+                  json.dumps(
+                      source_validation,
+                      ensure_ascii=False,
+                      indent=2,
+                  )
+                  + "\n"
+              ),
               encoding="utf-8",
           )
 
@@ -2139,6 +2638,7 @@ jobs:
           # =========================================================
 
           metadata = {
+
               "source_url":
                   source_url,
 
@@ -2199,9 +2699,10 @@ jobs:
                   ],
 
               "validation_policy":
-                  "strict-v1",
+                  validation_policy,
 
               "validation_environment": {
+
                   "python_version":
                       platform.python_version(),
 
@@ -2215,110 +2716,177 @@ jobs:
 
 
           metadata_path.write_text(
-              json.dumps(
-                  metadata,
-                  ensure_ascii=False,
-                  indent=2,
-              )
-              + "\n",
+              (
+                  json.dumps(
+                      metadata,
+                      ensure_ascii=False,
+                      indent=2,
+                  )
+                  + "\n"
+              ),
               encoding="utf-8",
           )
 
 
           # =========================================================
-          # 输出摘要
+          # Action 日志摘要
           # =========================================================
 
           print(
               json.dumps(
                   {
+
                       "metadata":
                           metadata,
 
-                      "target_validation":
-                          {
-                              "result":
-                                  target_validation[
-                                      "result"
-                                  ],
 
-                              "failure_stage":
-                                  target_validation.get(
-                                      "failure_stage"
-                                  ),
+                      "target_validation": {
 
-                              "failure_codes":
-                                  target_validation[
-                                      "failure_codes"
-                                  ],
+                          "result":
+                              target_validation[
+                                  "result"
+                              ],
 
-                              "reverse_alias_count":
+                          "failure_stage":
+                              target_validation.get(
+                                  "failure_stage"
+                              ),
+
+                          "failure_codes":
+                              target_validation[
+                                  "failure_codes"
+                              ],
+
+                          "raw_reverse_alias_count":
+                              target_validation[
+                                  "static_audit"
+                              ].get(
+                                  "raw_reverse_alias_count",
+                                  0,
+                              ),
+
+                          "reverse_alias_count":
+                              target_validation[
+                                  "static_audit"
+                              ].get(
+                                  "reverse_alias_count",
+                                  0,
+                              ),
+
+                          "ignored_cc_alias_group_count":
+                              target_validation[
+                                  "static_audit"
+                              ].get(
+                                  "ignored_cc_alias_group_count",
+                                  0,
+                              ),
+
+                          "ambiguous_glyph_count":
+                              target_validation[
+                                  "static_audit"
+                              ].get(
+                                  "ambiguous_glyph_count",
+                                  0,
+                              ),
+
+                          "legacy_cmap_count":
+                              len(
                                   target_validation[
                                       "static_audit"
                                   ].get(
-                                      "reverse_alias_count",
-                                      0,
-                                  ),
+                                      "legacy_cmap_tables",
+                                      [],
+                                  )
+                              ),
+                      },
 
-                              "legacy_cmap_count":
-                                  len(
-                                      target_validation[
-                                          "static_audit"
-                                      ].get(
-                                          "legacy_cmap_tables",
-                                          [],
-                                      )
-                                  ),
-                          },
 
-                      "source_validation":
-                          {
-                              "result":
-                                  source_validation[
-                                      "result"
-                                  ],
+                      "source_validation": {
 
-                              "failure_stage":
-                                  source_validation.get(
-                                      "failure_stage"
-                                  ),
+                          "result":
+                              source_validation[
+                                  "result"
+                              ],
 
-                              "failure_codes":
-                                  source_validation[
-                                      "failure_codes"
-                                  ],
+                          "failure_stage":
+                              source_validation.get(
+                                  "failure_stage"
+                              ),
 
-                              "reverse_alias_count":
+                          "failure_codes":
+                              source_validation[
+                                  "failure_codes"
+                              ],
+
+                          "raw_reverse_alias_count":
+                              source_validation[
+                                  "static_audit"
+                              ].get(
+                                  "raw_reverse_alias_count",
+                                  0,
+                              ),
+
+                          "reverse_alias_count":
+                              source_validation[
+                                  "static_audit"
+                              ].get(
+                                  "reverse_alias_count",
+                                  0,
+                              ),
+
+                          "ignored_cc_alias_group_count":
+                              source_validation[
+                                  "static_audit"
+                              ].get(
+                                  "ignored_cc_alias_group_count",
+                                  0,
+                              ),
+
+                          "ambiguous_glyph_count":
+                              source_validation[
+                                  "static_audit"
+                              ].get(
+                                  "ambiguous_glyph_count",
+                                  0,
+                              ),
+
+                          "legacy_cmap_count":
+                              len(
                                   source_validation[
                                       "static_audit"
                                   ].get(
-                                      "reverse_alias_count",
-                                      0,
-                                  ),
-
-                              "legacy_cmap_count":
-                                  len(
-                                      source_validation[
-                                          "static_audit"
-                                      ].get(
-                                          "legacy_cmap_tables",
-                                          [],
-                                      )
-                                  ),
-                          },
+                                      "legacy_cmap_tables",
+                                      [],
+                                  )
+                              ),
+                      },
                   },
+
                   ensure_ascii=False,
                   indent=2,
               )
           )
 
 
-          # 注意：
-          # target/source validation FAIL
-          # 不 raise。
+          # =========================================================
+          # 注意
+          # =========================================================
           #
-          # “成功证明字体不合格”
-          # 仍然属于 workflow 成功。
+          # 字体验证得到 result=fail，
+          # 不代表 Action 执行失败。
+          #
+          # “成功证明候选字体不合格”
+          # 仍然是一次成功的 workflow。
+          #
+          # 只有：
+          # - 下载失败
+          # - Python / 依赖环境失败
+          # - 程序异常
+          # - 文件写入失败
+          # - Git commit / push 失败
+          #
+          # 才应该使 GitHub Action 本身失败。
+          #
           PY
 
       - name: Commit encoded and validation output
