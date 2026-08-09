@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dotgothic16/DotGothic16-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dotgothic16/DotGothic16-Regular.ttf",
+  "filename": "DotGothic16-Regular.ttf",
+  "output_key": "78ae45fd96e85f85f64dfb9c4cceed84",
+  "size_bytes": 2069236,
+  "sha256": "3ad9af88726d42b40f7f365f0dcac785af73cf20ea6f1d5b44e57cc21150b8f1",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/78ae45fd96e85f85f64dfb9c4cceed84/DotGothic16-Regular.ttf.b64.txt",
+  "base64_size_bytes": 2795287,
+  "validation_target_file": "encoded/78ae45fd96e85f85f64dfb9c4cceed84/validation-target.json",
+  "validation_source_file": "encoded/78ae45fd96e85f85f64dfb9c4cceed84/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
