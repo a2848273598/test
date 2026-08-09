@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolqingkehuangyou/ZCOOLQingKeHuangYou-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolqingkehuangyou/ZCOOLQingKeHuangYou-Regular.ttf",
+  "filename": "ZCOOLQingKeHuangYou-Regular.ttf",
+  "output_key": "7e2747fbb9526655cab7f1abb01d531c",
+  "size_bytes": 8328684,
+  "sha256": "54f0c0df4308cd74cd0f2fd3494ae054dbc4a1fd6fa7d71f4807eb4cdd8b4136",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/7e2747fbb9526655cab7f1abb01d531c/ZCOOLQingKeHuangYou-Regular.ttf.b64.txt",
+  "base64_size_bytes": 11251030,
+  "validation_target_file": "encoded/7e2747fbb9526655cab7f1abb01d531c/validation-target.json",
+  "validation_source_file": "encoded/7e2747fbb9526655cab7f1abb01d531c/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
