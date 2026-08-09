@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/gasoekone/GasoekOne-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/gasoekone/GasoekOne-Regular.ttf",
+  "filename": "GasoekOne-Regular.ttf",
+  "output_key": "5e81280fc54a5a98b76dbd03e83c3d08",
+  "size_bytes": 1061372,
+  "sha256": "73a6b8e0d12a56f0a070f19b44a93ae050f98eb926da5d2a7c8d6db92bd8d9c3",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/5e81280fc54a5a98b76dbd03e83c3d08/GasoekOne-Regular.ttf.b64.txt",
+  "base64_size_bytes": 1433785,
+  "validation_target_file": "encoded/5e81280fc54a5a98b76dbd03e83c3d08/validation-target.json",
+  "validation_source_file": "encoded/5e81280fc54a5a98b76dbd03e83c3d08/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
