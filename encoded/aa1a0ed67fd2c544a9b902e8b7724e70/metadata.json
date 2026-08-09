@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/SourceSans3-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/SourceSans3-Italic%5Bwght%5D.ttf",
+  "filename": "SourceSans3-Italic_wght_.ttf",
+  "output_key": "aa1a0ed67fd2c544a9b902e8b7724e70",
+  "size_bytes": 395372,
+  "sha256": "39e3ab05ccd7cb94907c31005bb5bec1d5432f0b096a2b782976e217a540eb6c",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/aa1a0ed67fd2c544a9b902e8b7724e70/SourceSans3-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 534101,
+  "validation_target_file": "encoded/aa1a0ed67fd2c544a9b902e8b7724e70/validation-target.json",
+  "validation_source_file": "encoded/aa1a0ed67fd2c544a9b902e8b7724e70/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
