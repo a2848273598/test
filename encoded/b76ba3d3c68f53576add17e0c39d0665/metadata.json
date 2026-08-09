@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/opensans/OpenSans%5Bwdth%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/opensans/OpenSans%5Bwdth%2Cwght%5D.ttf",
+  "filename": "OpenSans_wdth_wght_.ttf",
+  "output_key": "b76ba3d3c68f53576add17e0c39d0665",
+  "size_bytes": 532636,
+  "sha256": "36643644f318a812aab2d2ed3bb98f8cf0872527f835fe9398d95fe6b9adb878",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/b76ba3d3c68f53576add17e0c39d0665/OpenSans_wdth_wght_.ttf.b64.txt",
+  "base64_size_bytes": 719529,
+  "validation_target_file": "encoded/b76ba3d3c68f53576add17e0c39d0665/validation-target.json",
+  "validation_source_file": "encoded/b76ba3d3c68f53576add17e0c39d0665/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
