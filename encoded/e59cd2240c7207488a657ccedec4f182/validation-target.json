@@ -1,0 +1,1200 @@
+{
+  "version": 2,
+  "profile": "target",
+  "strict": true,
+  "validation_policy": "strict-v2-cc-filtered",
+  "filename": "LXGWWenKaiMonoTC-Light.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwwenkaimonotc/LXGWWenKaiMonoTC-Light.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lxgwwenkaimonotc/LXGWWenKaiMonoTC-Light.ttf",
+  "size_bytes": 13769976,
+  "sha256": "b61aa17e05c027cb8ce3768516795ef92a3363f8f537f385797dba7045bc453c",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "LXGWWenKaiMonoTC-Light",
+    "glyph_count": 22495,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 20432
+      },
+      {
+        "table": "platform=0, encoding=4, format=12",
+        "count": 22421
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 20432
+      },
+      {
+        "table": "platform=3, encoding=10, format=12",
+        "count": 22421
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [],
+    "unicode_codepoint_count": 22421,
+    "cmap_conflict_count": 0,
+    "raw_reverse_alias_count": 240,
+    "reverse_alias_count": 240,
+    "ignored_cc_alias_group_count": 0,
+    "ambiguous_glyph_count": 100,
+    "ambiguous_standard_codepoint_count": 101,
+    "pua_codepoint_count": 35,
+    "cmap_conflict_sample": [],
+    "raw_reverse_alias_sample": [
+      {
+        "glyph": "hyphen",
+        "gid": 1426,
+        "unicode": [
+          {
+            "codepoint": "U+002D",
+            "char": "-",
+            "name": "HYPHEN-MINUS",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+2011",
+            "char": "‑",
+            "name": "NON-BREAKING HYPHEN",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "asciitilde",
+        "gid": 1532,
+        "unicode": [
+          {
+            "codepoint": "U+007E",
+            "char": "~",
+            "name": "TILDE",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+223C",
+            "char": "∼",
+            "name": "TILDE OPERATOR",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "periodcentered",
+        "gid": 1551,
+        "unicode": [
+          {
+            "codepoint": "U+00B7",
+            "char": "·",
+            "name": "MIDDLE DOT",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+2219",
+            "char": "∙",
+            "name": "BULLET OPERATOR",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3000",
+        "gid": 2304,
+        "unicode": [
+          {
+            "codepoint": "U+2003",
+            "char": " ",
+            "name": "EM SPACE",
+            "category": "Zs"
+          },
+          {
+            "codepoint": "U+3000",
+            "char": "　",
+            "name": "IDEOGRAPHIC SPACE",
+            "category": "Zs"
+          }
+        ]
+      },
+      {
+        "glyph": "figuredash",
+        "gid": 1839,
+        "unicode": [
+          {
+            "codepoint": "U+2012",
+            "char": "‒",
+            "name": "FIGURE DASH",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+2013",
+            "char": "–",
+            "name": "EN DASH",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "uniFE30",
+        "gid": 2378,
+        "unicode": [
+          {
+            "codepoint": "U+205A",
+            "char": "⁚",
+            "name": "TWO DOT PUNCTUATION",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FE30",
+            "char": "︰",
+            "name": "PRESENTATION FORM FOR VERTICAL TWO DOT LEADER",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "uniFE19",
+        "gid": 2379,
+        "unicode": [
+          {
+            "codepoint": "U+205D",
+            "char": "⁝",
+            "name": "TRICOLON",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FE19",
+            "char": "︙",
+            "name": "PRESENTATION FORM FOR VERTICAL HORIZONTAL ELLIPSIS",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3008",
+        "gid": 1800,
+        "unicode": [
+          {
+            "codepoint": "U+2329",
+            "char": "〈",
+            "name": "LEFT-POINTING ANGLE BRACKET",
+            "category": "Ps"
+          },
+          {
+            "codepoint": "U+3008",
+            "char": "〈",
+            "name": "LEFT ANGLE BRACKET",
+            "category": "Ps"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3009",
+        "gid": 1801,
+        "unicode": [
+          {
+            "codepoint": "U+232A",
+            "char": "〉",
+            "name": "RIGHT-POINTING ANGLE BRACKET",
+            "category": "Pe"
+          },
+          {
+            "codepoint": "U+3009",
+            "char": "〉",
+            "name": "RIGHT ANGLE BRACKET",
+            "category": "Pe"
+          }
+        ]
+      },
+      {
+        "glyph": "uni23AA",
+        "gid": 2832,
+        "unicode": [
+          {
+            "codepoint": "U+239C",
+            "char": "⎜",
+            "name": "LEFT PARENTHESIS EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+239F",
+            "char": "⎟",
+            "name": "RIGHT PARENTHESIS EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+23A2",
+            "char": "⎢",
+            "name": "LEFT SQUARE BRACKET EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+23A5",
+            "char": "⎥",
+            "name": "RIGHT SQUARE BRACKET EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+23AA",
+            "char": "⎪",
+            "name": "CURLY BRACKET EXTENSION",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2B95",
+        "gid": 3580,
+        "unicode": [
+          {
+            "codepoint": "U+27A1",
+            "char": "➡",
+            "name": "BLACK RIGHTWARDS ARROW",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+2B95",
+            "char": "⮕",
+            "name": "RIGHTWARDS BLACK ARROW",
+            "category": "So"
+          }
+        ]
+      },
+      {
+        "glyph": "uniFF5E",
+        "gid": 4760,
+        "unicode": [
+          {
+            "codepoint": "U+301C",
+            "char": "〜",
+            "name": "WAVE DASH",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+FF5E",
+            "char": "～",
+            "name": "FULLWIDTH TILDE",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "u39AE",
+        "gid": 6160,
+        "unicode": [
+          {
+            "codepoint": "U+39AE",
+            "char": "㦮",
+            "name": "CJK UNIFIED IDEOGRAPH-39AE",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+620B",
+            "char": "戋",
+            "name": "CJK UNIFIED IDEOGRAPH-620B",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u3BA3",
+        "gid": 6238,
+        "unicode": [
+          {
+            "codepoint": "U+3BA3",
+            "char": "㮣",
+            "name": "CJK UNIFIED IDEOGRAPH-3BA3",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+69E9",
+            "char": "槩",
+            "name": "CJK UNIFIED IDEOGRAPH-69E9",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u41F3",
+        "gid": 6401,
+        "unicode": [
+          {
+            "codepoint": "U+41F3",
+            "char": "䇳",
+            "name": "CJK UNIFIED IDEOGRAPH-41F3",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+7B3A",
+            "char": "笺",
+            "name": "CJK UNIFIED IDEOGRAPH-7B3A",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u4DB8",
+        "gid": 6687,
+        "unicode": [
+          {
+            "codepoint": "U+4DB8",
+            "char": "䶸",
+            "name": "CJK UNIFIED IDEOGRAPH-4DB8",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F83B",
+            "char": "吆",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F83B",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u4DB9",
+        "gid": 6688,
+        "unicode": [
+          {
+            "codepoint": "U+4DB9",
+            "char": "䶹",
+            "name": "CJK UNIFIED IDEOGRAPH-4DB9",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F878",
+            "char": "屮",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F878",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u4E1F",
+        "gid": 6790,
+        "unicode": [
+          {
+            "codepoint": "U+4E1F",
+            "char": "丟",
+            "name": "CJK UNIFIED IDEOGRAPH-4E1F",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+4E22",
+            "char": "丢",
+            "name": "CJK UNIFIED IDEOGRAPH-4E22",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u4FA3",
+        "gid": 7111,
+        "unicode": [
+          {
+            "codepoint": "U+4FA3",
+            "char": "侣",
+            "name": "CJK UNIFIED IDEOGRAPH-4FA3",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+4FB6",
+            "char": "侶",
+            "name": "CJK UNIFIED IDEOGRAPH-4FB6",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u4FAE",
+        "gid": 7121,
+        "unicode": [
+          {
+            "codepoint": "U+4FAE",
+            "char": "侮",
+            "name": "CJK UNIFIED IDEOGRAPH-4FAE",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA30",
+            "char": "侮",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA30",
+            "category": "Lo"
+          }
+        ]
+      }
+    ],
+    "reverse_alias_sample": [
+      {
+        "glyph": "hyphen",
+        "gid": 1426,
+        "unicode": [
+          {
+            "codepoint": "U+002D",
+            "char": "-",
+            "name": "HYPHEN-MINUS",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+2011",
+            "char": "‑",
+            "name": "NON-BREAKING HYPHEN",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "asciitilde",
+        "gid": 1532,
+        "unicode": [
+          {
+            "codepoint": "U+007E",
+            "char": "~",
+            "name": "TILDE",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+223C",
+            "char": "∼",
+            "name": "TILDE OPERATOR",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "periodcentered",
+        "gid": 1551,
+        "unicode": [
+          {
+            "codepoint": "U+00B7",
+            "char": "·",
+            "name": "MIDDLE DOT",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+2219",
+            "char": "∙",
+            "name": "BULLET OPERATOR",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3000",
+        "gid": 2304,
+        "unicode": [
+          {
+            "codepoint": "U+2003",
+            "char": " ",
+            "name": "EM SPACE",
+            "category": "Zs"
+          },
+          {
+            "codepoint": "U+3000",
+            "char": "　",
+            "name": "IDEOGRAPHIC SPACE",
+            "category": "Zs"
+          }
+        ]
+      },
+      {
+        "glyph": "figuredash",
+        "gid": 1839,
+        "unicode": [
+          {
+            "codepoint": "U+2012",
+            "char": "‒",
+            "name": "FIGURE DASH",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+2013",
+            "char": "–",
+            "name": "EN DASH",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "uniFE30",
+        "gid": 2378,
+        "unicode": [
+          {
+            "codepoint": "U+205A",
+            "char": "⁚",
+            "name": "TWO DOT PUNCTUATION",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FE30",
+            "char": "︰",
+            "name": "PRESENTATION FORM FOR VERTICAL TWO DOT LEADER",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "uniFE19",
+        "gid": 2379,
+        "unicode": [
+          {
+            "codepoint": "U+205D",
+            "char": "⁝",
+            "name": "TRICOLON",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FE19",
+            "char": "︙",
+            "name": "PRESENTATION FORM FOR VERTICAL HORIZONTAL ELLIPSIS",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3008",
+        "gid": 1800,
+        "unicode": [
+          {
+            "codepoint": "U+2329",
+            "char": "〈",
+            "name": "LEFT-POINTING ANGLE BRACKET",
+            "category": "Ps"
+          },
+          {
+            "codepoint": "U+3008",
+            "char": "〈",
+            "name": "LEFT ANGLE BRACKET",
+            "category": "Ps"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3009",
+        "gid": 1801,
+        "unicode": [
+          {
+            "codepoint": "U+232A",
+            "char": "〉",
+            "name": "RIGHT-POINTING ANGLE BRACKET",
+            "category": "Pe"
+          },
+          {
+            "codepoint": "U+3009",
+            "char": "〉",
+            "name": "RIGHT ANGLE BRACKET",
+            "category": "Pe"
+          }
+        ]
+      },
+      {
+        "glyph": "uni23AA",
+        "gid": 2832,
+        "unicode": [
+          {
+            "codepoint": "U+239C",
+            "char": "⎜",
+            "name": "LEFT PARENTHESIS EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+239F",
+            "char": "⎟",
+            "name": "RIGHT PARENTHESIS EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+23A2",
+            "char": "⎢",
+            "name": "LEFT SQUARE BRACKET EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+23A5",
+            "char": "⎥",
+            "name": "RIGHT SQUARE BRACKET EXTENSION",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+23AA",
+            "char": "⎪",
+            "name": "CURLY BRACKET EXTENSION",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2B95",
+        "gid": 3580,
+        "unicode": [
+          {
+            "codepoint": "U+27A1",
+            "char": "➡",
+            "name": "BLACK RIGHTWARDS ARROW",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+2B95",
+            "char": "⮕",
+            "name": "RIGHTWARDS BLACK ARROW",
+            "category": "So"
+          }
+        ]
+      },
+      {
+        "glyph": "uniFF5E",
+        "gid": 4760,
+        "unicode": [
+          {
+            "codepoint": "U+301C",
+            "char": "〜",
+            "name": "WAVE DASH",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+FF5E",
+            "char": "～",
+            "name": "FULLWIDTH TILDE",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "u39AE",
+        "gid": 6160,
+        "unicode": [
+          {
+            "codepoint": "U+39AE",
+            "char": "㦮",
+            "name": "CJK UNIFIED IDEOGRAPH-39AE",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+620B",
+            "char": "戋",
+            "name": "CJK UNIFIED IDEOGRAPH-620B",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u3BA3",
+        "gid": 6238,
+        "unicode": [
+          {
+            "codepoint": "U+3BA3",
+            "char": "㮣",
+            "name": "CJK UNIFIED IDEOGRAPH-3BA3",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+69E9",
+            "char": "槩",
+            "name": "CJK UNIFIED IDEOGRAPH-69E9",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u41F3",
+        "gid": 6401,
+        "unicode": [
+          {
+            "codepoint": "U+41F3",
+            "char": "䇳",
+            "name": "CJK UNIFIED IDEOGRAPH-41F3",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+7B3A",
+            "char": "笺",
+            "name": "CJK UNIFIED IDEOGRAPH-7B3A",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u4DB8",
+        "gid": 6687,
+        "unicode": [
+          {
+            "codepoint": "U+4DB8",
+            "char": "䶸",
+            "name": "CJK UNIFIED IDEOGRAPH-4DB8",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F83B",
+            "char": "吆",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F83B",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u4DB9",
+        "gid": 6688,
+        "unicode": [
+          {
+            "codepoint": "U+4DB9",
+            "char": "䶹",
+            "name": "CJK UNIFIED IDEOGRAPH-4DB9",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F878",
+            "char": "屮",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F878",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u4E1F",
+        "gid": 6790,
+        "unicode": [
+          {
+            "codepoint": "U+4E1F",
+            "char": "丟",
+            "name": "CJK UNIFIED IDEOGRAPH-4E1F",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+4E22",
+            "char": "丢",
+            "name": "CJK UNIFIED IDEOGRAPH-4E22",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u4FA3",
+        "gid": 7111,
+        "unicode": [
+          {
+            "codepoint": "U+4FA3",
+            "char": "侣",
+            "name": "CJK UNIFIED IDEOGRAPH-4FA3",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+4FB6",
+            "char": "侶",
+            "name": "CJK UNIFIED IDEOGRAPH-4FB6",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u4FAE",
+        "gid": 7121,
+        "unicode": [
+          {
+            "codepoint": "U+4FAE",
+            "char": "侮",
+            "name": "CJK UNIFIED IDEOGRAPH-4FAE",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA30",
+            "char": "侮",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA30",
+            "category": "Lo"
+          }
+        ]
+      }
+    ],
+    "cjk_compat_alias_sample": [
+      {
+        "glyph": "u4DB8",
+        "gid": 6687,
+        "unicode": [
+          {
+            "codepoint": "U+4DB8",
+            "char": "䶸",
+            "name": "CJK UNIFIED IDEOGRAPH-4DB8",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F83B",
+            "char": "吆",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F83B",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u4DB9",
+        "gid": 6688,
+        "unicode": [
+          {
+            "codepoint": "U+4DB9",
+            "char": "䶹",
+            "name": "CJK UNIFIED IDEOGRAPH-4DB9",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F878",
+            "char": "屮",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F878",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u4FAE",
+        "gid": 7121,
+        "unicode": [
+          {
+            "codepoint": "U+4FAE",
+            "char": "侮",
+            "name": "CJK UNIFIED IDEOGRAPH-4FAE",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA30",
+            "char": "侮",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA30",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u50E7",
+        "gid": 7346,
+        "unicode": [
+          {
+            "codepoint": "U+50E7",
+            "char": "僧",
+            "name": "CJK UNIFIED IDEOGRAPH-50E7",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA31",
+            "char": "僧",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA31",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u51AC",
+        "gid": 7505,
+        "unicode": [
+          {
+            "codepoint": "U+51AC",
+            "char": "冬",
+            "name": "CJK UNIFIED IDEOGRAPH-51AC",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F81A",
+            "char": "冬",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F81A",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u5272",
+        "gid": 7676,
+        "unicode": [
+          {
+            "codepoint": "U+5272",
+            "char": "割",
+            "name": "CJK UNIFIED IDEOGRAPH-5272",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F822",
+            "char": "割",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F822",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u52C9",
+        "gid": 7745,
+        "unicode": [
+          {
+            "codepoint": "U+52C9",
+            "char": "勉",
+            "name": "CJK UNIFIED IDEOGRAPH-52C9",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA33",
+            "char": "勉",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA33",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u52E4",
+        "gid": 7767,
+        "unicode": [
+          {
+            "codepoint": "U+52E4",
+            "char": "勤",
+            "name": "CJK UNIFIED IDEOGRAPH-52E4",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA34",
+            "char": "勤",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA34",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u52FA",
+        "gid": 7780,
+        "unicode": [
+          {
+            "codepoint": "U+52FA",
+            "char": "勺",
+            "name": "CJK UNIFIED IDEOGRAPH-52FA",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F828",
+            "char": "勺",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F828",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u5351",
+        "gid": 7849,
+        "unicode": [
+          {
+            "codepoint": "U+5351",
+            "char": "卑",
+            "name": "CJK UNIFIED IDEOGRAPH-5351",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA35",
+            "char": "卑",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA35",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u5468",
+        "gid": 8079,
+        "unicode": [
+          {
+            "codepoint": "U+5468",
+            "char": "周",
+            "name": "CJK UNIFIED IDEOGRAPH-5468",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F83F",
+            "char": "周",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F83F",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u5606",
+        "gid": 8431,
+        "unicode": [
+          {
+            "codepoint": "U+5606",
+            "char": "嘆",
+            "name": "CJK UNIFIED IDEOGRAPH-5606",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA37",
+            "char": "嘆",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA37",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u5668",
+        "gid": 8509,
+        "unicode": [
+          {
+            "codepoint": "U+5668",
+            "char": "器",
+            "name": "CJK UNIFIED IDEOGRAPH-5668",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA38",
+            "char": "器",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA38",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u57CE",
+        "gid": 8798,
+        "unicode": [
+          {
+            "codepoint": "U+57CE",
+            "char": "城",
+            "name": "CJK UNIFIED IDEOGRAPH-57CE",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F852",
+            "char": "城",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F852",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u585A",
+        "gid": 8904,
+        "unicode": [
+          {
+            "codepoint": "U+585A",
+            "char": "塚",
+            "name": "CJK UNIFIED IDEOGRAPH-585A",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA10",
+            "char": "塚",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA10",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u58A8",
+        "gid": 8958,
+        "unicode": [
+          {
+            "codepoint": "U+58A8",
+            "char": "墨",
+            "name": "CJK UNIFIED IDEOGRAPH-58A8",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA3A",
+            "char": "墨",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA3A",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u5951",
+        "gid": 9094,
+        "unicode": [
+          {
+            "codepoint": "U+5951",
+            "char": "契",
+            "name": "CJK UNIFIED IDEOGRAPH-5951",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F909",
+            "char": "契",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F909",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u59EC",
+        "gid": 9210,
+        "unicode": [
+          {
+            "codepoint": "U+59EC",
+            "char": "姬",
+            "name": "CJK UNIFIED IDEOGRAPH-59EC",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F862",
+            "char": "姬",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F862",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u5BE7",
+        "gid": 9547,
+        "unicode": [
+          {
+            "codepoint": "U+5BE7",
+            "char": "寧",
+            "name": "CJK UNIFIED IDEOGRAPH-5BE7",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F95F",
+            "char": "寧",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F95F",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "u5C06",
+        "gid": 9572,
+        "unicode": [
+          {
+            "codepoint": "U+5C06",
+            "char": "将",
+            "name": "CJK UNIFIED IDEOGRAPH-5C06",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F873",
+            "char": "将",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F873",
+            "category": "Lo"
+          }
+        ]
+      }
+    ]
+  },
+  "coverage": {
+    "required_count": 177,
+    "missing_count": 0,
+    "missing": [],
+    "passed": true
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "LXGW WenKai Mono TC Light",
+    "glyph_count": 22495
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "reverse_aliases_present"
+  ],
+  "result": "fail",
+  "failure_stage": "strict_cmap"
+}
