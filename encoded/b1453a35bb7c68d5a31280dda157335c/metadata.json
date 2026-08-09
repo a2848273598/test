@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/arimo/Arimo%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/arimo/Arimo%5Bwght%5D.ttf",
+  "filename": "Arimo_wght_.ttf",
+  "output_key": "b1453a35bb7c68d5a31280dda157335c",
+  "size_bytes": 496268,
+  "sha256": "e43898b143ec826ac8cb4034816458a7047fbe0836558de2a1f8c6223ae3e0ca",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/b1453a35bb7c68d5a31280dda157335c/Arimo_wght_.ttf.b64.txt",
+  "base64_size_bytes": 670399,
+  "validation_target_file": "encoded/b1453a35bb7c68d5a31280dda157335c/validation-target.json",
+  "validation_source_file": "encoded/b1453a35bb7c68d5a31280dda157335c/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
