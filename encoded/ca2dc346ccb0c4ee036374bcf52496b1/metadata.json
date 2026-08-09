@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/specialgothiccondensedone/SpecialGothicCondensedOne-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/specialgothiccondensedone/SpecialGothicCondensedOne-Regular.ttf",
+  "filename": "SpecialGothicCondensedOne-Regular.ttf",
+  "output_key": "ca2dc346ccb0c4ee036374bcf52496b1",
+  "size_bytes": 104844,
+  "sha256": "f77948acc3218b715003475f7739d7be101fb59bd8887182866225c9de2c935f",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/ca2dc346ccb0c4ee036374bcf52496b1/SpecialGothicCondensedOne-Regular.ttf.b64.txt",
+  "base64_size_bytes": 141632,
+  "validation_target_file": "encoded/ca2dc346ccb0c4ee036374bcf52496b1/validation-target.json",
+  "validation_source_file": "encoded/ca2dc346ccb0c4ee036374bcf52496b1/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
