@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mplus1p/MPLUS1p-ExtraBold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mplus1p/MPLUS1p-ExtraBold.ttf",
+  "filename": "MPLUS1p-ExtraBold.ttf",
+  "output_key": "d78847e3e704f147106dd8d850c343c1",
+  "size_bytes": 1773944,
+  "sha256": "d17f745712668b0dcd95e42b3634a90a76195228d4abf88a0be8e98ddbc441b2",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/d78847e3e704f147106dd8d850c343c1/MPLUS1p-ExtraBold.ttf.b64.txt",
+  "base64_size_bytes": 2396382,
+  "validation_target_file": "encoded/d78847e3e704f147106dd8d850c343c1/validation-target.json",
+  "validation_source_file": "encoded/d78847e3e704f147106dd8d850c343c1/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "pass",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
