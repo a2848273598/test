@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/apache/opensanshebrew/OpenSansHebrew-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/apache/opensanshebrew/OpenSansHebrew-BoldItalic.ttf",
+  "filename": "OpenSansHebrew-BoldItalic.ttf",
+  "output_key": "c2265ffc4189765747533dca7ddc92ee",
+  "size_bytes": 36904,
+  "sha256": "54c77b9ce8d69f041f4e53ef67accb80f04e6a456fc143eb5d49a9da7c8c2702",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/c2265ffc4189765747533dca7ddc92ee/OpenSansHebrew-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 49856,
+  "validation_target_file": "encoded/c2265ffc4189765747533dca7ddc92ee/validation-target.json",
+  "validation_source_file": "encoded/c2265ffc4189765747533dca7ddc92ee/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
