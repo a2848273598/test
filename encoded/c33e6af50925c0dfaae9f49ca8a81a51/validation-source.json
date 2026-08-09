@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "profile": "source",
+  "strict": true,
+  "filename": "Arimo-Italic_wght_.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/arimo/Arimo-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/arimo/Arimo-Italic%5Bwght%5D.ttf",
+  "size_bytes": 543196,
+  "sha256": "a80fc54fd0233c1dfe298577c4d00f5ae81d5bb83510975e473c47e699b7f4ed",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "Arimo-Italic",
+    "glyph_count": 3306,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 3010
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 3010
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [],
+    "unicode_codepoint_count": 3010,
+    "cmap_conflict_count": 0,
+    "reverse_alias_count": 8,
+    "ambiguous_glyph_count": 0,
+    "ambiguous_standard_codepoint_count": 0,
+    "pua_codepoint_count": 8,
+    "cmap_conflict_sample": [],
+    "reverse_alias_sample": [
+      {
+        "glyph": "hyphen",
+        "gid": 106,
+        "unicode": [
+          {
+            "codepoint": "U+002D",
+            "char": "-",
+            "name": "HYPHEN-MINUS"
+          },
+          {
+            "codepoint": "U+00AD",
+            "char": "­",
+            "name": "SOFT HYPHEN"
+          }
+        ]
+      },
+      {
+        "glyph": "semicolon",
+        "gid": 101,
+        "unicode": [
+          {
+            "codepoint": "U+003B",
+            "char": ";",
+            "name": "SEMICOLON"
+          },
+          {
+            "codepoint": "U+037E",
+            "char": ";",
+            "name": "GREEK QUESTION MARK"
+          }
+        ]
+      },
+      {
+        "glyph": "uni018F",
+        "gid": 501,
+        "unicode": [
+          {
+            "codepoint": "U+018F",
+            "char": "Ə",
+            "name": "LATIN CAPITAL LETTER SCHWA"
+          },
+          {
+            "codepoint": "U+04D8",
+            "char": "Ә",
+            "name": "CYRILLIC CAPITAL LETTER SCHWA"
+          }
+        ]
+      },
+      {
+        "glyph": "uni0259",
+        "gid": 1188,
+        "unicode": [
+          {
+            "codepoint": "U+0259",
+            "char": "ə",
+            "name": "LATIN SMALL LETTER SCHWA"
+          },
+          {
+            "codepoint": "U+04D9",
+            "char": "ә",
+            "name": "CYRILLIC SMALL LETTER SCHWA"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2009",
+        "gid": 3024,
+        "unicode": [
+          {
+            "codepoint": "U+2009",
+            "char": " ",
+            "name": "THIN SPACE"
+          },
+          {
+            "codepoint": "U+202F",
+            "char": " ",
+            "name": "NARROW NO-BREAK SPACE"
+          }
+        ]
+      },
+      {
+        "glyph": "fraction",
+        "gid": 142,
+        "unicode": [
+          {
+            "codepoint": "U+2044",
+            "char": "⁄",
+            "name": "FRACTION SLASH"
+          },
+          {
+            "codepoint": "U+2215",
+            "char": "∕",
+            "name": "DIVISION SLASH"
+          }
+        ]
+      },
+      {
+        "glyph": "fi",
+        "gid": 82,
+        "unicode": [
+          {
+            "codepoint": "U+F001",
+            "char": "",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+FB01",
+            "char": "ﬁ",
+            "name": "LATIN SMALL LIGATURE FI"
+          }
+        ]
+      },
+      {
+        "glyph": "fl",
+        "gid": 83,
+        "unicode": [
+          {
+            "codepoint": "U+F002",
+            "char": "",
+            "name": "<unnamed>"
+          },
+          {
+            "codepoint": "U+FB02",
+            "char": "ﬂ",
+            "name": "LATIN SMALL LIGATURE FL"
+          }
+        ]
+      }
+    ],
+    "cjk_compat_alias_sample": []
+  },
+  "coverage": {
+    "required_count": 103,
+    "missing_count": 0,
+    "missing": [],
+    "passed": true
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "Arimo Italic",
+    "glyph_count": 3306
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "reverse_aliases_present"
+  ],
+  "result": "fail",
+  "failure_stage": "strict_cmap"
+}
