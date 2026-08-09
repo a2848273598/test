@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/overpass/Overpass-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/overpass/Overpass-Italic%5Bwght%5D.ttf",
+  "filename": "Overpass-Italic_wght_.ttf",
+  "output_key": "730d2d80f0310bd1c0f12dc126ebc8e2",
+  "size_bytes": 289328,
+  "sha256": "3b45ac4193930bbeb491b5c76227afd5991607712f0d16d6bc5d74db6bbd8172",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/730d2d80f0310bd1c0f12dc126ebc8e2/Overpass-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 390848,
+  "validation_target_file": "encoded/730d2d80f0310bd1c0f12dc126ebc8e2/validation-target.json",
+  "validation_source_file": "encoded/730d2d80f0310bd1c0f12dc126ebc8e2/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
