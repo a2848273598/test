@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/b612mono/B612Mono-BoldItalic.ttf",
+  "filename": "B612Mono-BoldItalic.ttf",
+  "output_key": "855d72ee77d447185130f601d0947967",
+  "size_bytes": 125284,
+  "sha256": "91a6a8535fc61354a2c59a64ea205a4f6957c2e09ac4ff91a1fc61d346c004e1",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/855d72ee77d447185130f601d0947967/B612Mono-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 169246,
+  "validation_target_file": "encoded/855d72ee77d447185130f601d0947967/validation-target.json",
+  "validation_source_file": "encoded/855d72ee77d447185130f601d0947967/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
