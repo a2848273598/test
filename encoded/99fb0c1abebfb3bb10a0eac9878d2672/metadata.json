@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBold.ttf",
+  "filename": "IBMPlexSansCondensed-SemiBold.ttf",
+  "output_key": "99fb0c1abebfb3bb10a0eac9878d2672",
+  "size_bytes": 111476,
+  "sha256": "a081ca60548aea14100757a2d6fe71ca60fd90ebce779c9a8ae5a0c8fb4526d4",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/99fb0c1abebfb3bb10a0eac9878d2672/IBMPlexSansCondensed-SemiBold.ttf.b64.txt",
+  "base64_size_bytes": 150592,
+  "validation_target_file": "encoded/99fb0c1abebfb3bb10a0eac9878d2672/validation-target.json",
+  "validation_source_file": "encoded/99fb0c1abebfb3bb10a0eac9878d2672/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
