@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz%2Cwght%5D.ttf",
+  "filename": "Inter_opsz_wght_.ttf",
+  "output_key": "2a81841d5e898b94acc1493858258a74",
+  "size_bytes": 876576,
+  "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/2a81841d5e898b94acc1493858258a74/Inter_opsz_wght_.ttf.b64.txt",
+  "base64_size_bytes": 1184147,
+  "validation_target_file": "encoded/2a81841d5e898b94acc1493858258a74/validation-target.json",
+  "validation_source_file": "encoded/2a81841d5e898b94acc1493858258a74/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
