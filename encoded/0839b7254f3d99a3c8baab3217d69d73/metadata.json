@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/geist/Geist-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/geist/Geist-Italic%5Bwght%5D.ttf",
+  "filename": "Geist-Italic_wght_.ttf",
+  "output_key": "0839b7254f3d99a3c8baab3217d69d73",
+  "size_bytes": 174584,
+  "sha256": "a464348abe41a6392f18d04c0ac2ad3c26619357ff5fdd76aff3059116f45e62",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/0839b7254f3d99a3c8baab3217d69d73/Geist-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 235843,
+  "validation_target_file": "encoded/0839b7254f3d99a3c8baab3217d69d73/validation-target.json",
+  "validation_source_file": "encoded/0839b7254f3d99a3c8baab3217d69d73/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
