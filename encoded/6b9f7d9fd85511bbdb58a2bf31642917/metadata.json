@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/iosevkacharon/IosevkaCharon-BoldItalic.ttf",
+  "filename": "IosevkaCharon-BoldItalic.ttf",
+  "output_key": "6b9f7d9fd85511bbdb58a2bf31642917",
+  "size_bytes": 1451104,
+  "sha256": "2d2e548d533903d608b9c6ee4a5262cbf7703d339a25593310cceb5e3c02814d",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/6b9f7d9fd85511bbdb58a2bf31642917/IosevkaCharon-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 1960266,
+  "validation_target_file": "encoded/6b9f7d9fd85511bbdb58a2bf31642917/validation-target.json",
+  "validation_source_file": "encoded/6b9f7d9fd85511bbdb58a2bf31642917/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "pass",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
