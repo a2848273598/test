@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegiblenext/AtkinsonHyperlegibleNext-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegiblenext/AtkinsonHyperlegibleNext-Italic%5Bwght%5D.ttf",
+  "filename": "AtkinsonHyperlegibleNext-Italic_wght_.ttf",
+  "output_key": "a47b4d1c46137e9f8852cf58d58ec118",
+  "size_bytes": 123916,
+  "sha256": "ce9cffed32742ad2d9238c561a93220385e5934cdc02b8eb4097a50efa957dc6",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/a47b4d1c46137e9f8852cf58d58ec118/AtkinsonHyperlegibleNext-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 167398,
+  "validation_target_file": "encoded/a47b4d1c46137e9f8852cf58d58ec118/validation-target.json",
+  "validation_source_file": "encoded/a47b4d1c46137e9f8852cf58d58ec118/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
