@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudgothic/BIZUDGothic-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bizudgothic/BIZUDGothic-Regular.ttf",
+  "filename": "BIZUDGothic-Regular.ttf",
+  "output_key": "a1dfe66b9a89824d933545a798978a12",
+  "size_bytes": 4667376,
+  "sha256": "709fcd41e3209fb765da750472f55ccdf925653e9fa7e1eb007cb65c8f749c75",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/a1dfe66b9a89824d933545a798978a12/BIZUDGothic-Regular.ttf.b64.txt",
+  "base64_size_bytes": 6305052,
+  "validation_target_file": "encoded/a1dfe66b9a89824d933545a798978a12/validation-target.json",
+  "validation_source_file": "encoded/a1dfe66b9a89824d933545a798978a12/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
