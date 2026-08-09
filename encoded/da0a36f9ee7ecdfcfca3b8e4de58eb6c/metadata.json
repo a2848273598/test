@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mashanzheng/MaShanZheng-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mashanzheng/MaShanZheng-Regular.ttf",
+  "filename": "MaShanZheng-Regular.ttf",
+  "output_key": "da0a36f9ee7ecdfcfca3b8e4de58eb6c",
+  "size_bytes": 5857936,
+  "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/da0a36f9ee7ecdfcfca3b8e4de58eb6c/MaShanZheng-Regular.ttf.b64.txt",
+  "base64_size_bytes": 7913355,
+  "validation_target_file": "encoded/da0a36f9ee7ecdfcfca3b8e4de58eb6c/validation-target.json",
+  "validation_source_file": "encoded/da0a36f9ee7ecdfcfca3b8e4de58eb6c/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
