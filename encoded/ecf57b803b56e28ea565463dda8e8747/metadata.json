@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/libertinusserif/LibertinusSerif-BoldItalic.ttf",
+  "filename": "LibertinusSerif-BoldItalic.ttf",
+  "output_key": "ecf57b803b56e28ea565463dda8e8747",
+  "size_bytes": 506340,
+  "sha256": "8d7406b1e84e4ee1a658289139d16de75ee4380a2309dce2e4d68704b1d8cfe8",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/ecf57b803b56e28ea565463dda8e8747/LibertinusSerif-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 684004,
+  "validation_target_file": "encoded/ecf57b803b56e28ea565463dda8e8747/validation-target.json",
+  "validation_source_file": "encoded/ecf57b803b56e28ea565463dda8e8747/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "pass",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
