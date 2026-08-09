@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora-Italic%5Bwght%5D.ttf",
+  "filename": "Lora-Italic_wght_.ttf",
+  "output_key": "4b39c51bd32553520079868a33720eff",
+  "size_bytes": 221232,
+  "sha256": "22d8d8854b53807aa664ca34f2031a9ed57a1d0dea296b8b96cdd3aad937a2b3",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/4b39c51bd32553520079868a33720eff/Lora-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 298858,
+  "validation_target_file": "encoded/4b39c51bd32553520079868a33720eff/validation-target.json",
+  "validation_source_file": "encoded/4b39c51bd32553520079868a33720eff/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
