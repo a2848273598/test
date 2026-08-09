@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/IBMPlexSans-Italic%5Bwdth%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/IBMPlexSans-Italic%5Bwdth%2Cwght%5D.ttf",
+  "filename": "IBMPlexSans-Italic_wdth_wght_.ttf",
+  "output_key": "dad512db43430a875d1fc79cd195fd44",
+  "size_bytes": 599624,
+  "sha256": "0b94c5e981993764db32bf9c610ecc60cbd34ad77ec2f10ba03c64ab75124d8e",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/dad512db43430a875d1fc79cd195fd44/IBMPlexSans-Italic_wdth_wght_.ttf.b64.txt",
+  "base64_size_bytes": 810020,
+  "validation_target_file": "encoded/dad512db43430a875d1fc79cd195fd44/validation-target.json",
+  "validation_source_file": "encoded/dad512db43430a875d1fc79cd195fd44/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
