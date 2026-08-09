@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/kleeone/KleeOne-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/kleeone/KleeOne-Regular.ttf",
+  "filename": "KleeOne-Regular.ttf",
+  "output_key": "ed6ac6c5ca88d5b1478917ec3ca981db",
+  "size_bytes": 8724204,
+  "sha256": "bf4063f030cc2ae6adf0a11424a1888e5c0eb4438f1f6d02f52294af868e9b3a",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/ed6ac6c5ca88d5b1478917ec3ca981db/KleeOne-Regular.ttf.b64.txt",
+  "base64_size_bytes": 11785329,
+  "validation_target_file": "encoded/ed6ac6c5ca88d5b1478917ec3ca981db/validation-target.json",
+  "validation_source_file": "encoded/ed6ac6c5ca88d5b1478917ec3ca981db/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
