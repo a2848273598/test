@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/onest/Onest%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/onest/Onest%5Bwght%5D.ttf",
+  "filename": "Onest_wght_.ttf",
+  "output_key": "ca0b6dabdc408d4bbf65c8b1ea2f7bc3",
+  "size_bytes": 193056,
+  "sha256": "966c5c29b4755da84b6854d5c21dd4eaa2420225d0e9874de602de176d4a9f31",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/ca0b6dabdc408d4bbf65c8b1ea2f7bc3/Onest_wght_.ttf.b64.txt",
+  "base64_size_bytes": 260795,
+  "validation_target_file": "encoded/ca0b6dabdc408d4bbf65c8b1ea2f7bc3/validation-target.json",
+  "validation_source_file": "encoded/ca0b6dabdc408d4bbf65c8b1ea2f7bc3/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
