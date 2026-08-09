@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "profile": "source",
+  "strict": true,
+  "validation_policy": "strict-v2-cc-filtered",
+  "filename": "FiraSans-BoldItalic.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-BoldItalic.ttf",
+  "size_bytes": 506864,
+  "sha256": "1b96c16db9819bcaa9d588068bb397bb6e977c4874965d3d50d789a1943757eb",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "FiraSans-BoldItalic",
+    "glyph_count": 2707,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 1686
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 1686
+      }
+    ],
+    "legacy_cmap_tables": [
+      {
+        "table": "platform=1, encoding=0, format=6",
+        "count": 224
+      }
+    ],
+    "variation_cmap_tables": [],
+    "unicode_codepoint_count": 1686,
+    "cmap_conflict_count": 0,
+    "raw_reverse_alias_count": 0,
+    "reverse_alias_count": 0,
+    "ignored_cc_alias_group_count": 0,
+    "ambiguous_glyph_count": 0,
+    "ambiguous_standard_codepoint_count": 0,
+    "pua_codepoint_count": 0,
+    "cmap_conflict_sample": [],
+    "raw_reverse_alias_sample": [],
+    "reverse_alias_sample": [],
+    "cjk_compat_alias_sample": []
+  },
+  "coverage": {
+    "required_count": 103,
+    "missing_count": 1,
+    "missing": [
+      {
+        "codepoint": "U+2103",
+        "char": "℃",
+        "name": "DEGREE CELSIUS",
+        "category": "So"
+      }
+    ],
+    "passed": false
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "Fira Sans Bold Italic",
+    "glyph_count": 2707
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "legacy_cmap_present",
+    "required_characters_missing"
+  ],
+  "result": "fail",
+  "failure_stage": "strict_cmap"
+}
