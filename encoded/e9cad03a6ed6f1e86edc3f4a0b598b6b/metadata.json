@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/redditsans/RedditSans-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/redditsans/RedditSans-Italic%5Bwght%5D.ttf",
+  "filename": "RedditSans-Italic_wght_.ttf",
+  "output_key": "e9cad03a6ed6f1e86edc3f4a0b598b6b",
+  "size_bytes": 242572,
+  "sha256": "c68ff1930f5b4046181fc6927c6c35ef5352972173c51cc5ef7376a1e949cd07",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/e9cad03a6ed6f1e86edc3f4a0b598b6b/RedditSans-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 327688,
+  "validation_target_file": "encoded/e9cad03a6ed6f1e86edc3f4a0b598b6b/validation-target.json",
+  "validation_source_file": "encoded/e9cad03a6ed6f1e86edc3f4a0b598b6b/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
