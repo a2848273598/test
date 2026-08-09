@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/batangche/BatangChe-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/batangche/BatangChe-Regular.ttf",
+  "filename": "BatangChe-Regular.ttf",
+  "output_key": "9e8163855bfdc748488302a020d877e2",
+  "size_bytes": 6823284,
+  "sha256": "34aff823e0d9b86e7b7cb6913612e06638812a1d9af061272510b4cbf9d4c6ba",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/9e8163855bfdc748488302a020d877e2/BatangChe-Regular.ttf.b64.txt",
+  "base64_size_bytes": 9217419,
+  "validation_target_file": "encoded/9e8163855bfdc748488302a020d877e2/validation-target.json",
+  "validation_source_file": "encoded/9e8163855bfdc748488302a020d877e2/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
