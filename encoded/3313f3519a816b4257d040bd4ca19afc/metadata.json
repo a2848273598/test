@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sawarabigothic/SawarabiGothic-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sawarabigothic/SawarabiGothic-Regular.ttf",
+  "filename": "SawarabiGothic-Regular.ttf",
+  "output_key": "3313f3519a816b4257d040bd4ca19afc",
+  "size_bytes": 1902848,
+  "sha256": "04f2f9111bb69cb8d3706c27b44879c2c0fac593a11edf5cfe8cec1efc92c789",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/3313f3519a816b4257d040bd4ca19afc/SawarabiGothic-Regular.ttf.b64.txt",
+  "base64_size_bytes": 2570516,
+  "validation_target_file": "encoded/3313f3519a816b4257d040bd4ca19afc/validation-target.json",
+  "validation_source_file": "encoded/3313f3519a816b4257d040bd4ca19afc/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
