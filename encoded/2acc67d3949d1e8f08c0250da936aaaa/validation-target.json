@@ -1,0 +1,500 @@
+{
+  "version": 1,
+  "profile": "target",
+  "strict": true,
+  "filename": "LINESeedJP-Regular.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lineseedjp/LINESeedJP-Regular.ttf",
+  "size_bytes": 3673280,
+  "sha256": "04a6c0077ddb8ba5af3638bd76b4600708dde7b38df047b40fbe6f3af358d3c3",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "LINESeedJP-Regular",
+    "glyph_count": 9225,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 8328
+      },
+      {
+        "table": "platform=0, encoding=4, format=12",
+        "count": 8341
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 8328
+      },
+      {
+        "table": "platform=3, encoding=10, format=12",
+        "count": 8341
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [],
+    "unicode_codepoint_count": 8341,
+    "cmap_conflict_count": 0,
+    "reverse_alias_count": 242,
+    "ambiguous_glyph_count": 0,
+    "ambiguous_standard_codepoint_count": 0,
+    "pua_codepoint_count": 0,
+    "cmap_conflict_sample": [],
+    "reverse_alias_sample": [
+      {
+        "glyph": "space",
+        "gid": 1,
+        "unicode": [
+          {
+            "codepoint": "U+0020",
+            "char": " ",
+            "name": "SPACE"
+          },
+          {
+            "codepoint": "U+00A0",
+            "char": " ",
+            "name": "NO-BREAK SPACE"
+          }
+        ]
+      },
+      {
+        "glyph": "hyphen",
+        "gid": 14,
+        "unicode": [
+          {
+            "codepoint": "U+002D",
+            "char": "-",
+            "name": "HYPHEN-MINUS"
+          },
+          {
+            "codepoint": "U+2011",
+            "char": "‑",
+            "name": "NON-BREAKING HYPHEN"
+          }
+        ]
+      },
+      {
+        "glyph": "underscore",
+        "gid": 64,
+        "unicode": [
+          {
+            "codepoint": "U+005F",
+            "char": "_",
+            "name": "LOW LINE"
+          },
+          {
+            "codepoint": "U+0332",
+            "char": "̲",
+            "name": "COMBINING LOW LINE"
+          }
+        ]
+      },
+      {
+        "glyph": "grave",
+        "gid": 65,
+        "unicode": [
+          {
+            "codepoint": "U+0060",
+            "char": "`",
+            "name": "GRAVE ACCENT"
+          },
+          {
+            "codepoint": "U+0300",
+            "char": "̀",
+            "name": "COMBINING GRAVE ACCENT"
+          }
+        ]
+      },
+      {
+        "glyph": "asciitilde",
+        "gid": 100,
+        "unicode": [
+          {
+            "codepoint": "U+007E",
+            "char": "~",
+            "name": "TILDE"
+          },
+          {
+            "codepoint": "U+223C",
+            "char": "∼",
+            "name": "TILDE OPERATOR"
+          }
+        ]
+      },
+      {
+        "glyph": "periodcentered",
+        "gid": 117,
+        "unicode": [
+          {
+            "codepoint": "U+00B7",
+            "char": "·",
+            "name": "MIDDLE DOT"
+          },
+          {
+            "codepoint": "U+2219",
+            "char": "∙",
+            "name": "BULLET OPERATOR"
+          }
+        ]
+      },
+      {
+        "glyph": "quoteleft",
+        "gid": 98,
+        "unicode": [
+          {
+            "codepoint": "U+02BB",
+            "char": "ʻ",
+            "name": "MODIFIER LETTER TURNED COMMA"
+          },
+          {
+            "codepoint": "U+2018",
+            "char": "‘",
+            "name": "LEFT SINGLE QUOTATION MARK"
+          }
+        ]
+      },
+      {
+        "glyph": "quoteright",
+        "gid": 96,
+        "unicode": [
+          {
+            "codepoint": "U+02BC",
+            "char": "ʼ",
+            "name": "MODIFIER LETTER APOSTROPHE"
+          },
+          {
+            "codepoint": "U+2019",
+            "char": "’",
+            "name": "RIGHT SINGLE QUOTATION MARK"
+          }
+        ]
+      },
+      {
+        "glyph": "tilde",
+        "gid": 95,
+        "unicode": [
+          {
+            "codepoint": "U+02DC",
+            "char": "˜",
+            "name": "SMALL TILDE"
+          },
+          {
+            "codepoint": "U+0303",
+            "char": "̃",
+            "name": "COMBINING TILDE"
+          }
+        ]
+      },
+      {
+        "glyph": "uni0305",
+        "gid": 226,
+        "unicode": [
+          {
+            "codepoint": "U+0305",
+            "char": "̅",
+            "name": "COMBINING OVERLINE"
+          },
+          {
+            "codepoint": "U+203E",
+            "char": "‾",
+            "name": "OVERLINE"
+          }
+        ]
+      },
+      {
+        "glyph": "emdash",
+        "gid": 138,
+        "unicode": [
+          {
+            "codepoint": "U+0336",
+            "char": "̶",
+            "name": "COMBINING LONG STROKE OVERLAY"
+          },
+          {
+            "codepoint": "U+2014",
+            "char": "—",
+            "name": "EM DASH"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3000",
+        "gid": 506,
+        "unicode": [
+          {
+            "codepoint": "U+2003",
+            "char": " ",
+            "name": "EM SPACE"
+          },
+          {
+            "codepoint": "U+3000",
+            "char": "　",
+            "name": "IDEOGRAPHIC SPACE"
+          }
+        ]
+      },
+      {
+        "glyph": "endash",
+        "gid": 114,
+        "unicode": [
+          {
+            "codepoint": "U+2012",
+            "char": "‒",
+            "name": "FIGURE DASH"
+          },
+          {
+            "codepoint": "U+2013",
+            "char": "–",
+            "name": "EN DASH"
+          }
+        ]
+      },
+      {
+        "glyph": "uni205A",
+        "gid": 7771,
+        "unicode": [
+          {
+            "codepoint": "U+205A",
+            "char": "⁚",
+            "name": "TWO DOT PUNCTUATION"
+          },
+          {
+            "codepoint": "U+FE30",
+            "char": "︰",
+            "name": "PRESENTATION FORM FOR VERTICAL TWO DOT LEADER"
+          }
+        ]
+      },
+      {
+        "glyph": "uni205D",
+        "gid": 7770,
+        "unicode": [
+          {
+            "codepoint": "U+205D",
+            "char": "⁝",
+            "name": "TRICOLON"
+          },
+          {
+            "codepoint": "U+FE19",
+            "char": "︙",
+            "name": "PRESENTATION FORM FOR VERTICAL HORIZONTAL ELLIPSIS"
+          }
+        ]
+      },
+      {
+        "glyph": "uniFF0D",
+        "gid": 566,
+        "unicode": [
+          {
+            "codepoint": "U+2212",
+            "char": "−",
+            "name": "MINUS SIGN"
+          },
+          {
+            "codepoint": "U+FF0D",
+            "char": "－",
+            "name": "FULLWIDTH HYPHEN-MINUS"
+          }
+        ]
+      },
+      {
+        "glyph": "uni5140",
+        "gid": 4082,
+        "unicode": [
+          {
+            "codepoint": "U+2E8E",
+            "char": "⺎",
+            "name": "CJK RADICAL LAME ONE"
+          },
+          {
+            "codepoint": "U+5140",
+            "char": "兀",
+            "name": "CJK UNIFIED IDEOGRAPH-5140"
+          }
+        ]
+      },
+      {
+        "glyph": "uni5C22",
+        "gid": 4519,
+        "unicode": [
+          {
+            "codepoint": "U+2E90",
+            "char": "⺐",
+            "name": "CJK RADICAL LAME THREE"
+          },
+          {
+            "codepoint": "U+2F2A",
+            "char": "⼪",
+            "name": "KANGXI RADICAL LAME"
+          },
+          {
+            "codepoint": "U+5C22",
+            "char": "尢",
+            "name": "CJK UNIFIED IDEOGRAPH-5C22"
+          }
+        ]
+      },
+      {
+        "glyph": "uni5DF3",
+        "gid": 3635,
+        "unicode": [
+          {
+            "codepoint": "U+2E92",
+            "char": "⺒",
+            "name": "CJK RADICAL SNAKE"
+          },
+          {
+            "codepoint": "U+5DF3",
+            "char": "巳",
+            "name": "CJK UNIFIED IDEOGRAPH-5DF3"
+          }
+        ]
+      },
+      {
+        "glyph": "uni5E7A",
+        "gid": 4612,
+        "unicode": [
+          {
+            "codepoint": "U+2E93",
+            "char": "⺓",
+            "name": "CJK RADICAL THREAD"
+          },
+          {
+            "codepoint": "U+2F33",
+            "char": "⼳",
+            "name": "KANGXI RADICAL SHORT THREAD"
+          },
+          {
+            "codepoint": "U+5E7A",
+            "char": "幺",
+            "name": "CJK UNIFIED IDEOGRAPH-5E7A"
+          }
+        ]
+      }
+    ],
+    "cjk_compat_alias_sample": []
+  },
+  "coverage": {
+    "required_count": 177,
+    "missing_count": 18,
+    "missing": [
+      {
+        "codepoint": "U+7535",
+        "char": "电",
+        "name": "CJK UNIFIED IDEOGRAPH-7535"
+      },
+      {
+        "codepoint": "U+538B",
+        "char": "压",
+        "name": "CJK UNIFIED IDEOGRAPH-538B"
+      },
+      {
+        "codepoint": "U+76D1",
+        "char": "监",
+        "name": "CJK UNIFIED IDEOGRAPH-76D1"
+      },
+      {
+        "codepoint": "U+62A4",
+        "char": "护",
+        "name": "CJK UNIFIED IDEOGRAPH-62A4"
+      },
+      {
+        "codepoint": "U+7EDD",
+        "char": "绝",
+        "name": "CJK UNIFIED IDEOGRAPH-7EDD"
+      },
+      {
+        "codepoint": "U+5BF9",
+        "char": "对",
+        "name": "CJK UNIFIED IDEOGRAPH-5BF9"
+      },
+      {
+        "codepoint": "U+989D",
+        "char": "额",
+        "name": "CJK UNIFIED IDEOGRAPH-989D"
+      },
+      {
+        "codepoint": "U+503C",
+        "char": "值",
+        "name": "CJK UNIFIED IDEOGRAPH-503C"
+      },
+      {
+        "codepoint": "U+672F",
+        "char": "术",
+        "name": "CJK UNIFIED IDEOGRAPH-672F"
+      },
+      {
+        "codepoint": "U+8F6C",
+        "char": "转",
+        "name": "CJK UNIFIED IDEOGRAPH-8F6C"
+      },
+      {
+        "codepoint": "U+6362",
+        "char": "换",
+        "name": "CJK UNIFIED IDEOGRAPH-6362"
+      },
+      {
+        "codepoint": "U+9A71",
+        "char": "驱",
+        "name": "CJK UNIFIED IDEOGRAPH-9A71"
+      },
+      {
+        "codepoint": "U+52A8",
+        "char": "动",
+        "name": "CJK UNIFIED IDEOGRAPH-52A8"
+      },
+      {
+        "codepoint": "U+6D4B",
+        "char": "测",
+        "name": "CJK UNIFIED IDEOGRAPH-6D4B"
+      },
+      {
+        "codepoint": "U+8FDE",
+        "char": "连",
+        "name": "CJK UNIFIED IDEOGRAPH-8FDE"
+      },
+      {
+        "codepoint": "U+6267",
+        "char": "执",
+        "name": "CJK UNIFIED IDEOGRAPH-6267"
+      },
+      {
+        "codepoint": "U+2264",
+        "char": "≤",
+        "name": "LESS-THAN OR EQUAL TO"
+      },
+      {
+        "codepoint": "U+2265",
+        "char": "≥",
+        "name": "GREATER-THAN OR EQUAL TO"
+      }
+    ],
+    "passed": false
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "LINE Seed JP Regular",
+    "glyph_count": 9225
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "reverse_aliases_present",
+    "required_characters_missing"
+  ],
+  "result": "fail",
+  "failure_stage": "strict_cmap"
+}
