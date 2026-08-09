@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-Italic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/arsenal/Arsenal-Italic.ttf",
+  "filename": "Arsenal-Italic.ttf",
+  "output_key": "aacde1c122f5117b47c5eace0820ac6d",
+  "size_bytes": 190480,
+  "sha256": "3e38a69ce81ed89b8a1fe20cb1eecbad762aad58c122ea8438bdb8be40ed550c",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/aacde1c122f5117b47c5eace0820ac6d/Arsenal-Italic.ttf.b64.txt",
+  "base64_size_bytes": 257318,
+  "validation_target_file": "encoded/aacde1c122f5117b47c5eace0820ac6d/validation-target.json",
+  "validation_source_file": "encoded/aacde1c122f5117b47c5eace0820ac6d/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
