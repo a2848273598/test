@@ -23,12 +23,12 @@ on:
         type: string
 
       source_corpus_url:
-        description: Exact public HTTPS URL supplied by the caller for the original-text corpus (UTF-8 Markdown or plain text)
+        description: Exact public raw HTTPS URL for this mapping key's source-role UTF-8 corpus
         required: true
         type: string
 
       target_corpus_url:
-        description: Exact public HTTPS URL supplied by the caller for the reviewed-translation corpus (UTF-8 Markdown or plain text)
+        description: Exact public raw HTTPS URL for this mapping key's reviewed Chinese target-role UTF-8 corpus
         required: true
         type: string
 
@@ -186,7 +186,7 @@ jobs:
           )
 
           validation_policy = (
-              "strict-v2-cc-filtered"
+              "strict-v3-font-role-corpus"
           )
 
 
@@ -776,7 +776,7 @@ jobs:
 
 
           # =========================================================
-          # 可选原文 / 译文语料下载
+          # Per-mapping source-role / target-role corpus download
           # =========================================================
 
           def download_corpus(
@@ -1714,7 +1714,7 @@ jobs:
               return result
 
 
-          # Caller-provided corpora are mandatory; legacy constants above
+          # Caller-provided role corpora are mandatory; legacy constants above
           # are intentionally not used for validation.
           if not source_corpus["text"] or not target_corpus["text"]:
               raise RuntimeError(
