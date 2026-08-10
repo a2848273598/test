@@ -1003,6 +1003,61 @@ jobs:
 
 
           # =========================================================
+          # target role contract
+          #
+          # The Stage 4 target corpus is deliberately restricted to
+          # reviewed Chinese text and Chinese punctuation.  Rejecting
+          # Markdown markers, URL fragments, and damaged replacement
+          # characters keeps a corrupt upload from becoming a false
+          # font-validation result.
+          # =========================================================
+
+          TARGET_ROLE_PUNCTUATION = frozenset(
+              "\uFF0C\u3002\uFF01\uFF1F\uFF1B\uFF1A\u201C\u201D\u2018\u2019"
+              "\uFF08\uFF09\u3010\u3011\u300A\u300B\u3001\u2026\u2014"
+          )
+
+
+          def is_target_role_character(
+              char,
+          ):
+
+              cp = ord(char)
+
+              return (
+                  0x3400 <= cp <= 0x4DBF
+                  or 0x4E00 <= cp <= 0x9FFF
+                  or 0x20000 <= cp <= 0x2CEAF
+                  or 0x2CEB0 <= cp <= 0x2EBEF
+                  or 0x2EBF0 <= cp <= 0x2EE5F
+                  or 0x30000 <= cp <= 0x323AF
+                  or cp == 0x3007
+                  or char in TARGET_ROLE_PUNCTUATION
+                  or 0x3000 <= cp <= 0x303F
+                  or 0xFE10 <= cp <= 0xFE1F
+                  or 0xFE30 <= cp <= 0xFE4F
+              )
+
+
+          target_non_role = [
+              ch
+              for ch in target_corpus["text"]
+              if not ch.isspace()
+              and not is_target_role_character(ch)
+          ]
+
+          if target_non_role:
+              samples = ", ".join(
+                  f"U+{ord(ch):04X}"
+                  for ch in target_non_role[:20]
+              )
+              raise RuntimeError(
+                  "target corpus must contain only Chinese and Chinese "
+                  f"punctuation; invalid={samples}"
+              )
+
+
+          # =========================================================
           # 输出目录
           # =========================================================
 
