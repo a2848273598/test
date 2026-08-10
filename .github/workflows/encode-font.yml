@@ -7,8 +7,8 @@ run-name: >-
 on:
   workflow_dispatch:
     inputs:
-      source_url:
-        description: Public HTTPS direct URL of the font file
+      font_url:
+        description: Exact raw.githubusercontent.com/google/fonts/main TTF or OTF URL supplied by the caller
         required: true
         type: string
 
@@ -47,8 +47,8 @@ jobs:
     timeout-minutes: 20
 
     env:
-      SOURCE_URL: >-
-        ${{ inputs.source_url }}
+      FONT_URL: >-
+        ${{ inputs.font_url }}
 
       REQUESTED_FILENAME: >-
         ${{ inputs.filename }}
@@ -127,8 +127,8 @@ jobs:
           # 基础参数
           # =========================================================
 
-          source_url = os.environ[
-              "SOURCE_URL"
+          font_url = os.environ[
+              "FONT_URL"
           ].strip()
 
           filename = os.environ[
@@ -243,9 +243,9 @@ jobs:
               )
 
 
-          if len(source_url) > 4096:
+          if len(font_url) > 4096:
               raise RuntimeError(
-                  "source_url is too long"
+                  "font_url is too long"
               )
 
           for corpus_label, corpus_url in (
@@ -410,6 +410,54 @@ jobs:
               )
 
 
+          def validate_google_fonts_raw_font_url(
+              value: str,
+          ) -> str:
+
+              normalized = (
+                  validate_public_https_url(value)
+              )
+
+              parsed = (
+                  urllib.parse
+                  .urlsplit(normalized)
+              )
+
+              if (
+                  parsed.hostname
+                  != "raw.githubusercontent.com"
+              ):
+                  raise RuntimeError(
+                      "font_url must use raw.githubusercontent.com"
+                  )
+
+              if parsed.query or parsed.fragment:
+                  raise RuntimeError(
+                      "font_url must not contain query or fragment"
+                  )
+
+              decoded_path = (
+                  urllib.parse
+                  .unquote(parsed.path)
+              )
+
+              if not decoded_path.startswith(
+                  "/google/fonts/main/"
+              ):
+                  raise RuntimeError(
+                      "font_url must be an exact google/fonts main raw URL"
+                  )
+
+              if not decoded_path.lower().endswith(
+                  (".ttf", ".otf")
+              ):
+                  raise RuntimeError(
+                      "font_url must end in .ttf or .otf"
+                  )
+
+              return normalized
+
+
           class SafeRedirectHandler(
               urllib.request
               .HTTPRedirectHandler
@@ -433,7 +481,7 @@ jobs:
                       )
                   )
 
-                  validate_public_https_url(
+                  validate_google_fonts_raw_font_url(
                       absolute
                   )
 
@@ -577,8 +625,8 @@ jobs:
           # =========================================================
 
           validated_url = (
-              validate_public_https_url(
-                  source_url
+              validate_google_fonts_raw_font_url(
+                  font_url
               )
           )
 
@@ -2207,8 +2255,8 @@ jobs:
                   "filename":
                       filename,
 
-                  "source_url":
-                      source_url,
+                  "font_url":
+                      font_url,
 
                   "corpus": {
                       "requested_url": (
@@ -2955,8 +3003,8 @@ jobs:
 
           metadata = {
 
-              "source_url":
-                  source_url,
+              "font_url":
+                  font_url,
 
               "source_corpus": {
                   key: value
