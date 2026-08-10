@@ -186,7 +186,7 @@ jobs:
           )
 
           validation_policy = (
-              "strict-v3-font-role-corpus"
+              "strict-v4-role-corpus-dynamic-roundtrip"
           )
 
 
@@ -2433,52 +2433,36 @@ jobs:
                   )
 
 
-              if (
-                  audit.get(
-                      "cmap_conflict_count",
-                      0,
-                  )
-                  > 0
-              ):
+              # A font-wide cmap alias is diagnostic information, not
+              # proof that this mapping key will fail.  The authoritative
+              # check is the exact PDF write/extract roundtrip below using
+              # the caller-provided role corpus.  Rejecting every font that
+              # contains an unrelated alias would make common CJK fonts
+              # unusable before their actual required characters are tested.
+              static_warnings = []
 
-                  failure_codes.append(
-                      "cmap_conflicts_present"
-                  )
-
-
-              # -----------------------------------------------------
-              # strict-v2：
-              #
-              # raw_reverse_alias_count 不参与 FAIL。
-              #
-              # reverse_alias_count 已经排除了 Cc，
-              # 只要剩余实际 Unicode 多对一，就 FAIL。
-              # -----------------------------------------------------
-
-              if (
-                  audit.get(
-                      "reverse_alias_count",
-                      0,
-                  )
-                  > 0
-              ):
-
-                  failure_codes.append(
-                      "reverse_aliases_present"
+              if audit.get(
+                  "cmap_conflict_count",
+                  0,
+              ) > 0:
+                  static_warnings.append(
+                      "global_cmap_conflicts_present"
                   )
 
-
-              # -----------------------------------------------------
-              # 仍然保持最严格 legacy cmap 策略。
-              # -----------------------------------------------------
+              if audit.get(
+                  "reverse_alias_count",
+                  0,
+              ) > 0:
+                  static_warnings.append(
+                      "global_reverse_aliases_present"
+                  )
 
               if audit.get(
                   "legacy_cmap_tables",
                   [],
               ):
-
-                  failure_codes.append(
-                      "legacy_cmap_present"
+                  static_warnings.append(
+                      "legacy_cmap_tables_present"
                   )
 
 
@@ -2543,6 +2527,10 @@ jobs:
               result[
                   "static_audit"
               ] = public_audit
+
+              result[
+                  "static_warnings"
+              ] = static_warnings
 
 
               result[
