@@ -1,0 +1,625 @@
+{
+  "version": 2,
+  "result": "fail",
+  "failure_stage": "coverage",
+  "failure_codes": [
+    "required_characters_missing"
+  ],
+  "missing_count": 119,
+  "missing": [
+    {
+      "char": "订",
+      "codepoint": "U+8BA2",
+      "name": "CJK UNIFIED IDEOGRAPH-8BA2",
+      "category": "Lo"
+    },
+    {
+      "char": "图",
+      "codepoint": "U+56FE",
+      "name": "CJK UNIFIED IDEOGRAPH-56FE",
+      "category": "Lo"
+    },
+    {
+      "char": "时",
+      "codepoint": "U+65F6",
+      "name": "CJK UNIFIED IDEOGRAPH-65F6",
+      "category": "Lo"
+    },
+    {
+      "char": "误",
+      "codepoint": "U+8BEF",
+      "name": "CJK UNIFIED IDEOGRAPH-8BEF",
+      "category": "Lo"
+    },
+    {
+      "char": "为",
+      "codepoint": "U+4E3A",
+      "name": "CJK UNIFIED IDEOGRAPH-4E3A",
+      "category": "Lo"
+    },
+    {
+      "char": "围",
+      "codepoint": "U+56F4",
+      "name": "CJK UNIFIED IDEOGRAPH-56F4",
+      "category": "Lo"
+    },
+    {
+      "char": "内",
+      "codepoint": "U+5185",
+      "name": "CJK UNIFIED IDEOGRAPH-5185",
+      "category": "Lo"
+    },
+    {
+      "char": "库",
+      "codepoint": "U+5E93",
+      "name": "CJK UNIFIED IDEOGRAPH-5E93",
+      "category": "Lo"
+    },
+    {
+      "char": "仑",
+      "codepoint": "U+4ED1",
+      "name": "CJK UNIFIED IDEOGRAPH-4ED1",
+      "category": "Lo"
+    },
+    {
+      "char": "计",
+      "codepoint": "U+8BA1",
+      "name": "CJK UNIFIED IDEOGRAPH-8BA1",
+      "category": "Lo"
+    },
+    {
+      "char": "数",
+      "codepoint": "U+6570",
+      "name": "CJK UNIFIED IDEOGRAPH-6570",
+      "category": "Lo"
+    },
+    {
+      "char": "调",
+      "codepoint": "U+8C03",
+      "name": "CJK UNIFIED IDEOGRAPH-8C03",
+      "category": "Lo"
+    },
+    {
+      "char": "权",
+      "codepoint": "U+6743",
+      "name": "CJK UNIFIED IDEOGRAPH-6743",
+      "category": "Lo"
+    },
+    {
+      "char": "档",
+      "codepoint": "U+6863",
+      "name": "CJK UNIFIED IDEOGRAPH-6863",
+      "category": "Lo"
+    },
+    {
+      "char": "馈",
+      "codepoint": "U+9988",
+      "name": "CJK UNIFIED IDEOGRAPH-9988",
+      "category": "Lo"
+    },
+    {
+      "char": "产",
+      "codepoint": "U+4EA7",
+      "name": "CJK UNIFIED IDEOGRAPH-4EA7",
+      "category": "Lo"
+    },
+    {
+      "char": "夹",
+      "codepoint": "U+5939",
+      "name": "CJK UNIFIED IDEOGRAPH-5939",
+      "category": "Lo"
+    },
+    {
+      "char": "链",
+      "codepoint": "U+94FE",
+      "name": "CJK UNIFIED IDEOGRAPH-94FE",
+      "category": "Lo"
+    },
+    {
+      "char": "缩",
+      "codepoint": "U+7F29",
+      "name": "CJK UNIFIED IDEOGRAPH-7F29",
+      "category": "Lo"
+    },
+    {
+      "char": "测",
+      "codepoint": "U+6D4B",
+      "name": "CJK UNIFIED IDEOGRAPH-6D4B",
+      "category": "Lo"
+    },
+    {
+      "char": "试",
+      "codepoint": "U+8BD5",
+      "name": "CJK UNIFIED IDEOGRAPH-8BD5",
+      "category": "Lo"
+    },
+    {
+      "char": "专",
+      "codepoint": "U+4E13",
+      "name": "CJK UNIFIED IDEOGRAPH-4E13",
+      "category": "Lo"
+    },
+    {
+      "char": "将",
+      "codepoint": "U+5C06",
+      "name": "CJK UNIFIED IDEOGRAPH-5C06",
+      "category": "Lo"
+    },
+    {
+      "char": "记",
+      "codepoint": "U+8BB0",
+      "name": "CJK UNIFIED IDEOGRAPH-8BB0",
+      "category": "Lo"
+    },
+    {
+      "char": "录",
+      "codepoint": "U+5F55",
+      "name": "CJK UNIFIED IDEOGRAPH-5F55",
+      "category": "Lo"
+    },
+    {
+      "char": "状",
+      "codepoint": "U+72B6",
+      "name": "CJK UNIFIED IDEOGRAPH-72B6",
+      "category": "Lo"
+    },
+    {
+      "char": "态",
+      "codepoint": "U+6001",
+      "name": "CJK UNIFIED IDEOGRAPH-6001",
+      "category": "Lo"
+    },
+    {
+      "char": "驱",
+      "codepoint": "U+9A71",
+      "name": "CJK UNIFIED IDEOGRAPH-9A71",
+      "category": "Lo"
+    },
+    {
+      "char": "侧",
+      "codepoint": "U+4FA7",
+      "name": "CJK UNIFIED IDEOGRAPH-4FA7",
+      "category": "Lo"
+    },
+    {
+      "char": "标",
+      "codepoint": "U+6807",
+      "name": "CJK UNIFIED IDEOGRAPH-6807",
+      "category": "Lo"
+    },
+    {
+      "char": "称",
+      "codepoint": "U+79F0",
+      "name": "CJK UNIFIED IDEOGRAPH-79F0",
+      "category": "Lo"
+    },
+    {
+      "char": "则",
+      "codepoint": "U+5219",
+      "name": "CJK UNIFIED IDEOGRAPH-5219",
+      "category": "Lo"
+    },
+    {
+      "char": "过",
+      "codepoint": "U+8FC7",
+      "name": "CJK UNIFIED IDEOGRAPH-8FC7",
+      "category": "Lo"
+    },
+    {
+      "char": "还",
+      "codepoint": "U+8FD8",
+      "name": "CJK UNIFIED IDEOGRAPH-8FD8",
+      "category": "Lo"
+    },
+    {
+      "char": "钳",
+      "codepoint": "U+94B3",
+      "name": "CJK UNIFIED IDEOGRAPH-94B3",
+      "category": "Lo"
+    },
+    {
+      "char": "压",
+      "codepoint": "U+538B",
+      "name": "CJK UNIFIED IDEOGRAPH-538B",
+      "category": "Lo"
+    },
+    {
+      "char": "当",
+      "codepoint": "U+5F53",
+      "name": "CJK UNIFIED IDEOGRAPH-5F53",
+      "category": "Lo"
+    },
+    {
+      "char": "检",
+      "codepoint": "U+68C0",
+      "name": "CJK UNIFIED IDEOGRAPH-68C0",
+      "category": "Lo"
+    },
+    {
+      "char": "该",
+      "codepoint": "U+8BE5",
+      "name": "CJK UNIFIED IDEOGRAPH-8BE5",
+      "category": "Lo"
+    },
+    {
+      "char": "导",
+      "codepoint": "U+5BFC",
+      "name": "CJK UNIFIED IDEOGRAPH-5BFC",
+      "category": "Lo"
+    },
+    {
+      "char": "关",
+      "codepoint": "U+5173",
+      "name": "CJK UNIFIED IDEOGRAPH-5173",
+      "category": "Lo"
+    },
+    {
+      "char": "断",
+      "codepoint": "U+65AD",
+      "name": "CJK UNIFIED IDEOGRAPH-65AD",
+      "category": "Lo"
+    },
+    {
+      "char": "节",
+      "codepoint": "U+8282",
+      "name": "CJK UNIFIED IDEOGRAPH-8282",
+      "category": "Lo"
+    },
+    {
+      "char": "栅",
+      "codepoint": "U+6805",
+      "name": "CJK UNIFIED IDEOGRAPH-6805",
+      "category": "Lo"
+    },
+    {
+      "char": "约",
+      "codepoint": "U+7EA6",
+      "name": "CJK UNIFIED IDEOGRAPH-7EA6",
+      "category": "Lo"
+    },
+    {
+      "char": "纳",
+      "codepoint": "U+7EB3",
+      "name": "CJK UNIFIED IDEOGRAPH-7EB3",
+      "category": "Lo"
+    },
+    {
+      "char": "选",
+      "codepoint": "U+9009",
+      "name": "CJK UNIFIED IDEOGRAPH-9009",
+      "category": "Lo"
+    },
+    {
+      "char": "来",
+      "codepoint": "U+6765",
+      "name": "CJK UNIFIED IDEOGRAPH-6765",
+      "category": "Lo"
+    },
+    {
+      "char": "请",
+      "codepoint": "U+8BF7",
+      "name": "CJK UNIFIED IDEOGRAPH-8BF7",
+      "category": "Lo"
+    },
+    {
+      "char": "进",
+      "codepoint": "U+8FDB",
+      "name": "CJK UNIFIED IDEOGRAPH-8FDB",
+      "category": "Lo"
+    },
+    {
+      "char": "转",
+      "codepoint": "U+8F6C",
+      "name": "CJK UNIFIED IDEOGRAPH-8F6C",
+      "category": "Lo"
+    },
+    {
+      "char": "换",
+      "codepoint": "U+6362",
+      "name": "CJK UNIFIED IDEOGRAPH-6362",
+      "category": "Lo"
+    },
+    {
+      "char": "对",
+      "codepoint": "U+5BF9",
+      "name": "CJK UNIFIED IDEOGRAPH-5BF9",
+      "category": "Lo"
+    },
+    {
+      "char": "执",
+      "codepoint": "U+6267",
+      "name": "CJK UNIFIED IDEOGRAPH-6267",
+      "category": "Lo"
+    },
+    {
+      "char": "监",
+      "codepoint": "U+76D1",
+      "name": "CJK UNIFIED IDEOGRAPH-76D1",
+      "category": "Lo"
+    },
+    {
+      "char": "许",
+      "codepoint": "U+8BB8",
+      "name": "CJK UNIFIED IDEOGRAPH-8BB8",
+      "category": "Lo"
+    },
+    {
+      "char": "论",
+      "codepoint": "U+8BBA",
+      "name": "CJK UNIFIED IDEOGRAPH-8BBA",
+      "category": "Lo"
+    },
+    {
+      "char": "续",
+      "codepoint": "U+7EED",
+      "name": "CJK UNIFIED IDEOGRAPH-7EED",
+      "category": "Lo"
+    },
+    {
+      "char": "这",
+      "codepoint": "U+8FD9",
+      "name": "CJK UNIFIED IDEOGRAPH-8FD9",
+      "category": "Lo"
+    },
+    {
+      "char": "读",
+      "codepoint": "U+8BFB",
+      "name": "CJK UNIFIED IDEOGRAPH-8BFB",
+      "category": "Lo"
+    },
+    {
+      "char": "键",
+      "codepoint": "U+952E",
+      "name": "CJK UNIFIED IDEOGRAPH-952E",
+      "category": "Lo"
+    },
+    {
+      "char": "组",
+      "codepoint": "U+7EC4",
+      "name": "CJK UNIFIED IDEOGRAPH-7EC4",
+      "category": "Lo"
+    },
+    {
+      "char": "获",
+      "codepoint": "U+83B7",
+      "name": "CJK UNIFIED IDEOGRAPH-83B7",
+      "category": "Lo"
+    },
+    {
+      "char": "阅",
+      "codepoint": "U+9605",
+      "name": "CJK UNIFIED IDEOGRAPH-9605",
+      "category": "Lo"
+    },
+    {
+      "char": "应",
+      "codepoint": "U+5E94",
+      "name": "CJK UNIFIED IDEOGRAPH-5E94",
+      "category": "Lo"
+    },
+    {
+      "char": "钮",
+      "codepoint": "U+94AE",
+      "name": "CJK UNIFIED IDEOGRAPH-94AE",
+      "category": "Lo"
+    },
+    {
+      "char": "单",
+      "codepoint": "U+5355",
+      "name": "CJK UNIFIED IDEOGRAPH-5355",
+      "category": "Lo"
+    },
+    {
+      "char": "阈",
+      "codepoint": "U+9608",
+      "name": "CJK UNIFIED IDEOGRAPH-9608",
+      "category": "Lo"
+    },
+    {
+      "char": "项",
+      "codepoint": "U+9879",
+      "name": "CJK UNIFIED IDEOGRAPH-9879",
+      "category": "Lo"
+    },
+    {
+      "char": "别",
+      "codepoint": "U+522B",
+      "name": "CJK UNIFIED IDEOGRAPH-522B",
+      "category": "Lo"
+    },
+    {
+      "char": "编",
+      "codepoint": "U+7F16",
+      "name": "CJK UNIFIED IDEOGRAPH-7F16",
+      "category": "Lo"
+    },
+    {
+      "char": "谨",
+      "codepoint": "U+8C28",
+      "name": "CJK UNIFIED IDEOGRAPH-8C28",
+      "category": "Lo"
+    },
+    {
+      "char": "们",
+      "codepoint": "U+4EEC",
+      "name": "CJK UNIFIED IDEOGRAPH-4EEC",
+      "category": "Lo"
+    },
+    {
+      "char": "码",
+      "codepoint": "U+7801",
+      "name": "CJK UNIFIED IDEOGRAPH-7801",
+      "category": "Lo"
+    },
+    {
+      "char": "虑",
+      "codepoint": "U+8651",
+      "name": "CJK UNIFIED IDEOGRAPH-8651",
+      "category": "Lo"
+    },
+    {
+      "char": "线",
+      "codepoint": "U+7EBF",
+      "name": "CJK UNIFIED IDEOGRAPH-7EBF",
+      "category": "Lo"
+    },
+    {
+      "char": "议",
+      "codepoint": "U+8BAE",
+      "name": "CJK UNIFIED IDEOGRAPH-8BAE",
+      "category": "Lo"
+    },
+    {
+      "char": "较",
+      "codepoint": "U+8F83",
+      "name": "CJK UNIFIED IDEOGRAPH-8F83",
+      "category": "Lo"
+    },
+    {
+      "char": "额",
+      "codepoint": "U+989D",
+      "name": "CJK UNIFIED IDEOGRAPH-989D",
+      "category": "Lo"
+    },
+    {
+      "char": "连",
+      "codepoint": "U+8FDE",
+      "name": "CJK UNIFIED IDEOGRAPH-8FDE",
+      "category": "Lo"
+    },
+    {
+      "char": "滤",
+      "codepoint": "U+6EE4",
+      "name": "CJK UNIFIED IDEOGRAPH-6EE4",
+      "category": "Lo"
+    },
+    {
+      "char": "尽",
+      "codepoint": "U+5C3D",
+      "name": "CJK UNIFIED IDEOGRAPH-5C3D",
+      "category": "Lo"
+    },
+    {
+      "char": "稳",
+      "codepoint": "U+7A33",
+      "name": "CJK UNIFIED IDEOGRAPH-7A33",
+      "category": "Lo"
+    },
+    {
+      "char": "满",
+      "codepoint": "U+6EE1",
+      "name": "CJK UNIFIED IDEOGRAPH-6EE1",
+      "category": "Lo"
+    },
+    {
+      "char": "负",
+      "codepoint": "U+8D1F",
+      "name": "CJK UNIFIED IDEOGRAPH-8D1F",
+      "category": "Lo"
+    },
+    {
+      "char": "载",
+      "codepoint": "U+8F7D",
+      "name": "CJK UNIFIED IDEOGRAPH-8F7D",
+      "category": "Lo"
+    },
+    {
+      "char": "购",
+      "codepoint": "U+8D2D",
+      "name": "CJK UNIFIED IDEOGRAPH-8D2D",
+      "category": "Lo"
+    },
+    {
+      "char": "镀",
+      "codepoint": "U+9540",
+      "name": "CJK UNIFIED IDEOGRAPH-9540",
+      "category": "Lo"
+    },
+    {
+      "char": "层",
+      "codepoint": "U+5C42",
+      "name": "CJK UNIFIED IDEOGRAPH-5C42",
+      "category": "Lo"
+    },
+    {
+      "char": "级",
+      "codepoint": "U+7EA7",
+      "name": "CJK UNIFIED IDEOGRAPH-7EA7",
+      "category": "Lo"
+    },
+    {
+      "char": "识",
+      "codepoint": "U+8BC6",
+      "name": "CJK UNIFIED IDEOGRAPH-8BC6",
+      "category": "Lo"
+    },
+    {
+      "char": "货",
+      "codepoint": "U+8D27",
+      "name": "CJK UNIFIED IDEOGRAPH-8D27",
+      "category": "Lo"
+    },
+    {
+      "char": "带",
+      "codepoint": "U+5E26",
+      "name": "CJK UNIFIED IDEOGRAPH-5E26",
+      "category": "Lo"
+    },
+    {
+      "char": "盘",
+      "codepoint": "U+76D8",
+      "name": "CJK UNIFIED IDEOGRAPH-76D8",
+      "category": "Lo"
+    },
+    {
+      "char": "详",
+      "codepoint": "U+8BE6",
+      "name": "CJK UNIFIED IDEOGRAPH-8BE6",
+      "category": "Lo"
+    },
+    {
+      "char": "细",
+      "codepoint": "U+7EC6",
+      "name": "CJK UNIFIED IDEOGRAPH-7EC6",
+      "category": "Lo"
+    },
+    {
+      "char": "预",
+      "codepoint": "U+9884",
+      "name": "CJK UNIFIED IDEOGRAPH-9884",
+      "category": "Lo"
+    },
+    {
+      "char": "验",
+      "codepoint": "U+9A8C",
+      "name": "CJK UNIFIED IDEOGRAPH-9A8C",
+      "category": "Lo"
+    },
+    {
+      "char": "终",
+      "codepoint": "U+7EC8",
+      "name": "CJK UNIFIED IDEOGRAPH-7EC8",
+      "category": "Lo"
+    },
+    {
+      "char": "质",
+      "codepoint": "U+8D28",
+      "name": "CJK UNIFIED IDEOGRAPH-8D28",
+      "category": "Lo"
+    }
+  ],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/038b637da7b3fd956a4ed93ffc607c3d5e4ce172/ofl/notosanshk/NotoSansHK%5Bwght%5D.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/038b637da7b3fd956a4ed93ffc607c3d5e4ce172/ofl/notosanshk/NotoSansHK%5Bwght%5D.ttf",
+  "font_filename": "NotoSansHK_wght_.ttf",
+  "font_sha256": "76098ee78ec234cd4f8c950742b3f766fea2f8b43d5180d901048f4fc86c6849",
+  "font_size_bytes": 11905808,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/44768824fe10901e89c17b4621a05942b5fc3b6469b9e9e780e366472a2903bf/target_reviewed_chinese_643c7bd77fe12ac7fa822b5a8b28e7879497e42567b218990e9539a2f37fdd06.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/44768824fe10901e89c17b4621a05942b5fc3b6469b9e9e780e366472a2903bf/target_reviewed_chinese_643c7bd77fe12ac7fa822b5a8b28e7879497e42567b218990e9539a2f37fdd06.txt",
+  "corpus_sha256": "643c7bd77fe12ac7fa822b5a8b28e7879497e42567b218990e9539a2f37fdd06",
+  "corpus_unique_character_count": 482,
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7"
+  }
+}
