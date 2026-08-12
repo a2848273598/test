@@ -1,0 +1,1226 @@
+{
+  "version": 2,
+  "profile": "target",
+  "strict": true,
+  "validation_policy": "strict-v2-cc-filtered",
+  "filename": "ChironGoRoundTC_wght_.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/chirongoroundtc/ChironGoRoundTC%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/chirongoroundtc/ChironGoRoundTC%5Bwght%5D.ttf",
+  "size_bytes": 51170304,
+  "sha256": "47cd5ff5153799d4c0d05bcc64da849e13b8eb842e46728a66bf2d52c480231f",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "ChironGoRoundTC-ExtraLight",
+    "glyph_count": 50706,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 42750
+      },
+      {
+        "table": "platform=0, encoding=4, format=12",
+        "count": 46265
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 42750
+      },
+      {
+        "table": "platform=3, encoding=10, format=12",
+        "count": 46265
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [
+      "platform=0, encoding=5, format=14"
+    ],
+    "unicode_codepoint_count": 46265,
+    "cmap_conflict_count": 0,
+    "raw_reverse_alias_count": 460,
+    "reverse_alias_count": 460,
+    "ignored_cc_alias_group_count": 0,
+    "ambiguous_glyph_count": 100,
+    "ambiguous_standard_codepoint_count": 100,
+    "pua_codepoint_count": 1,
+    "cmap_conflict_sample": [],
+    "raw_reverse_alias_sample": [
+      {
+        "glyph": "cid00468",
+        "gid": 468,
+        "unicode": [
+          {
+            "codepoint": "U+1160",
+            "char": "ᅠ",
+            "name": "HANGUL JUNGSEONG FILLER",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+3164",
+            "char": "ㅤ",
+            "name": "HANGUL FILLER",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FFA0",
+            "char": "ﾠ",
+            "name": "HALFWIDTH HANGUL FILLER",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid01401",
+        "gid": 1401,
+        "unicode": [
+          {
+            "codepoint": "U+2003",
+            "char": " ",
+            "name": "EM SPACE",
+            "category": "Zs"
+          },
+          {
+            "codepoint": "U+3000",
+            "char": "　",
+            "name": "IDEOGRAPHIC SPACE",
+            "category": "Zs"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00735",
+        "gid": 735,
+        "unicode": [
+          {
+            "codepoint": "U+2026",
+            "char": "…",
+            "name": "HORIZONTAL ELLIPSIS",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+22EF",
+            "char": "⋯",
+            "name": "MIDLINE HORIZONTAL ELLIPSIS",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "cid01649",
+        "gid": 1649,
+        "unicode": [
+          {
+            "codepoint": "U+2027",
+            "char": "‧",
+            "name": "HYPHENATION POINT",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+30FB",
+            "char": "・",
+            "name": "KATAKANA MIDDLE DOT",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "cid59118",
+        "gid": 44637,
+        "unicode": [
+          {
+            "codepoint": "U+2035",
+            "char": "‵",
+            "name": "REVERSED PRIME",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FF40",
+            "char": "｀",
+            "name": "FULLWIDTH GRAVE ACCENT",
+            "category": "Sk"
+          }
+        ]
+      },
+      {
+        "glyph": "cid01409",
+        "gid": 1409,
+        "unicode": [
+          {
+            "codepoint": "U+2329",
+            "char": "〈",
+            "name": "LEFT-POINTING ANGLE BRACKET",
+            "category": "Ps"
+          },
+          {
+            "codepoint": "U+3008",
+            "char": "〈",
+            "name": "LEFT ANGLE BRACKET",
+            "category": "Ps"
+          }
+        ]
+      },
+      {
+        "glyph": "cid01410",
+        "gid": 1410,
+        "unicode": [
+          {
+            "codepoint": "U+232A",
+            "char": "〉",
+            "name": "RIGHT-POINTING ANGLE BRACKET",
+            "category": "Pe"
+          },
+          {
+            "codepoint": "U+3009",
+            "char": "〉",
+            "name": "RIGHT ANGLE BRACKET",
+            "category": "Pe"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00918",
+        "gid": 918,
+        "unicode": [
+          {
+            "codepoint": "U+2460",
+            "char": "①",
+            "name": "CIRCLED DIGIT ONE",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2780",
+            "char": "➀",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT ONE",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00919",
+        "gid": 919,
+        "unicode": [
+          {
+            "codepoint": "U+2461",
+            "char": "②",
+            "name": "CIRCLED DIGIT TWO",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2781",
+            "char": "➁",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT TWO",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00920",
+        "gid": 920,
+        "unicode": [
+          {
+            "codepoint": "U+2462",
+            "char": "③",
+            "name": "CIRCLED DIGIT THREE",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2782",
+            "char": "➂",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT THREE",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00921",
+        "gid": 921,
+        "unicode": [
+          {
+            "codepoint": "U+2463",
+            "char": "④",
+            "name": "CIRCLED DIGIT FOUR",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2783",
+            "char": "➃",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT FOUR",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00922",
+        "gid": 922,
+        "unicode": [
+          {
+            "codepoint": "U+2464",
+            "char": "⑤",
+            "name": "CIRCLED DIGIT FIVE",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2784",
+            "char": "➄",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT FIVE",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00923",
+        "gid": 923,
+        "unicode": [
+          {
+            "codepoint": "U+2465",
+            "char": "⑥",
+            "name": "CIRCLED DIGIT SIX",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2785",
+            "char": "➅",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT SIX",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00924",
+        "gid": 924,
+        "unicode": [
+          {
+            "codepoint": "U+2466",
+            "char": "⑦",
+            "name": "CIRCLED DIGIT SEVEN",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2786",
+            "char": "➆",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT SEVEN",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00925",
+        "gid": 925,
+        "unicode": [
+          {
+            "codepoint": "U+2467",
+            "char": "⑧",
+            "name": "CIRCLED DIGIT EIGHT",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2787",
+            "char": "➇",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT EIGHT",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00926",
+        "gid": 926,
+        "unicode": [
+          {
+            "codepoint": "U+2468",
+            "char": "⑨",
+            "name": "CIRCLED DIGIT NINE",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2788",
+            "char": "➈",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT NINE",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00927",
+        "gid": 927,
+        "unicode": [
+          {
+            "codepoint": "U+2469",
+            "char": "⑩",
+            "name": "CIRCLED NUMBER TEN",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2789",
+            "char": "➉",
+            "name": "DINGBAT CIRCLED SANS-SERIF NUMBER TEN",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid01056",
+        "gid": 1056,
+        "unicode": [
+          {
+            "codepoint": "U+24EA",
+            "char": "⓪",
+            "name": "CIRCLED DIGIT ZERO",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+1F10B",
+            "char": "🄋",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT ZERO",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid01077",
+        "gid": 1077,
+        "unicode": [
+          {
+            "codepoint": "U+24FF",
+            "char": "⓿",
+            "name": "NEGATIVE CIRCLED DIGIT ZERO",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+1F10C",
+            "char": "🄌",
+            "name": "DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ZERO",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid01335",
+        "gid": 1335,
+        "unicode": [
+          {
+            "codepoint": "U+2776",
+            "char": "❶",
+            "name": "DINGBAT NEGATIVE CIRCLED DIGIT ONE",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+278A",
+            "char": "➊",
+            "name": "DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ONE",
+            "category": "No"
+          }
+        ]
+      }
+    ],
+    "reverse_alias_sample": [
+      {
+        "glyph": "cid00468",
+        "gid": 468,
+        "unicode": [
+          {
+            "codepoint": "U+1160",
+            "char": "ᅠ",
+            "name": "HANGUL JUNGSEONG FILLER",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+3164",
+            "char": "ㅤ",
+            "name": "HANGUL FILLER",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FFA0",
+            "char": "ﾠ",
+            "name": "HALFWIDTH HANGUL FILLER",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid01401",
+        "gid": 1401,
+        "unicode": [
+          {
+            "codepoint": "U+2003",
+            "char": " ",
+            "name": "EM SPACE",
+            "category": "Zs"
+          },
+          {
+            "codepoint": "U+3000",
+            "char": "　",
+            "name": "IDEOGRAPHIC SPACE",
+            "category": "Zs"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00735",
+        "gid": 735,
+        "unicode": [
+          {
+            "codepoint": "U+2026",
+            "char": "…",
+            "name": "HORIZONTAL ELLIPSIS",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+22EF",
+            "char": "⋯",
+            "name": "MIDLINE HORIZONTAL ELLIPSIS",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "cid01649",
+        "gid": 1649,
+        "unicode": [
+          {
+            "codepoint": "U+2027",
+            "char": "‧",
+            "name": "HYPHENATION POINT",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+30FB",
+            "char": "・",
+            "name": "KATAKANA MIDDLE DOT",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "cid59118",
+        "gid": 44637,
+        "unicode": [
+          {
+            "codepoint": "U+2035",
+            "char": "‵",
+            "name": "REVERSED PRIME",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FF40",
+            "char": "｀",
+            "name": "FULLWIDTH GRAVE ACCENT",
+            "category": "Sk"
+          }
+        ]
+      },
+      {
+        "glyph": "cid01409",
+        "gid": 1409,
+        "unicode": [
+          {
+            "codepoint": "U+2329",
+            "char": "〈",
+            "name": "LEFT-POINTING ANGLE BRACKET",
+            "category": "Ps"
+          },
+          {
+            "codepoint": "U+3008",
+            "char": "〈",
+            "name": "LEFT ANGLE BRACKET",
+            "category": "Ps"
+          }
+        ]
+      },
+      {
+        "glyph": "cid01410",
+        "gid": 1410,
+        "unicode": [
+          {
+            "codepoint": "U+232A",
+            "char": "〉",
+            "name": "RIGHT-POINTING ANGLE BRACKET",
+            "category": "Pe"
+          },
+          {
+            "codepoint": "U+3009",
+            "char": "〉",
+            "name": "RIGHT ANGLE BRACKET",
+            "category": "Pe"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00918",
+        "gid": 918,
+        "unicode": [
+          {
+            "codepoint": "U+2460",
+            "char": "①",
+            "name": "CIRCLED DIGIT ONE",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2780",
+            "char": "➀",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT ONE",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00919",
+        "gid": 919,
+        "unicode": [
+          {
+            "codepoint": "U+2461",
+            "char": "②",
+            "name": "CIRCLED DIGIT TWO",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2781",
+            "char": "➁",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT TWO",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00920",
+        "gid": 920,
+        "unicode": [
+          {
+            "codepoint": "U+2462",
+            "char": "③",
+            "name": "CIRCLED DIGIT THREE",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2782",
+            "char": "➂",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT THREE",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00921",
+        "gid": 921,
+        "unicode": [
+          {
+            "codepoint": "U+2463",
+            "char": "④",
+            "name": "CIRCLED DIGIT FOUR",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2783",
+            "char": "➃",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT FOUR",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00922",
+        "gid": 922,
+        "unicode": [
+          {
+            "codepoint": "U+2464",
+            "char": "⑤",
+            "name": "CIRCLED DIGIT FIVE",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2784",
+            "char": "➄",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT FIVE",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00923",
+        "gid": 923,
+        "unicode": [
+          {
+            "codepoint": "U+2465",
+            "char": "⑥",
+            "name": "CIRCLED DIGIT SIX",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2785",
+            "char": "➅",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT SIX",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00924",
+        "gid": 924,
+        "unicode": [
+          {
+            "codepoint": "U+2466",
+            "char": "⑦",
+            "name": "CIRCLED DIGIT SEVEN",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2786",
+            "char": "➆",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT SEVEN",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00925",
+        "gid": 925,
+        "unicode": [
+          {
+            "codepoint": "U+2467",
+            "char": "⑧",
+            "name": "CIRCLED DIGIT EIGHT",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2787",
+            "char": "➇",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT EIGHT",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00926",
+        "gid": 926,
+        "unicode": [
+          {
+            "codepoint": "U+2468",
+            "char": "⑨",
+            "name": "CIRCLED DIGIT NINE",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2788",
+            "char": "➈",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT NINE",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid00927",
+        "gid": 927,
+        "unicode": [
+          {
+            "codepoint": "U+2469",
+            "char": "⑩",
+            "name": "CIRCLED NUMBER TEN",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+2789",
+            "char": "➉",
+            "name": "DINGBAT CIRCLED SANS-SERIF NUMBER TEN",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid01056",
+        "gid": 1056,
+        "unicode": [
+          {
+            "codepoint": "U+24EA",
+            "char": "⓪",
+            "name": "CIRCLED DIGIT ZERO",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+1F10B",
+            "char": "🄋",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT ZERO",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid01077",
+        "gid": 1077,
+        "unicode": [
+          {
+            "codepoint": "U+24FF",
+            "char": "⓿",
+            "name": "NEGATIVE CIRCLED DIGIT ZERO",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+1F10C",
+            "char": "🄌",
+            "name": "DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ZERO",
+            "category": "No"
+          }
+        ]
+      },
+      {
+        "glyph": "cid01335",
+        "gid": 1335,
+        "unicode": [
+          {
+            "codepoint": "U+2776",
+            "char": "❶",
+            "name": "DINGBAT NEGATIVE CIRCLED DIGIT ONE",
+            "category": "No"
+          },
+          {
+            "codepoint": "U+278A",
+            "char": "➊",
+            "name": "DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ONE",
+            "category": "No"
+          }
+        ]
+      }
+    ],
+    "cjk_compat_alias_sample": [
+      {
+        "glyph": "cid58945",
+        "gid": 44464,
+        "unicode": [
+          {
+            "codepoint": "U+2EA4",
+            "char": "⺤",
+            "name": "CJK RADICAL PAW ONE",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+722B",
+            "char": "爫",
+            "name": "CJK UNIFIED IDEOGRAPH-722B",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA49",
+            "char": "爫",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA49",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid58966",
+        "gid": 44485,
+        "unicode": [
+          {
+            "codepoint": "U+2EBF",
+            "char": "⺿",
+            "name": "CJK RADICAL GRASS TWO",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+8279",
+            "char": "艹",
+            "name": "CJK UNIFIED IDEOGRAPH-8279",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA5E",
+            "char": "艹",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA5E",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid11402",
+        "gid": 11402,
+        "unicode": [
+          {
+            "codepoint": "U+2F12",
+            "char": "⼒",
+            "name": "KANGXI RADICAL POWER",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+529B",
+            "char": "力",
+            "name": "CJK UNIFIED IDEOGRAPH-529B",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F98A",
+            "char": "力",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F98A",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid32278",
+        "gid": 23691,
+        "unicode": [
+          {
+            "codepoint": "U+2F7C",
+            "char": "⽼",
+            "name": "KANGXI RADICAL OLD",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+8001",
+            "char": "老",
+            "name": "CJK UNIFIED IDEOGRAPH-8001",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F934",
+            "char": "老",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F934",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid36714",
+        "gid": 25847,
+        "unicode": [
+          {
+            "codepoint": "U+2F8F",
+            "char": "⾏",
+            "name": "KANGXI RADICAL WALK ENCLOSURE",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+884C",
+            "char": "行",
+            "name": "CJK UNIFIED IDEOGRAPH-884C",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA08",
+            "char": "行",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA08",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid37354",
+        "gid": 26175,
+        "unicode": [
+          {
+            "codepoint": "U+2F92",
+            "char": "⾒",
+            "name": "KANGXI RADICAL SEE",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+898B",
+            "char": "見",
+            "name": "CJK UNIFIED IDEOGRAPH-898B",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA0A",
+            "char": "見",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA0A",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid41218",
+        "gid": 28973,
+        "unicode": [
+          {
+            "codepoint": "U+2FA5",
+            "char": "⾥",
+            "name": "KANGXI RADICAL VILLAGE",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+91CC",
+            "char": "里",
+            "name": "CJK UNIFIED IDEOGRAPH-91CC",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F9E9",
+            "char": "里",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F9E9",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid41224",
+        "gid": 28979,
+        "unicode": [
+          {
+            "codepoint": "U+2FA6",
+            "char": "⾦",
+            "name": "KANGXI RADICAL GOLD",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+91D1",
+            "char": "金",
+            "name": "CJK UNIFIED IDEOGRAPH-91D1",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F90A",
+            "char": "金",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F90A",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid61834",
+        "gid": 47326,
+        "unicode": [
+          {
+            "codepoint": "U+4DB9",
+            "char": "䶹",
+            "name": "CJK UNIFIED IDEOGRAPH-4DB9",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F878",
+            "char": "屮",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F878",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid09521",
+        "gid": 9521,
+        "unicode": [
+          {
+            "codepoint": "U+4E0D",
+            "char": "不",
+            "name": "CJK UNIFIED IDEOGRAPH-4E0D",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F967",
+            "char": "不",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F967",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid09576",
+        "gid": 9576,
+        "unicode": [
+          {
+            "codepoint": "U+4E32",
+            "char": "串",
+            "name": "CJK UNIFIED IDEOGRAPH-4E32",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F905",
+            "char": "串",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F905",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid09585",
+        "gid": 9585,
+        "unicode": [
+          {
+            "codepoint": "U+4E39",
+            "char": "丹",
+            "name": "CJK UNIFIED IDEOGRAPH-4E39",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F95E",
+            "char": "丹",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F95E",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid09781",
+        "gid": 9781,
+        "unicode": [
+          {
+            "codepoint": "U+4EC0",
+            "char": "什",
+            "name": "CJK UNIFIED IDEOGRAPH-4EC0",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F9FD",
+            "char": "什",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F9FD",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid10071",
+        "gid": 10071,
+        "unicode": [
+          {
+            "codepoint": "U+4F86",
+            "char": "來",
+            "name": "CJK UNIFIED IDEOGRAPH-4F86",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F92D",
+            "char": "來",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F92D",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid10078",
+        "gid": 10078,
+        "unicode": [
+          {
+            "codepoint": "U+4F8B",
+            "char": "例",
+            "name": "CJK UNIFIED IDEOGRAPH-4F8B",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F9B5",
+            "char": "例",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F9B5",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid10160",
+        "gid": 10160,
+        "unicode": [
+          {
+            "codepoint": "U+4FBF",
+            "char": "便",
+            "name": "CJK UNIFIED IDEOGRAPH-4FBF",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F965",
+            "char": "便",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F965",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid10344",
+        "gid": 10344,
+        "unicode": [
+          {
+            "codepoint": "U+502B",
+            "char": "倫",
+            "name": "CJK UNIFIED IDEOGRAPH-502B",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F9D4",
+            "char": "倫",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F9D4",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid10663",
+        "gid": 10663,
+        "unicode": [
+          {
+            "codepoint": "U+50DA",
+            "char": "僚",
+            "name": "CJK UNIFIED IDEOGRAPH-50DA",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F9BB",
+            "char": "僚",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F9BB",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid11072",
+        "gid": 11072,
+        "unicode": [
+          {
+            "codepoint": "U+51C9",
+            "char": "凉",
+            "name": "CJK UNIFIED IDEOGRAPH-51C9",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F979",
+            "char": "凉",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F979",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "cid11188",
+        "gid": 11188,
+        "unicode": [
+          {
+            "codepoint": "U+5217",
+            "char": "列",
+            "name": "CJK UNIFIED IDEOGRAPH-5217",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F99C",
+            "char": "列",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F99C",
+            "category": "Lo"
+          }
+        ]
+      }
+    ]
+  },
+  "coverage": {
+    "required_count": 177,
+    "missing_count": 0,
+    "missing": [],
+    "passed": true
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "Chiron GoRound TC ExtraLight",
+    "glyph_count": 50706
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "reverse_aliases_present"
+  ],
+  "result": "fail",
+  "failure_stage": "strict_cmap"
+}

@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf",
+  "filename": "NotoSansKR_wght_.ttf",
+  "output_key": "4fc2470a5db47c90e4a23e4fc3125c52",
+  "size_bytes": 10414588,
+  "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/4fc2470a5db47c90e4a23e4fc3125c52/NotoSansKR_wght_.ttf.b64.txt",
+  "base64_size_bytes": 14068833,
+  "validation_target_file": "encoded/4fc2470a5db47c90e4a23e4fc3125c52/validation-target.json",
+  "validation_source_file": "encoded/4fc2470a5db47c90e4a23e4fc3125c52/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

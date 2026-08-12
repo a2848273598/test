@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cambay/Cambay-BoldItalic.ttf",
+  "filename": "Cambay-BoldItalic.ttf",
+  "output_key": "0b65ec5dae4424d01524c7daceb3f693",
+  "size_bytes": 242084,
+  "sha256": "4a5310a8d87f7909fa465794fab60dc37aab5ede8214ff7eea95f36c7a2b8974",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/0b65ec5dae4424d01524c7daceb3f693/Cambay-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 327028,
+  "validation_target_file": "encoded/0b65ec5dae4424d01524c7daceb3f693/validation-target.json",
+  "validation_source_file": "encoded/0b65ec5dae4424d01524c7daceb3f693/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

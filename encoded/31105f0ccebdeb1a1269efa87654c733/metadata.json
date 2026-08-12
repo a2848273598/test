@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/oswald/Oswald%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/oswald/Oswald%5Bwght%5D.ttf",
+  "filename": "Oswald_wght_.ttf",
+  "output_key": "31105f0ccebdeb1a1269efa87654c733",
+  "size_bytes": 172088,
+  "sha256": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/31105f0ccebdeb1a1269efa87654c733/Oswald_wght_.ttf.b64.txt",
+  "base64_size_bytes": 232472,
+  "validation_target_file": "encoded/31105f0ccebdeb1a1269efa87654c733/validation-target.json",
+  "validation_source_file": "encoded/31105f0ccebdeb1a1269efa87654c733/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

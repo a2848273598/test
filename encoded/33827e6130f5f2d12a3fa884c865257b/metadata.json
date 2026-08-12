@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/overpass/Overpass%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/overpass/Overpass%5Bwght%5D.ttf",
+  "filename": "Overpass_wght_.ttf",
+  "output_key": "33827e6130f5f2d12a3fa884c865257b",
+  "size_bytes": 318700,
+  "sha256": "970717df17a7f9911dee45f60695d05bfa9d745fa0a11fc5c348371fa21f0073",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/33827e6130f5f2d12a3fa884c865257b/Overpass_wght_.ttf.b64.txt",
+  "base64_size_bytes": 430528,
+  "validation_target_file": "encoded/33827e6130f5f2d12a3fa884c865257b/validation-target.json",
+  "validation_source_file": "encoded/33827e6130f5f2d12a3fa884c865257b/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

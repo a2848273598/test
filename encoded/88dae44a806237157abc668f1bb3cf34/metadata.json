@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivo/Archivo-Italic%5Bwdth%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivo/Archivo-Italic%5Bwdth%2Cwght%5D.ttf",
+  "filename": "Archivo-Italic_wdth_wght_.ttf",
+  "output_key": "88dae44a806237157abc668f1bb3cf34",
+  "size_bytes": 741368,
+  "sha256": "305d13b4eb80e62f7d517f78d7c045250d977552a420f2dbed906f314e761305",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/88dae44a806237157abc668f1bb3cf34/Archivo-Italic_wdth_wght_.ttf.b64.txt",
+  "base64_size_bytes": 1001499,
+  "validation_target_file": "encoded/88dae44a806237157abc668f1bb3cf34/validation-target.json",
+  "validation_source_file": "encoded/88dae44a806237157abc668f1bb3cf34/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

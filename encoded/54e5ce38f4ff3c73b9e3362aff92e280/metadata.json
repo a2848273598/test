@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/liujianmaocao/LiuJianMaoCao-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/liujianmaocao/LiuJianMaoCao-Regular.ttf",
+  "filename": "LiuJianMaoCao-Regular.ttf",
+  "output_key": "54e5ce38f4ff3c73b9e3362aff92e280",
+  "size_bytes": 4951804,
+  "sha256": "cab396b91a5b7c0b4005a35891180d06e6751f5ac261fe680aec65c1ae209033",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/54e5ce38f4ff3c73b9e3362aff92e280/LiuJianMaoCao-Regular.ttf.b64.txt",
+  "base64_size_bytes": 6689282,
+  "validation_target_file": "encoded/54e5ce38f4ff3c73b9e3362aff92e280/validation-target.json",
+  "validation_source_file": "encoded/54e5ce38f4ff3c73b9e3362aff92e280/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

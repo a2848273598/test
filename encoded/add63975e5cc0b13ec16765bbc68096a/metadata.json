@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Bold.ttf",
+  "filename": "IBMPlexSerif-Bold.ttf",
+  "output_key": "add63975e5cc0b13ec16765bbc68096a",
+  "size_bytes": 163800,
+  "sha256": "534c02c295999dd86e770457ece1d43db0de9256dd98bf741426f63ae904209e",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/add63975e5cc0b13ec16765bbc68096a/IBMPlexSerif-Bold.ttf.b64.txt",
+  "base64_size_bytes": 221274,
+  "validation_target_file": "encoded/add63975e5cc0b13ec16765bbc68096a/validation-target.json",
+  "validation_source_file": "encoded/add63975e5cc0b13ec16765bbc68096a/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

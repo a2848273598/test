@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/albertsans/AlbertSans-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/albertsans/AlbertSans-Italic%5Bwght%5D.ttf",
+  "filename": "AlbertSans-Italic_wght_.ttf",
+  "output_key": "8d5a77071b8a0d155fbbeb04c9934839",
+  "size_bytes": 142156,
+  "sha256": "16eb3291f7389045e90a00abb66a3d2bca1d03387b7ebbbc2b0cd9a094f86226",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/8d5a77071b8a0d155fbbeb04c9934839/AlbertSans-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 192038,
+  "validation_target_file": "encoded/8d5a77071b8a0d155fbbeb04c9934839/validation-target.json",
+  "validation_source_file": "encoded/8d5a77071b8a0d155fbbeb04c9934839/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

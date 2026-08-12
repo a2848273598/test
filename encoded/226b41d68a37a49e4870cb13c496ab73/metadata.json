@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sofiasanscondensed/SofiaSansCondensed-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sofiasanscondensed/SofiaSansCondensed-Italic%5Bwght%5D.ttf",
+  "filename": "SofiaSansCondensed-Italic_wght_.ttf",
+  "output_key": "226b41d68a37a49e4870cb13c496ab73",
+  "size_bytes": 312088,
+  "sha256": "5832d10c7277b70baf954c3a9f5e235da075daa187dfa59c86b8e62649f81250",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/226b41d68a37a49e4870cb13c496ab73/SofiaSansCondensed-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 421596,
+  "validation_target_file": "encoded/226b41d68a37a49e4870cb13c496ab73/validation-target.json",
+  "validation_source_file": "encoded/226b41d68a37a49e4870cb13c496ab73/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

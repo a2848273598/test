@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zenmarugothic/ZenMaruGothic-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zenmarugothic/ZenMaruGothic-Regular.ttf",
+  "filename": "ZenMaruGothic-Regular.ttf",
+  "output_key": "41a854646c3756b96f6ccf05a88fb2c1",
+  "size_bytes": 3832756,
+  "sha256": "a0c0b53543e0993ae2225e629c833f3d51495ad31720694ff112ce4ce11111ef",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/41a854646c3756b96f6ccf05a88fb2c1/ZenMaruGothic-Regular.ttf.b64.txt",
+  "base64_size_bytes": 5177586,
+  "validation_target_file": "encoded/41a854646c3756b96f6ccf05a88fb2c1/validation-target.json",
+  "validation_source_file": "encoded/41a854646c3756b96f6ccf05a88fb2c1/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

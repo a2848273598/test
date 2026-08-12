@@ -1,0 +1,389 @@
+{
+  "version": 2,
+  "profile": "source",
+  "strict": true,
+  "validation_policy": "strict-v2-cc-filtered",
+  "filename": "PT_Serif-Web-Bold.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ptserif/PT_Serif-Web-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ptserif/PT_Serif-Web-Bold.ttf",
+  "size_bytes": 339996,
+  "sha256": "038ba7336bd7ea14f12ad155bed51a4345cac5153275d521dec3ba04021c526e",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "PTSerif-Bold",
+    "glyph_count": 719,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 723
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 723
+      }
+    ],
+    "legacy_cmap_tables": [
+      {
+        "table": "platform=1, encoding=0, format=6",
+        "count": 222
+      }
+    ],
+    "variation_cmap_tables": [],
+    "unicode_codepoint_count": 723,
+    "cmap_conflict_count": 0,
+    "raw_reverse_alias_count": 8,
+    "reverse_alias_count": 8,
+    "ignored_cc_alias_group_count": 0,
+    "ambiguous_glyph_count": 0,
+    "ambiguous_standard_codepoint_count": 0,
+    "pua_codepoint_count": 108,
+    "cmap_conflict_sample": [],
+    "raw_reverse_alias_sample": [
+      {
+        "glyph": "semicolon",
+        "gid": 30,
+        "unicode": [
+          {
+            "codepoint": "U+003B",
+            "char": ";",
+            "name": "SEMICOLON",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+037E",
+            "char": ";",
+            "name": "GREEK QUESTION MARK",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "macron",
+        "gid": 113,
+        "unicode": [
+          {
+            "codepoint": "U+00AF",
+            "char": "¯",
+            "name": "MACRON",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+02C9",
+            "char": "ˉ",
+            "name": "MODIFIER LETTER MACRON",
+            "category": "Lm"
+          }
+        ]
+      },
+      {
+        "glyph": "mu",
+        "gid": 119,
+        "unicode": [
+          {
+            "codepoint": "U+00B5",
+            "char": "µ",
+            "name": "MICRO SIGN",
+            "category": "Ll"
+          },
+          {
+            "codepoint": "U+03BC",
+            "char": "μ",
+            "name": "GREEK SMALL LETTER MU",
+            "category": "Ll"
+          }
+        ]
+      },
+      {
+        "glyph": "periodcentered",
+        "gid": 121,
+        "unicode": [
+          {
+            "codepoint": "U+00B7",
+            "char": "·",
+            "name": "MIDDLE DOT",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+2219",
+            "char": "∙",
+            "name": "BULLET OPERATOR",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+22C5",
+            "char": "⋅",
+            "name": "DOT OPERATOR",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "Scedilla",
+        "gid": 268,
+        "unicode": [
+          {
+            "codepoint": "U+015E",
+            "char": "Ş",
+            "name": "LATIN CAPITAL LETTER S WITH CEDILLA",
+            "category": "Lu"
+          },
+          {
+            "codepoint": "U+F6C1",
+            "char": "",
+            "name": "<unnamed>",
+            "category": "Co"
+          }
+        ]
+      },
+      {
+        "glyph": "scedilla",
+        "gid": 269,
+        "unicode": [
+          {
+            "codepoint": "U+015F",
+            "char": "ş",
+            "name": "LATIN SMALL LETTER S WITH CEDILLA",
+            "category": "Ll"
+          },
+          {
+            "codepoint": "U+F6C2",
+            "char": "",
+            "name": "<unnamed>",
+            "category": "Co"
+          }
+        ]
+      },
+      {
+        "glyph": "uni0394",
+        "gid": 312,
+        "unicode": [
+          {
+            "codepoint": "U+0394",
+            "char": "Δ",
+            "name": "GREEK CAPITAL LETTER DELTA",
+            "category": "Lu"
+          },
+          {
+            "codepoint": "U+2206",
+            "char": "∆",
+            "name": "INCREMENT",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "uni03A9",
+        "gid": 313,
+        "unicode": [
+          {
+            "codepoint": "U+03A9",
+            "char": "Ω",
+            "name": "GREEK CAPITAL LETTER OMEGA",
+            "category": "Lu"
+          },
+          {
+            "codepoint": "U+2126",
+            "char": "Ω",
+            "name": "OHM SIGN",
+            "category": "Lu"
+          }
+        ]
+      }
+    ],
+    "reverse_alias_sample": [
+      {
+        "glyph": "semicolon",
+        "gid": 30,
+        "unicode": [
+          {
+            "codepoint": "U+003B",
+            "char": ";",
+            "name": "SEMICOLON",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+037E",
+            "char": ";",
+            "name": "GREEK QUESTION MARK",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "macron",
+        "gid": 113,
+        "unicode": [
+          {
+            "codepoint": "U+00AF",
+            "char": "¯",
+            "name": "MACRON",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+02C9",
+            "char": "ˉ",
+            "name": "MODIFIER LETTER MACRON",
+            "category": "Lm"
+          }
+        ]
+      },
+      {
+        "glyph": "mu",
+        "gid": 119,
+        "unicode": [
+          {
+            "codepoint": "U+00B5",
+            "char": "µ",
+            "name": "MICRO SIGN",
+            "category": "Ll"
+          },
+          {
+            "codepoint": "U+03BC",
+            "char": "μ",
+            "name": "GREEK SMALL LETTER MU",
+            "category": "Ll"
+          }
+        ]
+      },
+      {
+        "glyph": "periodcentered",
+        "gid": 121,
+        "unicode": [
+          {
+            "codepoint": "U+00B7",
+            "char": "·",
+            "name": "MIDDLE DOT",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+2219",
+            "char": "∙",
+            "name": "BULLET OPERATOR",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+22C5",
+            "char": "⋅",
+            "name": "DOT OPERATOR",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "Scedilla",
+        "gid": 268,
+        "unicode": [
+          {
+            "codepoint": "U+015E",
+            "char": "Ş",
+            "name": "LATIN CAPITAL LETTER S WITH CEDILLA",
+            "category": "Lu"
+          },
+          {
+            "codepoint": "U+F6C1",
+            "char": "",
+            "name": "<unnamed>",
+            "category": "Co"
+          }
+        ]
+      },
+      {
+        "glyph": "scedilla",
+        "gid": 269,
+        "unicode": [
+          {
+            "codepoint": "U+015F",
+            "char": "ş",
+            "name": "LATIN SMALL LETTER S WITH CEDILLA",
+            "category": "Ll"
+          },
+          {
+            "codepoint": "U+F6C2",
+            "char": "",
+            "name": "<unnamed>",
+            "category": "Co"
+          }
+        ]
+      },
+      {
+        "glyph": "uni0394",
+        "gid": 312,
+        "unicode": [
+          {
+            "codepoint": "U+0394",
+            "char": "Δ",
+            "name": "GREEK CAPITAL LETTER DELTA",
+            "category": "Lu"
+          },
+          {
+            "codepoint": "U+2206",
+            "char": "∆",
+            "name": "INCREMENT",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "uni03A9",
+        "gid": 313,
+        "unicode": [
+          {
+            "codepoint": "U+03A9",
+            "char": "Ω",
+            "name": "GREEK CAPITAL LETTER OMEGA",
+            "category": "Lu"
+          },
+          {
+            "codepoint": "U+2126",
+            "char": "Ω",
+            "name": "OHM SIGN",
+            "category": "Lu"
+          }
+        ]
+      }
+    ],
+    "cjk_compat_alias_sample": []
+  },
+  "coverage": {
+    "required_count": 103,
+    "missing_count": 1,
+    "missing": [
+      {
+        "codepoint": "U+2103",
+        "char": "℃",
+        "name": "DEGREE CELSIUS",
+        "category": "So"
+      }
+    ],
+    "passed": false
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "PT Serif Bold",
+    "glyph_count": 719
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "reverse_aliases_present",
+    "legacy_cmap_present",
+    "required_characters_missing"
+  ],
+  "result": "fail",
+  "failure_stage": "strict_cmap"
+}

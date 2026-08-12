@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivo/Archivo%5Bwdth%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivo/Archivo%5Bwdth%2Cwght%5D.ttf",
+  "filename": "Archivo_wdth_wght_.ttf",
+  "output_key": "068af4d048d448c862a7b40e4225ca7e",
+  "size_bytes": 658596,
+  "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/068af4d048d448c862a7b40e4225ca7e/Archivo_wdth_wght_.ttf.b64.txt",
+  "base64_size_bytes": 889683,
+  "validation_target_file": "encoded/068af4d048d448c862a7b40e4225ca7e/validation-target.json",
+  "validation_source_file": "encoded/068af4d048d448c862a7b40e4225ca7e/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

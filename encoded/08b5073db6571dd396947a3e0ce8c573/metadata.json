@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/chironsunghk/ChironSungHK-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/chironsunghk/ChironSungHK-Italic%5Bwght%5D.ttf",
+  "filename": "ChironSungHK-Italic_wght_.ttf",
+  "output_key": "08b5073db6571dd396947a3e0ce8c573",
+  "size_bytes": 51926120,
+  "sha256": "5e2434ba30eee3ed90fcf5aed4690964cdf9c7c0cf9bec61b1adb695f009e12f",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/08b5073db6571dd396947a3e0ce8c573/ChironSungHK-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 70145813,
+  "validation_target_file": "encoded/08b5073db6571dd396947a3e0ce8c573/validation-target.json",
+  "validation_source_file": "encoded/08b5073db6571dd396947a3e0ce8c573/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

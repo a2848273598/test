@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter-Italic%5Bopsz%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter-Italic%5Bopsz%2Cwght%5D.ttf",
+  "filename": "Inter-Italic_opsz_wght_.ttf",
+  "output_key": "5a71362e7be769ab8629fbaba5ea349b",
+  "size_bytes": 906596,
+  "sha256": "acd98e64795781b2058f07b18475e0ecee2a0fe2b42a49e2f9e37d0d6bf66ce6",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/5a71362e7be769ab8629fbaba5ea349b/Inter-Italic_opsz_wght_.ttf.b64.txt",
+  "base64_size_bytes": 1224702,
+  "validation_target_file": "encoded/5a71362e7be769ab8629fbaba5ea349b/validation-target.json",
+  "validation_source_file": "encoded/5a71362e7be769ab8629fbaba5ea349b/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

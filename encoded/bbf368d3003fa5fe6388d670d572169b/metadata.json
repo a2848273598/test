@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zenkakugothicantique/ZenKakuGothicAntique-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zenkakugothicantique/ZenKakuGothicAntique-Regular.ttf",
+  "filename": "ZenKakuGothicAntique-Regular.ttf",
+  "output_key": "bbf368d3003fa5fe6388d670d572169b",
+  "size_bytes": 2370412,
+  "sha256": "e79b874ef1ae0cfe5b9d750f5990d408874300b17c7a02cb6e86e73a14a33005",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/bbf368d3003fa5fe6388d670d572169b/ZenKakuGothicAntique-Regular.ttf.b64.txt",
+  "base64_size_bytes": 3202139,
+  "validation_target_file": "encoded/bbf368d3003fa5fe6388d670d572169b/validation-target.json",
+  "validation_source_file": "encoded/bbf368d3003fa5fe6388d670d572169b/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

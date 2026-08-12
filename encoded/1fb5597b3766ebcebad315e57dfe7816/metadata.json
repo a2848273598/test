@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dohyeon/DoHyeon-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dohyeon/DoHyeon-Regular.ttf",
+  "filename": "DoHyeon-Regular.ttf",
+  "output_key": "1fb5597b3766ebcebad315e57dfe7816",
+  "size_bytes": 879764,
+  "sha256": "35644be7f28e0a68a447b1f7af351dcde5674b870f24f7b5f43e26d00b4ab653",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/1fb5597b3766ebcebad315e57dfe7816/DoHyeon-Regular.ttf.b64.txt",
+  "base64_size_bytes": 1188455,
+  "validation_target_file": "encoded/1fb5597b3766ebcebad315e57dfe7816/validation-target.json",
+  "validation_source_file": "encoded/1fb5597b3766ebcebad315e57dfe7816/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

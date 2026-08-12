@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ptsans/PT_Sans-Web-Italic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ptsans/PT_Sans-Web-Italic.ttf",
+  "filename": "PT_Sans-Web-Italic.ttf",
+  "output_key": "6a4dd234b0bb03d68b9af99f454e4d75",
+  "size_bytes": 436452,
+  "sha256": "5a90fe2d0cd798700935240580bdcc12c0ffc9102c0c7163b3418e13bc21debd",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/6a4dd234b0bb03d68b9af99f454e4d75/PT_Sans-Web-Italic.ttf.b64.txt",
+  "base64_size_bytes": 589594,
+  "validation_target_file": "encoded/6a4dd234b0bb03d68b9af99f454e4d75/validation-target.json",
+  "validation_source_file": "encoded/6a4dd234b0bb03d68b9af99f454e4d75/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

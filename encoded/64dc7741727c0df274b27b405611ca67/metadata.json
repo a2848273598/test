@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lato/Lato-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lato/Lato-Regular.ttf",
+  "filename": "Lato-Regular.ttf",
+  "output_key": "64dc7741727c0df274b27b405611ca67",
+  "size_bytes": 656568,
+  "sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/64dc7741727c0df274b27b405611ca67/Lato-Regular.ttf.b64.txt",
+  "base64_size_bytes": 886943,
+  "validation_target_file": "encoded/64dc7741727c0df274b27b405611ca67/validation-target.json",
+  "validation_source_file": "encoded/64dc7741727c0df274b27b405611ca67/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

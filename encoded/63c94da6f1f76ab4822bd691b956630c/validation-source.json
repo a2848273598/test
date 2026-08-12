@@ -1,0 +1,299 @@
+{
+  "version": 2,
+  "profile": "source",
+  "strict": true,
+  "validation_policy": "strict-v2-cc-filtered",
+  "filename": "Cousine-BoldItalic.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cousine/Cousine-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cousine/Cousine-BoldItalic.ttf",
+  "size_bytes": 308292,
+  "sha256": "848e858726fee0ae27b754e4cd6a2755209bf1428a8c91f747696d58c33906c3",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "Cousine-BoldItalic",
+    "glyph_count": 2401,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 2282
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 2282
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [],
+    "unicode_codepoint_count": 2282,
+    "cmap_conflict_count": 0,
+    "raw_reverse_alias_count": 6,
+    "reverse_alias_count": 6,
+    "ignored_cc_alias_group_count": 0,
+    "ambiguous_glyph_count": 0,
+    "ambiguous_standard_codepoint_count": 0,
+    "pua_codepoint_count": 0,
+    "cmap_conflict_sample": [],
+    "raw_reverse_alias_sample": [
+      {
+        "glyph": "space",
+        "gid": 3,
+        "unicode": [
+          {
+            "codepoint": "U+0020",
+            "char": " ",
+            "name": "SPACE",
+            "category": "Zs"
+          },
+          {
+            "codepoint": "U+00A0",
+            "char": " ",
+            "name": "NO-BREAK SPACE",
+            "category": "Zs"
+          }
+        ]
+      },
+      {
+        "glyph": "hyphen",
+        "gid": 16,
+        "unicode": [
+          {
+            "codepoint": "U+002D",
+            "char": "-",
+            "name": "HYPHEN-MINUS",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+00AD",
+            "char": "­",
+            "name": "SOFT HYPHEN",
+            "category": "Cf"
+          }
+        ]
+      },
+      {
+        "glyph": "semicolon",
+        "gid": 30,
+        "unicode": [
+          {
+            "codepoint": "U+003B",
+            "char": ";",
+            "name": "SEMICOLON",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+037E",
+            "char": ";",
+            "name": "GREEK QUESTION MARK",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "uni018F",
+        "gid": 821,
+        "unicode": [
+          {
+            "codepoint": "U+018F",
+            "char": "Ə",
+            "name": "LATIN CAPITAL LETTER SCHWA",
+            "category": "Lu"
+          },
+          {
+            "codepoint": "U+04D8",
+            "char": "Ә",
+            "name": "CYRILLIC CAPITAL LETTER SCHWA",
+            "category": "Lu"
+          }
+        ]
+      },
+      {
+        "glyph": "uni0259",
+        "gid": 822,
+        "unicode": [
+          {
+            "codepoint": "U+0259",
+            "char": "ə",
+            "name": "LATIN SMALL LETTER SCHWA",
+            "category": "Ll"
+          },
+          {
+            "codepoint": "U+04D9",
+            "char": "ә",
+            "name": "CYRILLIC SMALL LETTER SCHWA",
+            "category": "Ll"
+          }
+        ]
+      },
+      {
+        "glyph": "fraction",
+        "gid": 186,
+        "unicode": [
+          {
+            "codepoint": "U+2044",
+            "char": "⁄",
+            "name": "FRACTION SLASH",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+2215",
+            "char": "∕",
+            "name": "DIVISION SLASH",
+            "category": "Sm"
+          }
+        ]
+      }
+    ],
+    "reverse_alias_sample": [
+      {
+        "glyph": "space",
+        "gid": 3,
+        "unicode": [
+          {
+            "codepoint": "U+0020",
+            "char": " ",
+            "name": "SPACE",
+            "category": "Zs"
+          },
+          {
+            "codepoint": "U+00A0",
+            "char": " ",
+            "name": "NO-BREAK SPACE",
+            "category": "Zs"
+          }
+        ]
+      },
+      {
+        "glyph": "hyphen",
+        "gid": 16,
+        "unicode": [
+          {
+            "codepoint": "U+002D",
+            "char": "-",
+            "name": "HYPHEN-MINUS",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+00AD",
+            "char": "­",
+            "name": "SOFT HYPHEN",
+            "category": "Cf"
+          }
+        ]
+      },
+      {
+        "glyph": "semicolon",
+        "gid": 30,
+        "unicode": [
+          {
+            "codepoint": "U+003B",
+            "char": ";",
+            "name": "SEMICOLON",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+037E",
+            "char": ";",
+            "name": "GREEK QUESTION MARK",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "uni018F",
+        "gid": 821,
+        "unicode": [
+          {
+            "codepoint": "U+018F",
+            "char": "Ə",
+            "name": "LATIN CAPITAL LETTER SCHWA",
+            "category": "Lu"
+          },
+          {
+            "codepoint": "U+04D8",
+            "char": "Ә",
+            "name": "CYRILLIC CAPITAL LETTER SCHWA",
+            "category": "Lu"
+          }
+        ]
+      },
+      {
+        "glyph": "uni0259",
+        "gid": 822,
+        "unicode": [
+          {
+            "codepoint": "U+0259",
+            "char": "ə",
+            "name": "LATIN SMALL LETTER SCHWA",
+            "category": "Ll"
+          },
+          {
+            "codepoint": "U+04D9",
+            "char": "ә",
+            "name": "CYRILLIC SMALL LETTER SCHWA",
+            "category": "Ll"
+          }
+        ]
+      },
+      {
+        "glyph": "fraction",
+        "gid": 186,
+        "unicode": [
+          {
+            "codepoint": "U+2044",
+            "char": "⁄",
+            "name": "FRACTION SLASH",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+2215",
+            "char": "∕",
+            "name": "DIVISION SLASH",
+            "category": "Sm"
+          }
+        ]
+      }
+    ],
+    "cjk_compat_alias_sample": []
+  },
+  "coverage": {
+    "required_count": 103,
+    "missing_count": 1,
+    "missing": [
+      {
+        "codepoint": "U+2103",
+        "char": "℃",
+        "name": "DEGREE CELSIUS",
+        "category": "So"
+      }
+    ],
+    "passed": false
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "Cousine Bold Italic",
+    "glyph_count": 2401
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "reverse_aliases_present",
+    "required_characters_missing"
+  ],
+  "result": "fail",
+  "failure_stage": "strict_cmap"
+}

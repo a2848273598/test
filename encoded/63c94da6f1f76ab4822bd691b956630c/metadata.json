@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cousine/Cousine-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cousine/Cousine-BoldItalic.ttf",
+  "filename": "Cousine-BoldItalic.ttf",
+  "output_key": "63c94da6f1f76ab4822bd691b956630c",
+  "size_bytes": 308292,
+  "sha256": "848e858726fee0ae27b754e4cd6a2755209bf1428a8c91f747696d58c33906c3",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/63c94da6f1f76ab4822bd691b956630c/Cousine-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 416465,
+  "validation_target_file": "encoded/63c94da6f1f76ab4822bd691b956630c/validation-target.json",
+  "validation_source_file": "encoded/63c94da6f1f76ab4822bd691b956630c/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

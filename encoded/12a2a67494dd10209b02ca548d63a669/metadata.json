@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivoblack/ArchivoBlack-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivoblack/ArchivoBlack-Regular.ttf",
+  "filename": "ArchivoBlack-Regular.ttf",
+  "output_key": "12a2a67494dd10209b02ca548d63a669",
+  "size_bytes": 90988,
+  "sha256": "dd9a89a019b4849f66ab75455fe7bdf931311042cbb0f0f97acc061539703180",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/12a2a67494dd10209b02ca548d63a669/ArchivoBlack-Regular.ttf.b64.txt",
+  "base64_size_bytes": 122917,
+  "validation_target_file": "encoded/12a2a67494dd10209b02ca548d63a669/validation-target.json",
+  "validation_source_file": "encoded/12a2a67494dd10209b02ca548d63a669/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

@@ -1,0 +1,1064 @@
+{
+  "version": 2,
+  "profile": "target",
+  "strict": true,
+  "validation_policy": "strict-v2-cc-filtered",
+  "filename": "ReggaeOne-Regular.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/reggaeone/ReggaeOne-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/reggaeone/ReggaeOne-Regular.ttf",
+  "size_bytes": 2153256,
+  "sha256": "aebe62598732d76036f30ec11bb0ec5f68938e373a06d1b4ceb6b9cf1abf3db2",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "ReggaeOne-Regular",
+    "glyph_count": 9362,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 8217
+      },
+      {
+        "table": "platform=0, encoding=4, format=12",
+        "count": 8231
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 8217
+      },
+      {
+        "table": "platform=3, encoding=10, format=12",
+        "count": 8231
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [],
+    "unicode_codepoint_count": 8231,
+    "cmap_conflict_count": 0,
+    "raw_reverse_alias_count": 255,
+    "reverse_alias_count": 255,
+    "ignored_cc_alias_group_count": 0,
+    "ambiguous_glyph_count": 7,
+    "ambiguous_standard_codepoint_count": 7,
+    "pua_codepoint_count": 0,
+    "cmap_conflict_sample": [],
+    "raw_reverse_alias_sample": [
+      {
+        "glyph": "hyphen",
+        "gid": 14,
+        "unicode": [
+          {
+            "codepoint": "U+002D",
+            "char": "-",
+            "name": "HYPHEN-MINUS",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+2011",
+            "char": "‑",
+            "name": "NON-BREAKING HYPHEN",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "underscore",
+        "gid": 64,
+        "unicode": [
+          {
+            "codepoint": "U+005F",
+            "char": "_",
+            "name": "LOW LINE",
+            "category": "Pc"
+          },
+          {
+            "codepoint": "U+0332",
+            "char": "̲",
+            "name": "COMBINING LOW LINE",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "grave",
+        "gid": 65,
+        "unicode": [
+          {
+            "codepoint": "U+0060",
+            "char": "`",
+            "name": "GRAVE ACCENT",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+02CB",
+            "char": "ˋ",
+            "name": "MODIFIER LETTER GRAVE ACCENT",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+0300",
+            "char": "̀",
+            "name": "COMBINING GRAVE ACCENT",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "asciitilde",
+        "gid": 100,
+        "unicode": [
+          {
+            "codepoint": "U+007E",
+            "char": "~",
+            "name": "TILDE",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+223C",
+            "char": "∼",
+            "name": "TILDE OPERATOR",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "macron",
+        "gid": 129,
+        "unicode": [
+          {
+            "codepoint": "U+00AF",
+            "char": "¯",
+            "name": "MACRON",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+02C9",
+            "char": "ˉ",
+            "name": "MODIFIER LETTER MACRON",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+0304",
+            "char": "̄",
+            "name": "COMBINING MACRON",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "periodcentered",
+        "gid": 117,
+        "unicode": [
+          {
+            "codepoint": "U+00B7",
+            "char": "·",
+            "name": "MIDDLE DOT",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+2219",
+            "char": "∙",
+            "name": "BULLET OPERATOR",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "cedilla",
+        "gid": 134,
+        "unicode": [
+          {
+            "codepoint": "U+00B8",
+            "char": "¸",
+            "name": "CEDILLA",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+0327",
+            "char": "̧",
+            "name": "COMBINING CEDILLA",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "quoteleft",
+        "gid": 98,
+        "unicode": [
+          {
+            "codepoint": "U+02BB",
+            "char": "ʻ",
+            "name": "MODIFIER LETTER TURNED COMMA",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+2018",
+            "char": "‘",
+            "name": "LEFT SINGLE QUOTATION MARK",
+            "category": "Pi"
+          }
+        ]
+      },
+      {
+        "glyph": "quoteright",
+        "gid": 96,
+        "unicode": [
+          {
+            "codepoint": "U+02BC",
+            "char": "ʼ",
+            "name": "MODIFIER LETTER APOSTROPHE",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+2019",
+            "char": "’",
+            "name": "RIGHT SINGLE QUOTATION MARK",
+            "category": "Pf"
+          }
+        ]
+      },
+      {
+        "glyph": "circumflex",
+        "gid": 128,
+        "unicode": [
+          {
+            "codepoint": "U+02C6",
+            "char": "ˆ",
+            "name": "MODIFIER LETTER CIRCUMFLEX ACCENT",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+0302",
+            "char": "̂",
+            "name": "COMBINING CIRCUMFLEX ACCENT",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "acutecomb",
+        "gid": 127,
+        "unicode": [
+          {
+            "codepoint": "U+02CA",
+            "char": "ˊ",
+            "name": "MODIFIER LETTER ACUTE ACCENT",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+0301",
+            "char": "́",
+            "name": "COMBINING ACUTE ACCENT",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "ring",
+        "gid": 133,
+        "unicode": [
+          {
+            "codepoint": "U+02DA",
+            "char": "˚",
+            "name": "RING ABOVE",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+030A",
+            "char": "̊",
+            "name": "COMBINING RING ABOVE",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "tilde",
+        "gid": 95,
+        "unicode": [
+          {
+            "codepoint": "U+02DC",
+            "char": "˜",
+            "name": "SMALL TILDE",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+0303",
+            "char": "̃",
+            "name": "COMBINING TILDE",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "uni0305",
+        "gid": 226,
+        "unicode": [
+          {
+            "codepoint": "U+0305",
+            "char": "̅",
+            "name": "COMBINING OVERLINE",
+            "category": "Mn"
+          },
+          {
+            "codepoint": "U+203E",
+            "char": "‾",
+            "name": "OVERLINE",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "emdash",
+        "gid": 138,
+        "unicode": [
+          {
+            "codepoint": "U+0336",
+            "char": "̶",
+            "name": "COMBINING LONG STROKE OVERLAY",
+            "category": "Mn"
+          },
+          {
+            "codepoint": "U+2014",
+            "char": "—",
+            "name": "EM DASH",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3000",
+        "gid": 633,
+        "unicode": [
+          {
+            "codepoint": "U+2003",
+            "char": " ",
+            "name": "EM SPACE",
+            "category": "Zs"
+          },
+          {
+            "codepoint": "U+3000",
+            "char": "　",
+            "name": "IDEOGRAPHIC SPACE",
+            "category": "Zs"
+          }
+        ]
+      },
+      {
+        "glyph": "endash",
+        "gid": 114,
+        "unicode": [
+          {
+            "codepoint": "U+2012",
+            "char": "‒",
+            "name": "FIGURE DASH",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+2013",
+            "char": "–",
+            "name": "EN DASH",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "uni205A",
+        "gid": 7898,
+        "unicode": [
+          {
+            "codepoint": "U+205A",
+            "char": "⁚",
+            "name": "TWO DOT PUNCTUATION",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FE30",
+            "char": "︰",
+            "name": "PRESENTATION FORM FOR VERTICAL TWO DOT LEADER",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "uni205D",
+        "gid": 7897,
+        "unicode": [
+          {
+            "codepoint": "U+205D",
+            "char": "⁝",
+            "name": "TRICOLON",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FE19",
+            "char": "︙",
+            "name": "PRESENTATION FORM FOR VERTICAL HORIZONTAL ELLIPSIS",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3008",
+        "gid": 682,
+        "unicode": [
+          {
+            "codepoint": "U+2329",
+            "char": "〈",
+            "name": "LEFT-POINTING ANGLE BRACKET",
+            "category": "Ps"
+          },
+          {
+            "codepoint": "U+3008",
+            "char": "〈",
+            "name": "LEFT ANGLE BRACKET",
+            "category": "Ps"
+          }
+        ]
+      }
+    ],
+    "reverse_alias_sample": [
+      {
+        "glyph": "hyphen",
+        "gid": 14,
+        "unicode": [
+          {
+            "codepoint": "U+002D",
+            "char": "-",
+            "name": "HYPHEN-MINUS",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+2011",
+            "char": "‑",
+            "name": "NON-BREAKING HYPHEN",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "underscore",
+        "gid": 64,
+        "unicode": [
+          {
+            "codepoint": "U+005F",
+            "char": "_",
+            "name": "LOW LINE",
+            "category": "Pc"
+          },
+          {
+            "codepoint": "U+0332",
+            "char": "̲",
+            "name": "COMBINING LOW LINE",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "grave",
+        "gid": 65,
+        "unicode": [
+          {
+            "codepoint": "U+0060",
+            "char": "`",
+            "name": "GRAVE ACCENT",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+02CB",
+            "char": "ˋ",
+            "name": "MODIFIER LETTER GRAVE ACCENT",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+0300",
+            "char": "̀",
+            "name": "COMBINING GRAVE ACCENT",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "asciitilde",
+        "gid": 100,
+        "unicode": [
+          {
+            "codepoint": "U+007E",
+            "char": "~",
+            "name": "TILDE",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+223C",
+            "char": "∼",
+            "name": "TILDE OPERATOR",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "macron",
+        "gid": 129,
+        "unicode": [
+          {
+            "codepoint": "U+00AF",
+            "char": "¯",
+            "name": "MACRON",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+02C9",
+            "char": "ˉ",
+            "name": "MODIFIER LETTER MACRON",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+0304",
+            "char": "̄",
+            "name": "COMBINING MACRON",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "periodcentered",
+        "gid": 117,
+        "unicode": [
+          {
+            "codepoint": "U+00B7",
+            "char": "·",
+            "name": "MIDDLE DOT",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+2219",
+            "char": "∙",
+            "name": "BULLET OPERATOR",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "cedilla",
+        "gid": 134,
+        "unicode": [
+          {
+            "codepoint": "U+00B8",
+            "char": "¸",
+            "name": "CEDILLA",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+0327",
+            "char": "̧",
+            "name": "COMBINING CEDILLA",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "quoteleft",
+        "gid": 98,
+        "unicode": [
+          {
+            "codepoint": "U+02BB",
+            "char": "ʻ",
+            "name": "MODIFIER LETTER TURNED COMMA",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+2018",
+            "char": "‘",
+            "name": "LEFT SINGLE QUOTATION MARK",
+            "category": "Pi"
+          }
+        ]
+      },
+      {
+        "glyph": "quoteright",
+        "gid": 96,
+        "unicode": [
+          {
+            "codepoint": "U+02BC",
+            "char": "ʼ",
+            "name": "MODIFIER LETTER APOSTROPHE",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+2019",
+            "char": "’",
+            "name": "RIGHT SINGLE QUOTATION MARK",
+            "category": "Pf"
+          }
+        ]
+      },
+      {
+        "glyph": "circumflex",
+        "gid": 128,
+        "unicode": [
+          {
+            "codepoint": "U+02C6",
+            "char": "ˆ",
+            "name": "MODIFIER LETTER CIRCUMFLEX ACCENT",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+0302",
+            "char": "̂",
+            "name": "COMBINING CIRCUMFLEX ACCENT",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "acutecomb",
+        "gid": 127,
+        "unicode": [
+          {
+            "codepoint": "U+02CA",
+            "char": "ˊ",
+            "name": "MODIFIER LETTER ACUTE ACCENT",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+0301",
+            "char": "́",
+            "name": "COMBINING ACUTE ACCENT",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "ring",
+        "gid": 133,
+        "unicode": [
+          {
+            "codepoint": "U+02DA",
+            "char": "˚",
+            "name": "RING ABOVE",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+030A",
+            "char": "̊",
+            "name": "COMBINING RING ABOVE",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "tilde",
+        "gid": 95,
+        "unicode": [
+          {
+            "codepoint": "U+02DC",
+            "char": "˜",
+            "name": "SMALL TILDE",
+            "category": "Sk"
+          },
+          {
+            "codepoint": "U+0303",
+            "char": "̃",
+            "name": "COMBINING TILDE",
+            "category": "Mn"
+          }
+        ]
+      },
+      {
+        "glyph": "uni0305",
+        "gid": 226,
+        "unicode": [
+          {
+            "codepoint": "U+0305",
+            "char": "̅",
+            "name": "COMBINING OVERLINE",
+            "category": "Mn"
+          },
+          {
+            "codepoint": "U+203E",
+            "char": "‾",
+            "name": "OVERLINE",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "emdash",
+        "gid": 138,
+        "unicode": [
+          {
+            "codepoint": "U+0336",
+            "char": "̶",
+            "name": "COMBINING LONG STROKE OVERLAY",
+            "category": "Mn"
+          },
+          {
+            "codepoint": "U+2014",
+            "char": "—",
+            "name": "EM DASH",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3000",
+        "gid": 633,
+        "unicode": [
+          {
+            "codepoint": "U+2003",
+            "char": " ",
+            "name": "EM SPACE",
+            "category": "Zs"
+          },
+          {
+            "codepoint": "U+3000",
+            "char": "　",
+            "name": "IDEOGRAPHIC SPACE",
+            "category": "Zs"
+          }
+        ]
+      },
+      {
+        "glyph": "endash",
+        "gid": 114,
+        "unicode": [
+          {
+            "codepoint": "U+2012",
+            "char": "‒",
+            "name": "FIGURE DASH",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+2013",
+            "char": "–",
+            "name": "EN DASH",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "uni205A",
+        "gid": 7898,
+        "unicode": [
+          {
+            "codepoint": "U+205A",
+            "char": "⁚",
+            "name": "TWO DOT PUNCTUATION",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FE30",
+            "char": "︰",
+            "name": "PRESENTATION FORM FOR VERTICAL TWO DOT LEADER",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "uni205D",
+        "gid": 7897,
+        "unicode": [
+          {
+            "codepoint": "U+205D",
+            "char": "⁝",
+            "name": "TRICOLON",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FE19",
+            "char": "︙",
+            "name": "PRESENTATION FORM FOR VERTICAL HORIZONTAL ELLIPSIS",
+            "category": "Po"
+          }
+        ]
+      },
+      {
+        "glyph": "uni3008",
+        "gid": 682,
+        "unicode": [
+          {
+            "codepoint": "U+2329",
+            "char": "〈",
+            "name": "LEFT-POINTING ANGLE BRACKET",
+            "category": "Ps"
+          },
+          {
+            "codepoint": "U+3008",
+            "char": "〈",
+            "name": "LEFT ANGLE BRACKET",
+            "category": "Ps"
+          }
+        ]
+      }
+    ],
+    "cjk_compat_alias_sample": [
+      {
+        "glyph": "uni51A4",
+        "gid": 7817,
+        "unicode": [
+          {
+            "codepoint": "U+51A4",
+            "char": "冤",
+            "name": "CJK UNIFIED IDEOGRAPH-51A4",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F818",
+            "char": "冤",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F818",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni5835",
+        "gid": 7753,
+        "unicode": [
+          {
+            "codepoint": "U+5835",
+            "char": "堵",
+            "name": "CJK UNIFIED IDEOGRAPH-5835",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F877",
+            "char": "屠",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F877",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni6753",
+        "gid": 7695,
+        "unicode": [
+          {
+            "codepoint": "U+6753",
+            "char": "杓",
+            "name": "CJK UNIFIED IDEOGRAPH-6753",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F8DC",
+            "char": "杓",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F8DC",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni6ADB",
+        "gid": 7665,
+        "unicode": [
+          {
+            "codepoint": "U+6ADB",
+            "char": "櫛",
+            "name": "CJK UNIFIED IDEOGRAPH-6ADB",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+2F8ED",
+            "char": "櫛",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F8ED",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni6EBA",
+        "gid": 7750,
+        "unicode": [
+          {
+            "codepoint": "U+6EBA",
+            "char": "溺",
+            "name": "CJK UNIFIED IDEOGRAPH-6EBA",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F9EC",
+            "char": "溺",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F9EC",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni6F23",
+        "gid": 7809,
+        "unicode": [
+          {
+            "codepoint": "U+6F23",
+            "char": "漣",
+            "name": "CJK UNIFIED IDEOGRAPH-6F23",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F992",
+            "char": "漣",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F992",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni7149",
+        "gid": 7810,
+        "unicode": [
+          {
+            "codepoint": "U+7149",
+            "char": "煉",
+            "name": "CJK UNIFIED IDEOGRAPH-7149",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+F993",
+            "char": "煉",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F993",
+            "category": "Lo"
+          }
+        ]
+      }
+    ]
+  },
+  "coverage": {
+    "required_count": 177,
+    "missing_count": 18,
+    "missing": [
+      {
+        "codepoint": "U+7535",
+        "char": "电",
+        "name": "CJK UNIFIED IDEOGRAPH-7535",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+538B",
+        "char": "压",
+        "name": "CJK UNIFIED IDEOGRAPH-538B",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+76D1",
+        "char": "监",
+        "name": "CJK UNIFIED IDEOGRAPH-76D1",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+62A4",
+        "char": "护",
+        "name": "CJK UNIFIED IDEOGRAPH-62A4",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+7EDD",
+        "char": "绝",
+        "name": "CJK UNIFIED IDEOGRAPH-7EDD",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+5BF9",
+        "char": "对",
+        "name": "CJK UNIFIED IDEOGRAPH-5BF9",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+989D",
+        "char": "额",
+        "name": "CJK UNIFIED IDEOGRAPH-989D",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+503C",
+        "char": "值",
+        "name": "CJK UNIFIED IDEOGRAPH-503C",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+672F",
+        "char": "术",
+        "name": "CJK UNIFIED IDEOGRAPH-672F",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+8F6C",
+        "char": "转",
+        "name": "CJK UNIFIED IDEOGRAPH-8F6C",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+6362",
+        "char": "换",
+        "name": "CJK UNIFIED IDEOGRAPH-6362",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+9A71",
+        "char": "驱",
+        "name": "CJK UNIFIED IDEOGRAPH-9A71",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+52A8",
+        "char": "动",
+        "name": "CJK UNIFIED IDEOGRAPH-52A8",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+6D4B",
+        "char": "测",
+        "name": "CJK UNIFIED IDEOGRAPH-6D4B",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+8FDE",
+        "char": "连",
+        "name": "CJK UNIFIED IDEOGRAPH-8FDE",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+6267",
+        "char": "执",
+        "name": "CJK UNIFIED IDEOGRAPH-6267",
+        "category": "Lo"
+      },
+      {
+        "codepoint": "U+2264",
+        "char": "≤",
+        "name": "LESS-THAN OR EQUAL TO",
+        "category": "Sm"
+      },
+      {
+        "codepoint": "U+2265",
+        "char": "≥",
+        "name": "GREATER-THAN OR EQUAL TO",
+        "category": "Sm"
+      }
+    ],
+    "passed": false
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "Reggae One Regular",
+    "glyph_count": 9362
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "reverse_aliases_present",
+    "required_characters_missing"
+  ],
+  "result": "fail",
+  "failure_stage": "strict_cmap"
+}

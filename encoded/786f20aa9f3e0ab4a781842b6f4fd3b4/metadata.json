@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ptserif/PT_Serif-Web-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ptserif/PT_Serif-Web-Bold.ttf",
+  "filename": "PT_Serif-Web-Bold.ttf",
+  "output_key": "786f20aa9f3e0ab4a781842b6f4fd3b4",
+  "size_bytes": 339996,
+  "sha256": "038ba7336bd7ea14f12ad155bed51a4345cac5153275d521dec3ba04021c526e",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/786f20aa9f3e0ab4a781842b6f4fd3b4/PT_Serif-Web-Bold.ttf.b64.txt",
+  "base64_size_bytes": 459293,
+  "validation_target_file": "encoded/786f20aa9f3e0ab4a781842b6f4fd3b4/validation-target.json",
+  "validation_source_file": "encoded/786f20aa9f3e0ab4a781842b6f4fd3b4/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

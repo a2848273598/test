@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tuffy/Tuffy-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tuffy/Tuffy-BoldItalic.ttf",
+  "filename": "Tuffy-BoldItalic.ttf",
+  "output_key": "916cc6b97ad13fb080023a72281387d8",
+  "size_bytes": 111540,
+  "sha256": "03818734e59d18e9daf66887d275f03481a189291e771ee0b758fa1fc1398a2f",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/916cc6b97ad13fb080023a72281387d8/Tuffy-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 150677,
+  "validation_target_file": "encoded/916cc6b97ad13fb080023a72281387d8/validation-target.json",
+  "validation_source_file": "encoded/916cc6b97ad13fb080023a72281387d8/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

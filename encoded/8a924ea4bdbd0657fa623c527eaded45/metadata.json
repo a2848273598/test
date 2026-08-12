@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/carlito/Carlito-Bold.ttf",
+  "filename": "Carlito-Bold.ttf",
+  "output_key": "8a924ea4bdbd0657fa623c527eaded45",
+  "size_bytes": 682468,
+  "sha256": "bb5d20f79b82599ec72983597437373a80f2d2085fa91fc144fd74e876a594db",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/8a924ea4bdbd0657fa623c527eaded45/Carlito-Bold.ttf.b64.txt",
+  "base64_size_bytes": 921934,
+  "validation_target_file": "encoded/8a924ea4bdbd0657fa623c527eaded45/validation-target.json",
+  "validation_source_file": "encoded/8a924ea4bdbd0657fa623c527eaded45/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "version": 2,
+  "profile": "source",
+  "strict": true,
+  "validation_policy": "strict-v4-role-corpus-dynamic-roundtrip",
+  "filename": "IBMPlexSans_wdth_wght_.ttf",
+  "font_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/IBMPlexSans%5Bwdth%2Cwght%5D.ttf",
+  "corpus": {
+    "requested_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-validation-tool-smoke/783dcbae903b9fa5f775a9defece7060347b638b97cc360d0fe04fad56d6af50.source.txt",
+    "final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-validation-tool-smoke/783dcbae903b9fa5f775a9defece7060347b638b97cc360d0fe04fad56d6af50.source.txt",
+    "size_bytes": 34,
+    "sha256": "783dcbae903b9fa5f775a9defece7060347b638b97cc360d0fe04fad56d6af50",
+    "chunk_chars": 200,
+    "test_string_count": 1,
+    "normalized_newlines_to_spaces": true
+  },
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/IBMPlexSans%5Bwdth%2Cwght%5D.ttf",
+  "size_bytes": 537244,
+  "sha256": "3b031aa4216174205bd8471f88a49b91f093169e9e87bd5262242bc5967fe2e3",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "IBMPlexSans-Regular",
+    "glyph_count": 1025,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 891
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 891
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [],
+    "unicode_codepoint_count": 891,
+    "cmap_conflict_count": 0,
+    "raw_reverse_alias_count": 0,
+    "reverse_alias_count": 0,
+    "ignored_cc_alias_group_count": 0,
+    "ambiguous_glyph_count": 0,
+    "ambiguous_standard_codepoint_count": 0,
+    "pua_codepoint_count": 2,
+    "cmap_conflict_sample": [],
+    "raw_reverse_alias_sample": [],
+    "reverse_alias_sample": [],
+    "cjk_compat_alias_sample": []
+  },
+  "static_warnings": [],
+  "coverage": {
+    "required_count": 34,
+    "missing_count": 0,
+    "missing": [],
+    "passed": true
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "IBM Plex Sans Regular",
+    "glyph_count": 1025
+  },
+  "roundtrip": {
+    "status": "pass",
+    "insert_text": {
+      "status": "pass",
+      "test_string_count": 1,
+      "test_char_count": 33,
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": [],
+      "compatibility_ideographs_found_after_extract": false
+    },
+    "insert_textbox": {
+      "status": "pass",
+      "test_string_count": 1,
+      "test_char_count": 33,
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": [],
+      "compatibility_ideographs_found_after_extract": false
+    },
+    "subset_fonts_tested": true,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [],
+  "result": "pass"
+}

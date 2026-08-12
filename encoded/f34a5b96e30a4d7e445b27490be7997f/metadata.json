@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Italic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/FiraSans-Italic.ttf",
+  "filename": "FiraSans-Italic.ttf",
+  "output_key": "f34a5b96e30a4d7e445b27490be7997f",
+  "size_bytes": 472396,
+  "sha256": "a4204f9a8029c1c55daa5385ac95936f74abea3e232770f1fb2862a19d1dfa13",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/f34a5b96e30a4d7e445b27490be7997f/FiraSans-Italic.ttf.b64.txt",
+  "base64_size_bytes": 638152,
+  "validation_target_file": "encoded/f34a5b96e30a4d7e445b27490be7997f/validation-target.json",
+  "validation_source_file": "encoded/f34a5b96e30a4d7e445b27490be7997f/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

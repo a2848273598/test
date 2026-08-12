@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/chironsunghk/ChironSungHK%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/chironsunghk/ChironSungHK%5Bwght%5D.ttf",
+  "filename": "ChironSungHK_wght_.ttf",
+  "output_key": "92bc9fbf0738e87dd62b6503ce05fe5d",
+  "size_bytes": 50652520,
+  "sha256": "c88d5db947f4aad3399105d2c1c808a64580ab65e8cb26e58bb81cd96843d130",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/92bc9fbf0738e87dd62b6503ce05fe5d/ChironSungHK_wght_.ttf.b64.txt",
+  "base64_size_bytes": 68425337,
+  "validation_target_file": "encoded/92bc9fbf0738e87dd62b6503ce05fe5d/validation-target.json",
+  "validation_source_file": "encoded/92bc9fbf0738e87dd62b6503ce05fe5d/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

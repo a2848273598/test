@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/gulim/Gulim-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/gulim/Gulim-Regular.ttf",
+  "filename": "Gulim-Regular.ttf",
+  "output_key": "84a635be7119a69b55e3c2cd8a2ce16a",
+  "size_bytes": 4719024,
+  "sha256": "a435857b8ffe2102f8faa7cf098d0d48b1d01d951c1c8326770848203bb7b5c2",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/84a635be7119a69b55e3c2cd8a2ce16a/Gulim-Regular.ttf.b64.txt",
+  "base64_size_bytes": 6374822,
+  "validation_target_file": "encoded/84a635be7119a69b55e3c2cd8a2ce16a/validation-target.json",
+  "validation_source_file": "encoded/84a635be7119a69b55e3c2cd8a2ce16a/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

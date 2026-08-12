@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sairacondensed/SairaCondensed-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sairacondensed/SairaCondensed-Bold.ttf",
+  "filename": "SairaCondensed-Bold.ttf",
+  "output_key": "881b502ef654e0bc63493a0c30a7f7ce",
+  "size_bytes": 96428,
+  "sha256": "560297e4bccfb8c6e643095e716b5ea2ea9d7289801ddd79ab901698ffb0dee6",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/881b502ef654e0bc63493a0c30a7f7ce/SairaCondensed-Bold.ttf.b64.txt",
+  "base64_size_bytes": 130264,
+  "validation_target_file": "encoded/881b502ef654e0bc63493a0c30a7f7ce/validation-target.json",
+  "validation_source_file": "encoded/881b502ef654e0bc63493a0c30a7f7ce/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

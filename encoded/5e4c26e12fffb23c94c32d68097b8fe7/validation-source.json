@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "profile": "source",
+  "strict": true,
+  "filename": "Gulim-Regular.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/gulim/Gulim-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/gulim/Gulim-Regular.ttf",
+  "size_bytes": 4719024,
+  "sha256": "a435857b8ffe2102f8faa7cf098d0d48b1d01d951c1c8326770848203bb7b5c2",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "Gulim-Regular",
+    "glyph_count": 22522,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 20579
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [],
+    "unicode_codepoint_count": 20579,
+    "cmap_conflict_count": 0,
+    "reverse_alias_count": 1,
+    "ambiguous_glyph_count": 0,
+    "ambiguous_standard_codepoint_count": 0,
+    "pua_codepoint_count": 0,
+    "cmap_conflict_sample": [],
+    "reverse_alias_sample": [
+      {
+        "glyph": "backslash",
+        "gid": 94,
+        "unicode": [
+          {
+            "codepoint": "U+005C",
+            "char": "\\",
+            "name": "REVERSE SOLIDUS"
+          },
+          {
+            "codepoint": "U+20A9",
+            "char": "₩",
+            "name": "WON SIGN"
+          }
+        ]
+      }
+    ],
+    "cjk_compat_alias_sample": []
+  },
+  "coverage": {
+    "required_count": 103,
+    "missing_count": 0,
+    "missing": [],
+    "passed": true
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "Gulim Regular",
+    "glyph_count": 22522
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "reverse_aliases_present"
+  ],
+  "result": "fail",
+  "failure_stage": "strict_cmap"
+}

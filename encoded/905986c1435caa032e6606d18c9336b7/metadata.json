@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/intertight/InterTight-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/intertight/InterTight-Italic%5Bwght%5D.ttf",
+  "filename": "InterTight-Italic_wght_.ttf",
+  "output_key": "905986c1435caa032e6606d18c9336b7",
+  "size_bytes": 593844,
+  "sha256": "15d3edf0c3d2560658529b8c4c7398d06c730a4695484c680b6c9ca9e4385be2",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/905986c1435caa032e6606d18c9336b7/InterTight-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 802211,
+  "validation_target_file": "encoded/905986c1435caa032e6606d18c9336b7/validation-target.json",
+  "validation_source_file": "encoded/905986c1435caa032e6606d18c9336b7/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

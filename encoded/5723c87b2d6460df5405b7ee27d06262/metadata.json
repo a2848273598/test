@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-BoldItalic.ttf",
+  "filename": "AtkinsonHyperlegible-BoldItalic.ttf",
+  "output_key": "5723c87b2d6460df5405b7ee27d06262",
+  "size_bytes": 55288,
+  "sha256": "7a46f1b0ef2f64b61065c1a6b5a11fcb9b019b44062d88ba121a083cc39e86bf",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/5723c87b2d6460df5405b7ee27d06262/AtkinsonHyperlegible-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 74690,
+  "validation_target_file": "encoded/5723c87b2d6460df5405b7ee27d06262/validation-target.json",
+  "validation_source_file": "encoded/5723c87b2d6460df5405b7ee27d06262/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

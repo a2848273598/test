@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Bold.ttf",
+  "filename": "AtkinsonHyperlegible-Bold.ttf",
+  "output_key": "ec491e6a68c95d336859c9e4bfebba07",
+  "size_bytes": 55256,
+  "sha256": "5a3b0c8cc8ca545155150b4512a1fa248298df121c50d6557e651e61fbdab92f",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/ec491e6a68c95d336859c9e4bfebba07/AtkinsonHyperlegible-Bold.ttf.b64.txt",
+  "base64_size_bytes": 74646,
+  "validation_target_file": "encoded/ec491e6a68c95d336859c9e4bfebba07/validation-target.json",
+  "validation_source_file": "encoded/ec491e6a68c95d336859c9e4bfebba07/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

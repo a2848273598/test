@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/longcang/LongCang-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/longcang/LongCang-Regular.ttf",
+  "filename": "LongCang-Regular.ttf",
+  "output_key": "a71f18c53c6485e28e4224ffc50d9b61",
+  "size_bytes": 5162508,
+  "sha256": "e5bf2c3f24ef2327c6f136d8f73e2f9dfdf44896fdbeb35a9515f44777bb91bc",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/a71f18c53c6485e28e4224ffc50d9b61/LongCang-Regular.ttf.b64.txt",
+  "base64_size_bytes": 6973915,
+  "validation_target_file": "encoded/a71f18c53c6485e28e4224ffc50d9b61/validation-target.json",
+  "validation_source_file": "encoded/a71f18c53c6485e28e4224ffc50d9b61/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

@@ -1,0 +1,884 @@
+{
+  "version": 2,
+  "profile": "source",
+  "strict": true,
+  "validation_policy": "strict-v2-cc-filtered",
+  "filename": "CactusClassicalSerif-Regular.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cactusclassicalserif/CactusClassicalSerif-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cactusclassicalserif/CactusClassicalSerif-Regular.ttf",
+  "size_bytes": 28502932,
+  "sha256": "ecbd58961db922392d7fecfafa3681fefaeec0c399b860ab6940ba700f7da055",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "CactusClassicalSerif-Regular",
+    "glyph_count": 58570,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 30709
+      },
+      {
+        "table": "platform=0, encoding=4, format=12",
+        "count": 58064
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 30709
+      },
+      {
+        "table": "platform=3, encoding=10, format=12",
+        "count": 58064
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [
+      "platform=0, encoding=5, format=14"
+    ],
+    "unicode_codepoint_count": 58064,
+    "cmap_conflict_count": 0,
+    "raw_reverse_alias_count": 87,
+    "reverse_alias_count": 87,
+    "ignored_cc_alias_group_count": 0,
+    "ambiguous_glyph_count": 3,
+    "ambiguous_standard_codepoint_count": 3,
+    "pua_codepoint_count": 0,
+    "cmap_conflict_sample": [],
+    "raw_reverse_alias_sample": [
+      {
+        "glyph": "uni0020",
+        "gid": 1,
+        "unicode": [
+          {
+            "codepoint": "U+0020",
+            "char": " ",
+            "name": "SPACE",
+            "category": "Zs"
+          },
+          {
+            "codepoint": "U+00A0",
+            "char": " ",
+            "name": "NO-BREAK SPACE",
+            "category": "Zs"
+          }
+        ]
+      },
+      {
+        "glyph": "uni002D",
+        "gid": 502,
+        "unicode": [
+          {
+            "codepoint": "U+002D",
+            "char": "-",
+            "name": "HYPHEN-MINUS",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+00AD",
+            "char": "­",
+            "name": "SOFT HYPHEN",
+            "category": "Cf"
+          },
+          {
+            "codepoint": "U+2010",
+            "char": "‐",
+            "name": "HYPHEN",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "uni00B5",
+        "gid": 884,
+        "unicode": [
+          {
+            "codepoint": "U+00B5",
+            "char": "µ",
+            "name": "MICRO SIGN",
+            "category": "Ll"
+          },
+          {
+            "codepoint": "U+03BC",
+            "char": "μ",
+            "name": "GREEK SMALL LETTER MU",
+            "category": "Ll"
+          }
+        ]
+      },
+      {
+        "glyph": "uni02BB",
+        "gid": 492,
+        "unicode": [
+          {
+            "codepoint": "U+02BB",
+            "char": "ʻ",
+            "name": "MODIFIER LETTER TURNED COMMA",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+2018",
+            "char": "‘",
+            "name": "LEFT SINGLE QUOTATION MARK",
+            "category": "Pi"
+          }
+        ]
+      },
+      {
+        "glyph": "uni02BC",
+        "gid": 493,
+        "unicode": [
+          {
+            "codepoint": "U+02BC",
+            "char": "ʼ",
+            "name": "MODIFIER LETTER APOSTROPHE",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+2019",
+            "char": "’",
+            "name": "RIGHT SINGLE QUOTATION MARK",
+            "category": "Pf"
+          }
+        ]
+      },
+      {
+        "glyph": "uni0394",
+        "gid": 843,
+        "unicode": [
+          {
+            "codepoint": "U+0394",
+            "char": "Δ",
+            "name": "GREEK CAPITAL LETTER DELTA",
+            "category": "Lu"
+          },
+          {
+            "codepoint": "U+2206",
+            "char": "∆",
+            "name": "INCREMENT",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "uni03A9",
+        "gid": 863,
+        "unicode": [
+          {
+            "codepoint": "U+03A9",
+            "char": "Ω",
+            "name": "GREEK CAPITAL LETTER OMEGA",
+            "category": "Lu"
+          },
+          {
+            "codepoint": "U+2126",
+            "char": "Ω",
+            "name": "OHM SIGN",
+            "category": "Lu"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2009",
+        "gid": 1463,
+        "unicode": [
+          {
+            "codepoint": "U+2009",
+            "char": " ",
+            "name": "THIN SPACE",
+            "category": "Zs"
+          },
+          {
+            "codepoint": "U+202F",
+            "char": " ",
+            "name": "NARROW NO-BREAK SPACE",
+            "category": "Zs"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2026",
+        "gid": 58562,
+        "unicode": [
+          {
+            "codepoint": "U+2026",
+            "char": "…",
+            "name": "HORIZONTAL ELLIPSIS",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+22EF",
+            "char": "⋯",
+            "name": "MIDLINE HORIZONTAL ELLIPSIS",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2035",
+        "gid": 1495,
+        "unicode": [
+          {
+            "codepoint": "U+2035",
+            "char": "‵",
+            "name": "REVERSED PRIME",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FF40",
+            "char": "｀",
+            "name": "FULLWIDTH GRAVE ACCENT",
+            "category": "Sk"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2044",
+        "gid": 693,
+        "unicode": [
+          {
+            "codepoint": "U+2044",
+            "char": "⁄",
+            "name": "FRACTION SLASH",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+2215",
+            "char": "∕",
+            "name": "DIVISION SLASH",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2329",
+        "gid": 1621,
+        "unicode": [
+          {
+            "codepoint": "U+2329",
+            "char": "〈",
+            "name": "LEFT-POINTING ANGLE BRACKET",
+            "category": "Ps"
+          },
+          {
+            "codepoint": "U+3008",
+            "char": "〈",
+            "name": "LEFT ANGLE BRACKET",
+            "category": "Ps"
+          }
+        ]
+      },
+      {
+        "glyph": "uni232A",
+        "gid": 1622,
+        "unicode": [
+          {
+            "codepoint": "U+232A",
+            "char": "〉",
+            "name": "RIGHT-POINTING ANGLE BRACKET",
+            "category": "Pe"
+          },
+          {
+            "codepoint": "U+3009",
+            "char": "〉",
+            "name": "RIGHT ANGLE BRACKET",
+            "category": "Pe"
+          }
+        ]
+      },
+      {
+        "glyph": "uni27A1",
+        "gid": 2057,
+        "unicode": [
+          {
+            "codepoint": "U+27A1",
+            "char": "➡",
+            "name": "BLACK RIGHTWARDS ARROW",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+2B95",
+            "char": "⮕",
+            "name": "RIGHTWARDS BLACK ARROW",
+            "category": "So"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2E81",
+        "gid": 2068,
+        "unicode": [
+          {
+            "codepoint": "U+2E81",
+            "char": "⺁",
+            "name": "CJK RADICAL CLIFF",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+20086",
+            "char": "𠂆",
+            "name": "CJK UNIFIED IDEOGRAPH-20086",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2E82",
+        "gid": 2069,
+        "unicode": [
+          {
+            "codepoint": "U+2E82",
+            "char": "⺂",
+            "name": "CJK RADICAL SECOND ONE",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+4E5B",
+            "char": "乛",
+            "name": "CJK UNIFIED IDEOGRAPH-4E5B",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2E83",
+        "gid": 2070,
+        "unicode": [
+          {
+            "codepoint": "U+2E83",
+            "char": "⺃",
+            "name": "CJK RADICAL SECOND TWO",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+4E5A",
+            "char": "乚",
+            "name": "CJK UNIFIED IDEOGRAPH-4E5A",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2E8D",
+        "gid": 2080,
+        "unicode": [
+          {
+            "codepoint": "U+2E8D",
+            "char": "⺍",
+            "name": "CJK RADICAL SMALL TWO",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+2D544",
+            "char": "𭕄",
+            "name": "CJK UNIFIED IDEOGRAPH-2D544",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2E8F",
+        "gid": 2082,
+        "unicode": [
+          {
+            "codepoint": "U+2E8F",
+            "char": "⺏",
+            "name": "CJK RADICAL LAME TWO",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+5C23",
+            "char": "尣",
+            "name": "CJK UNIFIED IDEOGRAPH-5C23",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2EA6",
+        "gid": 2104,
+        "unicode": [
+          {
+            "codepoint": "U+2EA6",
+            "char": "⺦",
+            "name": "CJK RADICAL SIMPLIFIED HALF TREE TRUNK",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+4E2C",
+            "char": "丬",
+            "name": "CJK UNIFIED IDEOGRAPH-4E2C",
+            "category": "Lo"
+          }
+        ]
+      }
+    ],
+    "reverse_alias_sample": [
+      {
+        "glyph": "uni0020",
+        "gid": 1,
+        "unicode": [
+          {
+            "codepoint": "U+0020",
+            "char": " ",
+            "name": "SPACE",
+            "category": "Zs"
+          },
+          {
+            "codepoint": "U+00A0",
+            "char": " ",
+            "name": "NO-BREAK SPACE",
+            "category": "Zs"
+          }
+        ]
+      },
+      {
+        "glyph": "uni002D",
+        "gid": 502,
+        "unicode": [
+          {
+            "codepoint": "U+002D",
+            "char": "-",
+            "name": "HYPHEN-MINUS",
+            "category": "Pd"
+          },
+          {
+            "codepoint": "U+00AD",
+            "char": "­",
+            "name": "SOFT HYPHEN",
+            "category": "Cf"
+          },
+          {
+            "codepoint": "U+2010",
+            "char": "‐",
+            "name": "HYPHEN",
+            "category": "Pd"
+          }
+        ]
+      },
+      {
+        "glyph": "uni00B5",
+        "gid": 884,
+        "unicode": [
+          {
+            "codepoint": "U+00B5",
+            "char": "µ",
+            "name": "MICRO SIGN",
+            "category": "Ll"
+          },
+          {
+            "codepoint": "U+03BC",
+            "char": "μ",
+            "name": "GREEK SMALL LETTER MU",
+            "category": "Ll"
+          }
+        ]
+      },
+      {
+        "glyph": "uni02BB",
+        "gid": 492,
+        "unicode": [
+          {
+            "codepoint": "U+02BB",
+            "char": "ʻ",
+            "name": "MODIFIER LETTER TURNED COMMA",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+2018",
+            "char": "‘",
+            "name": "LEFT SINGLE QUOTATION MARK",
+            "category": "Pi"
+          }
+        ]
+      },
+      {
+        "glyph": "uni02BC",
+        "gid": 493,
+        "unicode": [
+          {
+            "codepoint": "U+02BC",
+            "char": "ʼ",
+            "name": "MODIFIER LETTER APOSTROPHE",
+            "category": "Lm"
+          },
+          {
+            "codepoint": "U+2019",
+            "char": "’",
+            "name": "RIGHT SINGLE QUOTATION MARK",
+            "category": "Pf"
+          }
+        ]
+      },
+      {
+        "glyph": "uni0394",
+        "gid": 843,
+        "unicode": [
+          {
+            "codepoint": "U+0394",
+            "char": "Δ",
+            "name": "GREEK CAPITAL LETTER DELTA",
+            "category": "Lu"
+          },
+          {
+            "codepoint": "U+2206",
+            "char": "∆",
+            "name": "INCREMENT",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "uni03A9",
+        "gid": 863,
+        "unicode": [
+          {
+            "codepoint": "U+03A9",
+            "char": "Ω",
+            "name": "GREEK CAPITAL LETTER OMEGA",
+            "category": "Lu"
+          },
+          {
+            "codepoint": "U+2126",
+            "char": "Ω",
+            "name": "OHM SIGN",
+            "category": "Lu"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2009",
+        "gid": 1463,
+        "unicode": [
+          {
+            "codepoint": "U+2009",
+            "char": " ",
+            "name": "THIN SPACE",
+            "category": "Zs"
+          },
+          {
+            "codepoint": "U+202F",
+            "char": " ",
+            "name": "NARROW NO-BREAK SPACE",
+            "category": "Zs"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2026",
+        "gid": 58562,
+        "unicode": [
+          {
+            "codepoint": "U+2026",
+            "char": "…",
+            "name": "HORIZONTAL ELLIPSIS",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+22EF",
+            "char": "⋯",
+            "name": "MIDLINE HORIZONTAL ELLIPSIS",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2035",
+        "gid": 1495,
+        "unicode": [
+          {
+            "codepoint": "U+2035",
+            "char": "‵",
+            "name": "REVERSED PRIME",
+            "category": "Po"
+          },
+          {
+            "codepoint": "U+FF40",
+            "char": "｀",
+            "name": "FULLWIDTH GRAVE ACCENT",
+            "category": "Sk"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2044",
+        "gid": 693,
+        "unicode": [
+          {
+            "codepoint": "U+2044",
+            "char": "⁄",
+            "name": "FRACTION SLASH",
+            "category": "Sm"
+          },
+          {
+            "codepoint": "U+2215",
+            "char": "∕",
+            "name": "DIVISION SLASH",
+            "category": "Sm"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2329",
+        "gid": 1621,
+        "unicode": [
+          {
+            "codepoint": "U+2329",
+            "char": "〈",
+            "name": "LEFT-POINTING ANGLE BRACKET",
+            "category": "Ps"
+          },
+          {
+            "codepoint": "U+3008",
+            "char": "〈",
+            "name": "LEFT ANGLE BRACKET",
+            "category": "Ps"
+          }
+        ]
+      },
+      {
+        "glyph": "uni232A",
+        "gid": 1622,
+        "unicode": [
+          {
+            "codepoint": "U+232A",
+            "char": "〉",
+            "name": "RIGHT-POINTING ANGLE BRACKET",
+            "category": "Pe"
+          },
+          {
+            "codepoint": "U+3009",
+            "char": "〉",
+            "name": "RIGHT ANGLE BRACKET",
+            "category": "Pe"
+          }
+        ]
+      },
+      {
+        "glyph": "uni27A1",
+        "gid": 2057,
+        "unicode": [
+          {
+            "codepoint": "U+27A1",
+            "char": "➡",
+            "name": "BLACK RIGHTWARDS ARROW",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+2B95",
+            "char": "⮕",
+            "name": "RIGHTWARDS BLACK ARROW",
+            "category": "So"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2E81",
+        "gid": 2068,
+        "unicode": [
+          {
+            "codepoint": "U+2E81",
+            "char": "⺁",
+            "name": "CJK RADICAL CLIFF",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+20086",
+            "char": "𠂆",
+            "name": "CJK UNIFIED IDEOGRAPH-20086",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2E82",
+        "gid": 2069,
+        "unicode": [
+          {
+            "codepoint": "U+2E82",
+            "char": "⺂",
+            "name": "CJK RADICAL SECOND ONE",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+4E5B",
+            "char": "乛",
+            "name": "CJK UNIFIED IDEOGRAPH-4E5B",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2E83",
+        "gid": 2070,
+        "unicode": [
+          {
+            "codepoint": "U+2E83",
+            "char": "⺃",
+            "name": "CJK RADICAL SECOND TWO",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+4E5A",
+            "char": "乚",
+            "name": "CJK UNIFIED IDEOGRAPH-4E5A",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2E8D",
+        "gid": 2080,
+        "unicode": [
+          {
+            "codepoint": "U+2E8D",
+            "char": "⺍",
+            "name": "CJK RADICAL SMALL TWO",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+2D544",
+            "char": "𭕄",
+            "name": "CJK UNIFIED IDEOGRAPH-2D544",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2E8F",
+        "gid": 2082,
+        "unicode": [
+          {
+            "codepoint": "U+2E8F",
+            "char": "⺏",
+            "name": "CJK RADICAL LAME TWO",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+5C23",
+            "char": "尣",
+            "name": "CJK UNIFIED IDEOGRAPH-5C23",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2EA6",
+        "gid": 2104,
+        "unicode": [
+          {
+            "codepoint": "U+2EA6",
+            "char": "⺦",
+            "name": "CJK RADICAL SIMPLIFIED HALF TREE TRUNK",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+4E2C",
+            "char": "丬",
+            "name": "CJK UNIFIED IDEOGRAPH-4E2C",
+            "category": "Lo"
+          }
+        ]
+      }
+    ],
+    "cjk_compat_alias_sample": [
+      {
+        "glyph": "uni2EBE",
+        "gid": 2126,
+        "unicode": [
+          {
+            "codepoint": "U+2EBE",
+            "char": "⺾",
+            "name": "CJK RADICAL GRASS ONE",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+2EBF",
+            "char": "⺿",
+            "name": "CJK RADICAL GRASS TWO",
+            "category": "So"
+          },
+          {
+            "codepoint": "U+8279",
+            "char": "艹",
+            "name": "CJK UNIFIED IDEOGRAPH-8279",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA5E",
+            "char": "艹",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA5E",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni5140",
+        "gid": 10380,
+        "unicode": [
+          {
+            "codepoint": "U+5140",
+            "char": "兀",
+            "name": "CJK UNIFIED IDEOGRAPH-5140",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA0C",
+            "char": "兀",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA0C",
+            "category": "Lo"
+          }
+        ]
+      },
+      {
+        "glyph": "uni55C0",
+        "gid": 11530,
+        "unicode": [
+          {
+            "codepoint": "U+55C0",
+            "char": "嗀",
+            "name": "CJK UNIFIED IDEOGRAPH-55C0",
+            "category": "Lo"
+          },
+          {
+            "codepoint": "U+FA0D",
+            "char": "嗀",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA0D",
+            "category": "Lo"
+          }
+        ]
+      }
+    ]
+  },
+  "coverage": {
+    "required_count": 103,
+    "missing_count": 0,
+    "missing": [],
+    "passed": true
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "Cactus Classical Serif Regular",
+    "glyph_count": 58570
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "reverse_aliases_present"
+  ],
+  "result": "fail",
+  "failure_stage": "strict_cmap"
+}

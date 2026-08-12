@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentsans/InstrumentSans-Italic%5Bwdth%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentsans/InstrumentSans-Italic%5Bwdth%2Cwght%5D.ttf",
+  "filename": "InstrumentSans-Italic_wdth_wght_.ttf",
+  "output_key": "a41b0cc7fa88beb4390c06612df955bb",
+  "size_bytes": 202128,
+  "sha256": "a74203cc5066a3b2f8de1a7b0887ef897773c2319dc86c911f8e85350cde0d07",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/a41b0cc7fa88beb4390c06612df955bb/InstrumentSans-Italic_wdth_wght_.ttf.b64.txt",
+  "base64_size_bytes": 273051,
+  "validation_target_file": "encoded/a41b0cc7fa88beb4390c06612df955bb/validation-target.json",
+  "validation_source_file": "encoded/a41b0cc7fa88beb4390c06612df955bb/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

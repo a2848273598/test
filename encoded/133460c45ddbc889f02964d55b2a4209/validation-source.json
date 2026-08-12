@@ -1,0 +1,771 @@
+{
+  "version": 1,
+  "profile": "source",
+  "strict": true,
+  "filename": "NotoSerifSC_wght_.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf",
+  "size_bytes": 25125512,
+  "sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "NotoSerifSC-ExtraLight",
+    "glyph_count": 31058,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 30486
+      },
+      {
+        "table": "platform=0, encoding=4, format=12",
+        "count": 30928
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 30486
+      },
+      {
+        "table": "platform=3, encoding=10, format=12",
+        "count": 30928
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [
+      "platform=0, encoding=5, format=14"
+    ],
+    "unicode_codepoint_count": 30928,
+    "cmap_conflict_count": 0,
+    "reverse_alias_count": 488,
+    "ambiguous_glyph_count": 125,
+    "ambiguous_standard_codepoint_count": 125,
+    "pua_codepoint_count": 0,
+    "cmap_conflict_sample": [],
+    "reverse_alias_sample": [
+      {
+        "glyph": "space",
+        "gid": 1,
+        "unicode": [
+          {
+            "codepoint": "U+0020",
+            "char": " ",
+            "name": "SPACE"
+          },
+          {
+            "codepoint": "U+00A0",
+            "char": " ",
+            "name": "NO-BREAK SPACE"
+          }
+        ]
+      },
+      {
+        "glyph": "hyphen",
+        "gid": 14,
+        "unicode": [
+          {
+            "codepoint": "U+002D",
+            "char": "-",
+            "name": "HYPHEN-MINUS"
+          },
+          {
+            "codepoint": "U+00AD",
+            "char": "­",
+            "name": "SOFT HYPHEN"
+          },
+          {
+            "codepoint": "U+2011",
+            "char": "‑",
+            "name": "NON-BREAKING HYPHEN"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2003",
+        "gid": 1147,
+        "unicode": [
+          {
+            "codepoint": "U+2003",
+            "char": " ",
+            "name": "EM SPACE"
+          },
+          {
+            "codepoint": "U+3000",
+            "char": "　",
+            "name": "IDEOGRAPHIC SPACE"
+          }
+        ]
+      },
+      {
+        "glyph": "figuredash",
+        "gid": 465,
+        "unicode": [
+          {
+            "codepoint": "U+2012",
+            "char": "‒",
+            "name": "FIGURE DASH"
+          },
+          {
+            "codepoint": "U+2013",
+            "char": "–",
+            "name": "EN DASH"
+          }
+        ]
+      },
+      {
+        "glyph": "bullet",
+        "gid": 480,
+        "unicode": [
+          {
+            "codepoint": "U+2022",
+            "char": "•",
+            "name": "BULLET"
+          },
+          {
+            "codepoint": "U+2027",
+            "char": "‧",
+            "name": "HYPHENATION POINT"
+          }
+        ]
+      },
+      {
+        "glyph": "ellipsis",
+        "gid": 479,
+        "unicode": [
+          {
+            "codepoint": "U+2026",
+            "char": "…",
+            "name": "HORIZONTAL ELLIPSIS"
+          },
+          {
+            "codepoint": "U+22EF",
+            "char": "⋯",
+            "name": "MIDLINE HORIZONTAL ELLIPSIS"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2035",
+        "gid": 29834,
+        "unicode": [
+          {
+            "codepoint": "U+2035",
+            "char": "‵",
+            "name": "REVERSED PRIME"
+          },
+          {
+            "codepoint": "U+FF40",
+            "char": "｀",
+            "name": "FULLWIDTH GRAVE ACCENT"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2215",
+        "gid": 29785,
+        "unicode": [
+          {
+            "codepoint": "U+2215",
+            "char": "∕",
+            "name": "DIVISION SLASH"
+          },
+          {
+            "codepoint": "U+FF0F",
+            "char": "／",
+            "name": "FULLWIDTH SOLIDUS"
+          }
+        ]
+      },
+      {
+        "glyph": "angleleft",
+        "gid": 1155,
+        "unicode": [
+          {
+            "codepoint": "U+2329",
+            "char": "〈",
+            "name": "LEFT-POINTING ANGLE BRACKET"
+          },
+          {
+            "codepoint": "U+3008",
+            "char": "〈",
+            "name": "LEFT ANGLE BRACKET"
+          }
+        ]
+      },
+      {
+        "glyph": "angleright",
+        "gid": 1156,
+        "unicode": [
+          {
+            "codepoint": "U+232A",
+            "char": "〉",
+            "name": "RIGHT-POINTING ANGLE BRACKET"
+          },
+          {
+            "codepoint": "U+3009",
+            "char": "〉",
+            "name": "RIGHT ANGLE BRACKET"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2460",
+        "gid": 663,
+        "unicode": [
+          {
+            "codepoint": "U+2460",
+            "char": "①",
+            "name": "CIRCLED DIGIT ONE"
+          },
+          {
+            "codepoint": "U+2780",
+            "char": "➀",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT ONE"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2461",
+        "gid": 664,
+        "unicode": [
+          {
+            "codepoint": "U+2461",
+            "char": "②",
+            "name": "CIRCLED DIGIT TWO"
+          },
+          {
+            "codepoint": "U+2781",
+            "char": "➁",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT TWO"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2462",
+        "gid": 665,
+        "unicode": [
+          {
+            "codepoint": "U+2462",
+            "char": "③",
+            "name": "CIRCLED DIGIT THREE"
+          },
+          {
+            "codepoint": "U+2782",
+            "char": "➂",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT THREE"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2463",
+        "gid": 666,
+        "unicode": [
+          {
+            "codepoint": "U+2463",
+            "char": "④",
+            "name": "CIRCLED DIGIT FOUR"
+          },
+          {
+            "codepoint": "U+2783",
+            "char": "➃",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT FOUR"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2464",
+        "gid": 667,
+        "unicode": [
+          {
+            "codepoint": "U+2464",
+            "char": "⑤",
+            "name": "CIRCLED DIGIT FIVE"
+          },
+          {
+            "codepoint": "U+2784",
+            "char": "➄",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT FIVE"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2465",
+        "gid": 668,
+        "unicode": [
+          {
+            "codepoint": "U+2465",
+            "char": "⑥",
+            "name": "CIRCLED DIGIT SIX"
+          },
+          {
+            "codepoint": "U+2785",
+            "char": "➅",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT SIX"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2466",
+        "gid": 669,
+        "unicode": [
+          {
+            "codepoint": "U+2466",
+            "char": "⑦",
+            "name": "CIRCLED DIGIT SEVEN"
+          },
+          {
+            "codepoint": "U+2786",
+            "char": "➆",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT SEVEN"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2467",
+        "gid": 670,
+        "unicode": [
+          {
+            "codepoint": "U+2467",
+            "char": "⑧",
+            "name": "CIRCLED DIGIT EIGHT"
+          },
+          {
+            "codepoint": "U+2787",
+            "char": "➇",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT EIGHT"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2468",
+        "gid": 671,
+        "unicode": [
+          {
+            "codepoint": "U+2468",
+            "char": "⑨",
+            "name": "CIRCLED DIGIT NINE"
+          },
+          {
+            "codepoint": "U+2788",
+            "char": "➈",
+            "name": "DINGBAT CIRCLED SANS-SERIF DIGIT NINE"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2469",
+        "gid": 672,
+        "unicode": [
+          {
+            "codepoint": "U+2469",
+            "char": "⑩",
+            "name": "CIRCLED NUMBER TEN"
+          },
+          {
+            "codepoint": "U+2789",
+            "char": "➉",
+            "name": "DINGBAT CIRCLED SANS-SERIF NUMBER TEN"
+          }
+        ]
+      }
+    ],
+    "cjk_compat_alias_sample": [
+      {
+        "glyph": "uni2E8E",
+        "gid": 9607,
+        "unicode": [
+          {
+            "codepoint": "U+2E8E",
+            "char": "⺎",
+            "name": "CJK RADICAL LAME ONE"
+          },
+          {
+            "codepoint": "U+5140",
+            "char": "兀",
+            "name": "CJK UNIFIED IDEOGRAPH-5140"
+          },
+          {
+            "codepoint": "U+FA0C",
+            "char": "兀",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA0C"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2F12",
+        "gid": 9952,
+        "unicode": [
+          {
+            "codepoint": "U+2F12",
+            "char": "⼒",
+            "name": "KANGXI RADICAL POWER"
+          },
+          {
+            "codepoint": "U+529B",
+            "char": "力",
+            "name": "CJK UNIFIED IDEOGRAPH-529B"
+          },
+          {
+            "codepoint": "U+F98A",
+            "char": "力",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F98A"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2F2C",
+        "gid": 12452,
+        "unicode": [
+          {
+            "codepoint": "U+2F2C",
+            "char": "⼬",
+            "name": "KANGXI RADICAL SPROUT"
+          },
+          {
+            "codepoint": "U+5C6E",
+            "char": "屮",
+            "name": "CJK UNIFIED IDEOGRAPH-5C6E"
+          },
+          {
+            "codepoint": "U+2F878",
+            "char": "屮",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-2F878"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2F7C",
+        "gid": 21519,
+        "unicode": [
+          {
+            "codepoint": "U+2F7C",
+            "char": "⽼",
+            "name": "KANGXI RADICAL OLD"
+          },
+          {
+            "codepoint": "U+8001",
+            "char": "老",
+            "name": "CJK UNIFIED IDEOGRAPH-8001"
+          },
+          {
+            "codepoint": "U+F934",
+            "char": "老",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F934"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2F8F",
+        "gid": 23619,
+        "unicode": [
+          {
+            "codepoint": "U+2F8F",
+            "char": "⾏",
+            "name": "KANGXI RADICAL WALK ENCLOSURE"
+          },
+          {
+            "codepoint": "U+884C",
+            "char": "行",
+            "name": "CJK UNIFIED IDEOGRAPH-884C"
+          },
+          {
+            "codepoint": "U+FA08",
+            "char": "行",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA08"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2F92",
+        "gid": 23939,
+        "unicode": [
+          {
+            "codepoint": "U+2F92",
+            "char": "⾒",
+            "name": "KANGXI RADICAL SEE"
+          },
+          {
+            "codepoint": "U+898B",
+            "char": "見",
+            "name": "CJK UNIFIED IDEOGRAPH-898B"
+          },
+          {
+            "codepoint": "U+FA0A",
+            "char": "見",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA0A"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2F9E",
+        "gid": 25278,
+        "unicode": [
+          {
+            "codepoint": "U+2F9E",
+            "char": "⾞",
+            "name": "KANGXI RADICAL CART"
+          },
+          {
+            "codepoint": "U+8ECA",
+            "char": "車",
+            "name": "CJK UNIFIED IDEOGRAPH-8ECA"
+          },
+          {
+            "codepoint": "U+F902",
+            "char": "車",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F902"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2FA5",
+        "gid": 26048,
+        "unicode": [
+          {
+            "codepoint": "U+2FA5",
+            "char": "⾥",
+            "name": "KANGXI RADICAL VILLAGE"
+          },
+          {
+            "codepoint": "U+91CC",
+            "char": "里",
+            "name": "CJK UNIFIED IDEOGRAPH-91CC"
+          },
+          {
+            "codepoint": "U+F9E9",
+            "char": "里",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F9E9"
+          }
+        ]
+      },
+      {
+        "glyph": "uni2FA6",
+        "gid": 26053,
+        "unicode": [
+          {
+            "codepoint": "U+2FA6",
+            "char": "⾦",
+            "name": "KANGXI RADICAL GOLD"
+          },
+          {
+            "codepoint": "U+91D1",
+            "char": "金",
+            "name": "CJK UNIFIED IDEOGRAPH-91D1"
+          },
+          {
+            "codepoint": "U+F90A",
+            "char": "金",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F90A"
+          }
+        ]
+      },
+      {
+        "glyph": "uni4E0D",
+        "gid": 8789,
+        "unicode": [
+          {
+            "codepoint": "U+4E0D",
+            "char": "不",
+            "name": "CJK UNIFIED IDEOGRAPH-4E0D"
+          },
+          {
+            "codepoint": "U+F967",
+            "char": "不",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F967"
+          }
+        ]
+      },
+      {
+        "glyph": "uni4E32",
+        "gid": 8826,
+        "unicode": [
+          {
+            "codepoint": "U+4E32",
+            "char": "串",
+            "name": "CJK UNIFIED IDEOGRAPH-4E32"
+          },
+          {
+            "codepoint": "U+F905",
+            "char": "串",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F905"
+          }
+        ]
+      },
+      {
+        "glyph": "uni4E39",
+        "gid": 8833,
+        "unicode": [
+          {
+            "codepoint": "U+4E39",
+            "char": "丹",
+            "name": "CJK UNIFIED IDEOGRAPH-4E39"
+          },
+          {
+            "codepoint": "U+F95E",
+            "char": "丹",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F95E"
+          }
+        ]
+      },
+      {
+        "glyph": "uni4E86",
+        "gid": 8910,
+        "unicode": [
+          {
+            "codepoint": "U+4E86",
+            "char": "了",
+            "name": "CJK UNIFIED IDEOGRAPH-4E86"
+          },
+          {
+            "codepoint": "U+F9BA",
+            "char": "了",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F9BA"
+          }
+        ]
+      },
+      {
+        "glyph": "uni4EC0",
+        "gid": 8968,
+        "unicode": [
+          {
+            "codepoint": "U+4EC0",
+            "char": "什",
+            "name": "CJK UNIFIED IDEOGRAPH-4EC0"
+          },
+          {
+            "codepoint": "U+F9FD",
+            "char": "什",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F9FD"
+          }
+        ]
+      },
+      {
+        "glyph": "uni4F86",
+        "gid": 9166,
+        "unicode": [
+          {
+            "codepoint": "U+4F86",
+            "char": "來",
+            "name": "CJK UNIFIED IDEOGRAPH-4F86"
+          },
+          {
+            "codepoint": "U+F92D",
+            "char": "來",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F92D"
+          }
+        ]
+      },
+      {
+        "glyph": "uni4F8B",
+        "gid": 9171,
+        "unicode": [
+          {
+            "codepoint": "U+4F8B",
+            "char": "例",
+            "name": "CJK UNIFIED IDEOGRAPH-4F8B"
+          },
+          {
+            "codepoint": "U+F9B5",
+            "char": "例",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F9B5"
+          }
+        ]
+      },
+      {
+        "glyph": "uni4FBF",
+        "gid": 9223,
+        "unicode": [
+          {
+            "codepoint": "U+4FBF",
+            "char": "便",
+            "name": "CJK UNIFIED IDEOGRAPH-4FBF"
+          },
+          {
+            "codepoint": "U+F965",
+            "char": "便",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F965"
+          }
+        ]
+      },
+      {
+        "glyph": "uni50DA",
+        "gid": 9505,
+        "unicode": [
+          {
+            "codepoint": "U+50DA",
+            "char": "僚",
+            "name": "CJK UNIFIED IDEOGRAPH-50DA"
+          },
+          {
+            "codepoint": "U+F9BB",
+            "char": "僚",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F9BB"
+          }
+        ]
+      },
+      {
+        "glyph": "uni51C9",
+        "gid": 9742,
+        "unicode": [
+          {
+            "codepoint": "U+51C9",
+            "char": "凉",
+            "name": "CJK UNIFIED IDEOGRAPH-51C9"
+          },
+          {
+            "codepoint": "U+F979",
+            "char": "凉",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F979"
+          }
+        ]
+      },
+      {
+        "glyph": "uni5217",
+        "gid": 9820,
+        "unicode": [
+          {
+            "codepoint": "U+5217",
+            "char": "列",
+            "name": "CJK UNIFIED IDEOGRAPH-5217"
+          },
+          {
+            "codepoint": "U+F99C",
+            "char": "列",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-F99C"
+          }
+        ]
+      }
+    ]
+  },
+  "coverage": {
+    "required_count": 103,
+    "missing_count": 0,
+    "missing": [],
+    "passed": true
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "Noto Serif SC ExtraLight",
+    "glyph_count": 31058
+  },
+  "roundtrip": {
+    "status": "not_run",
+    "reason": "pre_roundtrip_validation_failed",
+    "insert_text": {
+      "status": "not_run"
+    },
+    "insert_textbox": {
+      "status": "not_run"
+    },
+    "subset_fonts_tested": false,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [
+    "reverse_aliases_present"
+  ],
+  "result": "fail",
+  "failure_stage": "strict_cmap"
+}

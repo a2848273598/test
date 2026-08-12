@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-SemiBold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-SemiBold.ttf",
+  "filename": "GothicA1-SemiBold.ttf",
+  "output_key": "e9e5c11f27ef48b9e9a164cacef0665b",
+  "size_bytes": 2288560,
+  "sha256": "7ee3063f2d626936d8a59dfa21525e7ed19b4e89e8fbb0ea5a924cad9b0cc1f4",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/e9e5c11f27ef48b9e9a164cacef0665b/GothicA1-SemiBold.ttf.b64.txt",
+  "base64_size_bytes": 3091567,
+  "validation_target_file": "encoded/e9e5c11f27ef48b9e9a164cacef0665b/validation-target.json",
+  "validation_source_file": "encoded/e9e5c11f27ef48b9e9a164cacef0665b/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

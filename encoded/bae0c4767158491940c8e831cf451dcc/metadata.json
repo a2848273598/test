@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/murecho/Murecho%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/murecho/Murecho%5Bwght%5D.ttf",
+  "filename": "Murecho_wght_.ttf",
+  "output_key": "bae0c4767158491940c8e831cf451dcc",
+  "size_bytes": 1430664,
+  "sha256": "3a273c2f11e0164f829bc15c0689e587fe34d1493ff167d5afff8fe71a29e667",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/bae0c4767158491940c8e831cf451dcc/Murecho_wght_.ttf.b64.txt",
+  "base64_size_bytes": 1932652,
+  "validation_target_file": "encoded/bae0c4767158491940c8e831cf451dcc/validation-target.json",
+  "validation_source_file": "encoded/bae0c4767158491940c8e831cf451dcc/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "pass",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

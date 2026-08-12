@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tinos/Tinos-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tinos/Tinos-BoldItalic.ttf",
+  "filename": "Tinos-BoldItalic.ttf",
+  "output_key": "8f0730ca9eda8cd506d2c0de08af728f",
+  "size_bytes": 578976,
+  "sha256": "a5de79f0fe863ea0954757acb3d47b3ccd0a930ce3dd5b97230cd3866790a06e",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/8f0730ca9eda8cd506d2c0de08af728f/Tinos-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 782126,
+  "validation_target_file": "encoded/8f0730ca9eda8cd506d2c0de08af728f/validation-target.json",
+  "validation_source_file": "encoded/8f0730ca9eda8cd506d2c0de08af728f/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

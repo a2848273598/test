@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/wdxllubrifontsc/WDXLLubrifontSC-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/wdxllubrifontsc/WDXLLubrifontSC-Regular.ttf",
+  "filename": "WDXLLubrifontSC-Regular.ttf",
+  "output_key": "621b49a0acf120246ac53f5fc83c74c2",
+  "size_bytes": 10344488,
+  "sha256": "0134ed261d56aab8fa1860df677858c5d0d3ca899b2aa5430581c458a752e914",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/621b49a0acf120246ac53f5fc83c74c2/WDXLLubrifontSC-Regular.ttf.b64.txt",
+  "base64_size_bytes": 13974135,
+  "validation_target_file": "encoded/621b49a0acf120246ac53f5fc83c74c2/validation-target.json",
+  "validation_source_file": "encoded/621b49a0acf120246ac53f5fc83c74c2/validation-source.json",
+  "validation_target_result": "pass",
+  "validation_source_result": "pass",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

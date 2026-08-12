@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/gothica1/GothicA1-Bold.ttf",
+  "filename": "GothicA1-Bold.ttf",
+  "output_key": "dd31bda1ad0a5ceae384a49c9072696d",
+  "size_bytes": 2287068,
+  "sha256": "2e883fa0ae548000996258b4101f2bb732a28b197264f49621a2cb16d6e9f126",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/dd31bda1ad0a5ceae384a49c9072696d/GothicA1-Bold.ttf.b64.txt",
+  "base64_size_bytes": 3089548,
+  "validation_target_file": "encoded/dd31bda1ad0a5ceae384a49c9072696d/validation-target.json",
+  "validation_source_file": "encoded/dd31bda1ad0a5ceae384a49c9072696d/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

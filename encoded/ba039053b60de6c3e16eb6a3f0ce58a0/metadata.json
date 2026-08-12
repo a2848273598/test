@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/opensans/OpenSans-Italic%5Bwdth%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/opensans/OpenSans-Italic%5Bwdth%2Cwght%5D.ttf",
+  "filename": "OpenSans-Italic_wdth_wght_.ttf",
+  "output_key": "ba039053b60de6c3e16eb6a3f0ce58a0",
+  "size_bytes": 583992,
+  "sha256": "fe269381e992f32e135801740998544d6235061e37c93ec067ad2be3edd5b17b",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/ba039053b60de6c3e16eb6a3f0ce58a0/OpenSans-Italic_wdth_wght_.ttf.b64.txt",
+  "base64_size_bytes": 788902,
+  "validation_target_file": "encoded/ba039053b60de6c3e16eb6a3f0ce58a0/validation-target.json",
+  "validation_source_file": "encoded/ba039053b60de6c3e16eb6a3f0ce58a0/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

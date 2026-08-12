@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/intelonemono/IntelOneMono-BoldItalic.ttf",
+  "filename": "IntelOneMono-BoldItalic.ttf",
+  "output_key": "cdfa74a87e6912595b6c7679a7fbf0de",
+  "size_bytes": 127580,
+  "sha256": "4092cdc296cc65ace3192b1f2c410ea1880bf2863513bada14b94d1e7eca6322",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/cdfa74a87e6912595b6c7679a7fbf0de/IntelOneMono-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 172347,
+  "validation_target_file": "encoded/cdfa74a87e6912595b6c7679a7fbf0de/validation-target.json",
+  "validation_source_file": "encoded/cdfa74a87e6912595b6c7679a7fbf0de/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

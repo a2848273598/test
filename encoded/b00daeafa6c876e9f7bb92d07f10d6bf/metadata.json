@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/trainone/TrainOne-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/trainone/TrainOne-Regular.ttf",
+  "filename": "TrainOne-Regular.ttf",
+  "output_key": "b00daeafa6c876e9f7bb92d07f10d6bf",
+  "size_bytes": 2152516,
+  "sha256": "07d67ad14231a4a41f0ee501b14bd6f9c7a9beada5ee6af2924114863a034623",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/b00daeafa6c876e9f7bb92d07f10d6bf/TrainOne-Regular.ttf.b64.txt",
+  "base64_size_bytes": 2907788,
+  "validation_target_file": "encoded/b00daeafa6c876e9f7bb92d07f10d6bf/validation-target.json",
+  "validation_source_file": "encoded/b00daeafa6c876e9f7bb92d07f10d6bf/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

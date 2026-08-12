@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lilex/Lilex-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lilex/Lilex-Italic%5Bwght%5D.ttf",
+  "filename": "Lilex-Italic_wght_.ttf",
+  "output_key": "bce2c2e8c6d5b27a3637afd09b63cf6f",
+  "size_bytes": 246644,
+  "sha256": "84a80f6db4fbcdd03bde31a8561e3ba9c7f7a6673cce05d627bf5e6816abf57b",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/bce2c2e8c6d5b27a3637afd09b63cf6f/Lilex-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 333188,
+  "validation_target_file": "encoded/bce2c2e8c6d5b27a3637afd09b63cf6f/validation-target.json",
+  "validation_source_file": "encoded/bce2c2e8c6d5b27a3637afd09b63cf6f/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

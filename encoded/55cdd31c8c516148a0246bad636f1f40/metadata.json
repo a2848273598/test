@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/chakrapetch/ChakraPetch-BoldItalic.ttf",
+  "filename": "ChakraPetch-BoldItalic.ttf",
+  "output_key": "55cdd31c8c516148a0246bad636f1f40",
+  "size_bytes": 80828,
+  "sha256": "bf012ce1894ffcf7d32d3e6548b90df7c40f30161b5cc295eb54ff61c21fab19",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/55cdd31c8c516148a0246bad636f1f40/ChakraPetch-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 109191,
+  "validation_target_file": "encoded/55cdd31c8c516148a0246bad636f1f40/validation-target.json",
+  "validation_source_file": "encoded/55cdd31c8c516148a0246bad636f1f40/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

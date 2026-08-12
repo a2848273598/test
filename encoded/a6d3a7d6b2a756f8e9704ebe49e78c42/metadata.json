@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanskr/IBMPlexSansKR-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanskr/IBMPlexSansKR-Bold.ttf",
+  "filename": "IBMPlexSansKR-Bold.ttf",
+  "output_key": "a6d3a7d6b2a756f8e9704ebe49e78c42",
+  "size_bytes": 2875584,
+  "sha256": "9d82a8be5330f6d7b53121262867b402baca672eb69b852928f06d185d357f7d",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/a6d3a7d6b2a756f8e9704ebe49e78c42/IBMPlexSansKR-Bold.ttf.b64.txt",
+  "base64_size_bytes": 3884561,
+  "validation_target_file": "encoded/a6d3a7d6b2a756f8e9704ebe49e78c42/validation-target.json",
+  "validation_source_file": "encoded/a6d3a7d6b2a756f8e9704ebe49e78c42/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

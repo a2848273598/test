@@ -1,0 +1,12 @@
+{
+  "source_url": "https://raw.githubusercontent.com/DENNISDGR/certforge/main/app/static/fonts/public-sans-600.woff2",
+  "final_url": "https://raw.githubusercontent.com/DENNISDGR/certforge/main/app/static/fonts/public-sans-600.woff2",
+  "filename": "public-sans-600.woff2",
+  "output_key": "4968bea9f90a992556870f4717f73934",
+  "size_bytes": 14592,
+  "sha256": "c7842f97346df1b3b470e9d71acde90f132dd858508ec5ae6606401e5d0938f7",
+  "detected_format": "WOFF2",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/4968bea9f90a992556870f4717f73934/public-sans-600.woff2.b64.txt",
+  "base64_size_bytes": 19712
+}

@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inclusivesans/InclusiveSans-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inclusivesans/InclusiveSans-Italic%5Bwght%5D.ttf",
+  "filename": "InclusiveSans-Italic_wght_.ttf",
+  "output_key": "2d254163e99a915ba181e3738770ce57",
+  "size_bytes": 114612,
+  "sha256": "1b94e7bc731a3d91e358bff9f9253ccef36012e214c0ba64661741fa44494b2e",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/2d254163e99a915ba181e3738770ce57/InclusiveSans-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 154827,
+  "validation_target_file": "encoded/2d254163e99a915ba181e3738770ce57/validation-target.json",
+  "validation_source_file": "encoded/2d254163e99a915ba181e3738770ce57/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v1",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

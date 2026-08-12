@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/astasans/AstaSans%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/astasans/AstaSans%5Bwght%5D.ttf",
+  "filename": "AstaSans_wght_.ttf",
+  "output_key": "56a01c914ba5779127f06debf41fb854",
+  "size_bytes": 5771772,
+  "sha256": "f68410bf7d04deb992097758640145c72ddcf234070794237fc4994e18991c33",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/56a01c914ba5779127f06debf41fb854/AstaSans_wght_.ttf.b64.txt",
+  "base64_size_bytes": 7796956,
+  "validation_target_file": "encoded/56a01c914ba5779127f06debf41fb854/validation-target.json",
+  "validation_source_file": "encoded/56a01c914ba5779127f06debf41fb854/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

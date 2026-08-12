@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ufl/ubuntusans/UbuntuSans%5Bwdth%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ufl/ubuntusans/UbuntuSans%5Bwdth%2Cwght%5D.ttf",
+  "filename": "UbuntuSans_wdth_wght_.ttf",
+  "output_key": "44e9115f8bada5e83794f392bbd3b99c",
+  "size_bytes": 1080900,
+  "sha256": "37e90bba45a2a1172d9f6078e45daebaa1b4e537943205cc1309f142a254fe40",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/44e9115f8bada5e83794f392bbd3b99c/UbuntuSans_wdth_wght_.ttf.b64.txt",
+  "base64_size_bytes": 1460164,
+  "validation_target_file": "encoded/44e9115f8bada5e83794f392bbd3b99c/validation-target.json",
+  "validation_source_file": "encoded/44e9115f8bada5e83794f392bbd3b99c/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

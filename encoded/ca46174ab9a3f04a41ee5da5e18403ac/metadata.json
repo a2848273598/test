@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sarabun/Sarabun-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sarabun/Sarabun-BoldItalic.ttf",
+  "filename": "Sarabun-BoldItalic.ttf",
+  "output_key": "ca46174ab9a3f04a41ee5da5e18403ac",
+  "size_bytes": 92948,
+  "sha256": "5ef1b930f9a3afed5ec83374b5617cad3a89d91a8fc5e372dc028c2aa2950f8d",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/ca46174ab9a3f04a41ee5da5e18403ac/Sarabun-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 125563,
+  "validation_target_file": "encoded/ca46174ab9a3f04a41ee5da5e18403ac/validation-target.json",
+  "validation_source_file": "encoded/ca46174ab9a3f04a41ee5da5e18403ac/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

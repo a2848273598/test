@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosans/NotoSans-Italic%5Bwdth%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosans/NotoSans-Italic%5Bwdth%2Cwght%5D.ttf",
+  "filename": "NotoSans-Italic_wdth_wght_.ttf",
+  "output_key": "905a24b3751377c5e279271443b6c1cf",
+  "size_bytes": 2322640,
+  "sha256": "58e6e0ebd1931b29a365aa2d3e2ee9a9e831a3af7cf3ad1462d4e72154f0b291",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/905a24b3751377c5e279271443b6c1cf/NotoSans-Italic_wdth_wght_.ttf.b64.txt",
+  "base64_size_bytes": 3137605,
+  "validation_target_file": "encoded/905a24b3751377c5e279271443b6c1cf/validation-target.json",
+  "validation_source_file": "encoded/905a24b3751377c5e279271443b6c1cf/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

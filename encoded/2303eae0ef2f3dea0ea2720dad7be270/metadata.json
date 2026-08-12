@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/prompt/Prompt-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/prompt/Prompt-BoldItalic.ttf",
+  "filename": "Prompt-BoldItalic.ttf",
+  "output_key": "2303eae0ef2f3dea0ea2720dad7be270",
+  "size_bytes": 186428,
+  "sha256": "d1c26068cd1291d238c04a064e169ce867315aab256bf7bd12cbe0969bb36b3a",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/2303eae0ef2f3dea0ea2720dad7be270/Prompt-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 251843,
+  "validation_target_file": "encoded/2303eae0ef2f3dea0ea2720dad7be270/validation-target.json",
+  "validation_source_file": "encoded/2303eae0ef2f3dea0ea2720dad7be270/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

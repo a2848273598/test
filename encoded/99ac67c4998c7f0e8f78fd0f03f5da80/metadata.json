@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifdisplay/NotoSerifDisplay%5Bwdth%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifdisplay/NotoSerifDisplay%5Bwdth%2Cwght%5D.ttf",
+  "filename": "NotoSerifDisplay_wdth_wght_.ttf",
+  "output_key": "99ac67c4998c7f0e8f78fd0f03f5da80",
+  "size_bytes": 1835176,
+  "sha256": "4b661adcf6a5d38bf5befdc4d976e8a7238a4aeb57e62c1c1a67775380a09df9",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/99ac67c4998c7f0e8f78fd0f03f5da80/NotoSerifDisplay_wdth_wght_.ttf.b64.txt",
+  "base64_size_bytes": 2479101,
+  "validation_target_file": "encoded/99ac67c4998c7f0e8f78fd0f03f5da80/validation-target.json",
+  "validation_source_file": "encoded/99ac67c4998c7f0e8f78fd0f03f5da80/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

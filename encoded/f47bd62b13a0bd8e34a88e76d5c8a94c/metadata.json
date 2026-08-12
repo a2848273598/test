@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolxiaowei/ZCOOLXiaoWei-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolxiaowei/ZCOOLXiaoWei-Regular.ttf",
+  "filename": "ZCOOLXiaoWei-Regular.ttf",
+  "output_key": "f47bd62b13a0bd8e34a88e76d5c8a94c",
+  "size_bytes": 6313808,
+  "sha256": "a42b620140f493db42f741351dfbf343c0936d58588ee8004b8b2a218d997ff1",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/f47bd62b13a0bd8e34a88e76d5c8a94c/ZCOOLXiaoWei-Regular.ttf.b64.txt",
+  "base64_size_bytes": 8529181,
+  "validation_target_file": "encoded/f47bd62b13a0bd8e34a88e76d5c8a94c/validation-target.json",
+  "validation_source_file": "encoded/f47bd62b13a0bd8e34a88e76d5c8a94c/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}

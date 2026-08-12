@@ -1,0 +1,89 @@
+{
+  "version": 2,
+  "profile": "source",
+  "strict": true,
+  "validation_policy": "strict-v2-cc-filtered",
+  "filename": "MPLUSRounded1c-Regular.ttf",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mplusrounded1c/MPLUSRounded1c-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mplusrounded1c/MPLUSRounded1c-Regular.ttf",
+  "size_bytes": 3389792,
+  "sha256": "b75708b53e45b06d17d470aeeca5b766e3d1b3999f03f13ec4eb863ca846c14c",
+  "detected_format": "TrueType/OpenType",
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  },
+  "static_audit": {
+    "font_name": "RoundedMplus1c-Regular",
+    "glyph_count": 8546,
+    "unicode_cmap_tables": [
+      {
+        "table": "platform=0, encoding=3, format=4",
+        "count": 8174
+      },
+      {
+        "table": "platform=0, encoding=4, format=12",
+        "count": 8201
+      },
+      {
+        "table": "platform=3, encoding=1, format=4",
+        "count": 8174
+      },
+      {
+        "table": "platform=3, encoding=10, format=12",
+        "count": 8201
+      }
+    ],
+    "legacy_cmap_tables": [],
+    "variation_cmap_tables": [
+      "platform=0, encoding=5, format=14"
+    ],
+    "unicode_codepoint_count": 8201,
+    "cmap_conflict_count": 0,
+    "raw_reverse_alias_count": 0,
+    "reverse_alias_count": 0,
+    "ignored_cc_alias_group_count": 0,
+    "ambiguous_glyph_count": 0,
+    "ambiguous_standard_codepoint_count": 0,
+    "pua_codepoint_count": 0,
+    "cmap_conflict_sample": [],
+    "raw_reverse_alias_sample": [],
+    "reverse_alias_sample": [],
+    "cjk_compat_alias_sample": []
+  },
+  "coverage": {
+    "required_count": 103,
+    "missing_count": 0,
+    "missing": [],
+    "passed": true
+  },
+  "pymupdf_load": {
+    "passed": true,
+    "font_name": "Rounded Mplus 1c Regular",
+    "glyph_count": 8546
+  },
+  "roundtrip": {
+    "status": "pass",
+    "insert_text": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": [],
+      "compatibility_ideographs_found_after_extract": false
+    },
+    "insert_textbox": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": [],
+      "compatibility_ideographs_found_after_extract": false
+    },
+    "subset_fonts_tested": true,
+    "compatibility_ideographs_found_after_extract": false
+  },
+  "failure_codes": [],
+  "result": "pass"
+}

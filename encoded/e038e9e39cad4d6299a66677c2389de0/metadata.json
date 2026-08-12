@@ -1,0 +1,22 @@
+{
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ysabeau/Ysabeau-Italic%5Bwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ysabeau/Ysabeau-Italic%5Bwght%5D.ttf",
+  "filename": "Ysabeau-Italic_wght_.ttf",
+  "output_key": "e038e9e39cad4d6299a66677c2389de0",
+  "size_bytes": 332916,
+  "sha256": "6d9099e463926e46659e01e415f891af967ec65a1fa5c496ec2b6612e4d3e27c",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "encoded/e038e9e39cad4d6299a66677c2389de0/Ysabeau-Italic_wght_.ttf.b64.txt",
+  "base64_size_bytes": 449729,
+  "validation_target_file": "encoded/e038e9e39cad4d6299a66677c2389de0/validation-target.json",
+  "validation_source_file": "encoded/e038e9e39cad4d6299a66677c2389de0/validation-source.json",
+  "validation_target_result": "fail",
+  "validation_source_result": "fail",
+  "validation_policy": "strict-v2-cc-filtered",
+  "validation_environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7",
+    "fonttools_version": "4.63.0"
+  }
+}
