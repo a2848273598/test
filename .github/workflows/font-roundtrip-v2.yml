@@ -73,7 +73,8 @@ jobs:
           python -m pip install \
             --disable-pip-version-check \
             --no-cache-dir \
-            "PyMuPDF==${REQUIRED_PYMUPDF_VERSION}"
+            "PyMuPDF==${REQUIRED_PYMUPDF_VERSION}" \
+            "fonttools"
 
       - name: Run exact corpus roundtrip
         shell: bash
