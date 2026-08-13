@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/038b637da7b3fd956a4ed93ffc607c3d5e4ce172/ofl/firasans/FiraSans-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/038b637da7b3fd956a4ed93ffc607c3d5e4ce172/ofl/firasans/FiraSans-Bold.ttf",
+  "filename": "FiraSans-Bold.ttf",
+  "output_key": "073653ff0697370e87de5366f19a7f47",
+  "size_bytes": 489720,
+  "sha256": "a4d8e149ecdd4874a0726eb0af894488b3b31c423d6b0017c8f415ed1b795b45",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/073653ff0697370e87de5366f19a7f47/FiraSans-Bold.ttf.b64.txt",
+  "base64_size_bytes": 661552
+}
