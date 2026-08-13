@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "result": "pass",
+  "failure_stage": null,
+  "failure_codes": [],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/038b637da7b3fd956a4ed93ffc607c3d5e4ce172/ofl/carlito/Carlito-Regular.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/038b637da7b3fd956a4ed93ffc607c3d5e4ce172/ofl/carlito/Carlito-Regular.ttf",
+  "font_filename": "Carlito-Regular.ttf",
+  "font_sha256": "f6418f708baede9789daef5d458c0f53d2a888af9820e8062934e504fedc6595",
+  "font_size_bytes": 628032,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/5859e9c51dec6f20a48bcfc03a582ea495afdf58f3873547834ee9f2fdeac161/source_original_chars_f912b483d7cb7ce6b03410518fda10a021b49f0f3f051c312b9240f112c36d61.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/5859e9c51dec6f20a48bcfc03a582ea495afdf58f3873547834ee9f2fdeac161/source_original_chars_f912b483d7cb7ce6b03410518fda10a021b49f0f3f051c312b9240f112c36d61.txt",
+  "corpus_sha256": "f912b483d7cb7ce6b03410518fda10a021b49f0f3f051c312b9240f112c36d61",
+  "corpus_unique_character_count": 50,
+  "chunk_count": 1,
+  "roundtrip": {
+    "insert_text": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "insert_textbox": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "subset_fonts_tested": true
+  },
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7"
+  }
+}
