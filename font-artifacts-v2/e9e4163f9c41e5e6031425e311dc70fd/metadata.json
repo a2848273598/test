@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ufl/ubuntu/Ubuntu-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ufl/ubuntu/Ubuntu-Bold.ttf",
+  "filename": "Ubuntu-Bold.ttf",
+  "output_key": "e9e4163f9c41e5e6031425e311dc70fd",
+  "size_bytes": 331612,
+  "sha256": "679b5c1e09cab3156bb8ef529735f9382bf31ca7ac737382ab959297f8d82ad4",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/e9e4163f9c41e5e6031425e311dc70fd/Ubuntu-Bold.ttf.b64.txt",
+  "base64_size_bytes": 447970
+}
