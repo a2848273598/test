@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "result": "pass",
+  "failure_stage": null,
+  "failure_codes": [],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/arimo/Arimo-Italic%5Bwght%5D.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/arimo/Arimo-Italic%5Bwght%5D.ttf",
+  "font_filename": "Arimo-Italic_wght_.ttf",
+  "font_sha256": "a80fc54fd0233c1dfe298577c4d00f5ae81d5bb83510975e473c47e699b7f4ed",
+  "font_size_bytes": 543196,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/231bf719fd80b67772db3a10c4ea4e5a154ad8aa1e0baddf353b634c92d0c109/source_original_chars_8d3591e55fa8745793d9519955740ddad45bb94dfc191b36c744139c6184c442.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/231bf719fd80b67772db3a10c4ea4e5a154ad8aa1e0baddf353b634c92d0c109/source_original_chars_8d3591e55fa8745793d9519955740ddad45bb94dfc191b36c744139c6184c442.txt",
+  "corpus_sha256": "8d3591e55fa8745793d9519955740ddad45bb94dfc191b36c744139c6184c442",
+  "corpus_unique_character_count": 1,
+  "chunk_count": 1,
+  "roundtrip": {
+    "insert_text": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "insert_textbox": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "subset_fonts_tested": true
+  },
+  "environment": {
+    "python_version": "3.13.15",
+    "pymupdf_version": "1.26.7"
+  }
+}
