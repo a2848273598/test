@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "result": "pass",
+  "failure_stage": null,
+  "failure_codes": [],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/notosans/NotoSans%5Bwdth%2Cwght%5D.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/notosans/NotoSans%5Bwdth%2Cwght%5D.ttf",
+  "font_filename": "NotoSans_wdth_wght_.ttf",
+  "font_sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+  "font_size_bytes": 2049096,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/18439a77200acd1a667caed00565ff106f9dd315cf5d7d9f48e834ebcff464d2/source_original_chars_99f1b0a42945ea0edb0af7c3c4db9f30585ba0903f8007e6a816b413d7dad482.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/18439a77200acd1a667caed00565ff106f9dd315cf5d7d9f48e834ebcff464d2/source_original_chars_99f1b0a42945ea0edb0af7c3c4db9f30585ba0903f8007e6a816b413d7dad482.txt",
+  "corpus_sha256": "99f1b0a42945ea0edb0af7c3c4db9f30585ba0903f8007e6a816b413d7dad482",
+  "corpus_unique_character_count": 4,
+  "chunk_count": 1,
+  "roundtrip": {
+    "insert_text": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "insert_textbox": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "subset_fonts_tested": true
+  },
+  "environment": {
+    "python_version": "3.13.15",
+    "pymupdf_version": "1.26.7"
+  }
+}
