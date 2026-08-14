@@ -1,0 +1,75 @@
+{
+  "version": 2,
+  "result": "fail",
+  "failure_stage": "roundtrip",
+  "failure_codes": [
+    "insert_text_exact_roundtrip_failed",
+    "insert_textbox_exact_roundtrip_failed"
+  ],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/ptsans/PT_Sans-Web-BoldItalic.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/ptsans/PT_Sans-Web-BoldItalic.ttf",
+  "font_filename": "PT_Sans-Web-BoldItalic.ttf",
+  "font_sha256": "81ac221cdd02bccfa679c74adb122478e9d092e65a722e31ca11469961483785",
+  "font_size_bytes": 375204,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/cabcfe1a422019a88ec4d9e2c0617f22924b9ca677346ebbc5d98d9b480ef11a/source_original_chars_740e9483a9b513bbfe7e7f3d9bafeb0e2911ac98b140c36123cc772e709e7a4e.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/cabcfe1a422019a88ec4d9e2c0617f22924b9ca677346ebbc5d98d9b480ef11a/source_original_chars_740e9483a9b513bbfe7e7f3d9bafeb0e2911ac98b140c36123cc772e709e7a4e.txt",
+  "corpus_sha256": "740e9483a9b513bbfe7e7f3d9bafeb0e2911ac98b140c36123cc772e709e7a4e",
+  "corpus_unique_character_count": 61,
+  "chunk_count": 1,
+  "roundtrip": {
+    "insert_text": {
+      "status": "fail",
+      "exact_roundtrip": false,
+      "subset_fonts_tested": true,
+      "difference_count": 1,
+      "differences": [
+        {
+          "page_index": 0,
+          "char_index": 40,
+          "expected": {
+            "char": "µ",
+            "codepoint": "U+00B5",
+            "name": "MICRO SIGN",
+            "category": "Ll"
+          },
+          "actual": {
+            "char": "μ",
+            "codepoint": "U+03BC",
+            "name": "GREEK SMALL LETTER MU",
+            "category": "Ll"
+          }
+        }
+      ]
+    },
+    "insert_textbox": {
+      "status": "fail",
+      "exact_roundtrip": false,
+      "subset_fonts_tested": true,
+      "difference_count": 1,
+      "differences": [
+        {
+          "page_index": 0,
+          "char_index": 40,
+          "expected": {
+            "char": "µ",
+            "codepoint": "U+00B5",
+            "name": "MICRO SIGN",
+            "category": "Ll"
+          },
+          "actual": {
+            "char": "μ",
+            "codepoint": "U+03BC",
+            "name": "GREEK SMALL LETTER MU",
+            "category": "Ll"
+          }
+        }
+      ]
+    },
+    "subset_fonts_tested": true
+  },
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7"
+  }
+}
