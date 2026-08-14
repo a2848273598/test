@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/ptsans/PT_Sans-Web-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/ptsans/PT_Sans-Web-Regular.ttf",
+  "filename": "PT_Sans-Web-Regular.ttf",
+  "output_key": "f165abe3f49e4f447f99b2a5b5cc1edc",
+  "size_bytes": 442960,
+  "sha256": "9cc831490532009bae2b3ce0d39c62adfc889060beb421593bfd9d2396d0f10a",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/f165abe3f49e4f447f99b2a5b5cc1edc/PT_Sans-Web-Regular.ttf.b64.txt",
+  "base64_size_bytes": 598388
+}
