@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "result": "pass",
+  "failure_stage": null,
+  "failure_codes": [],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/b612/B612-BoldItalic.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/b612/B612-BoldItalic.ttf",
+  "font_filename": "B612-BoldItalic.ttf",
+  "font_sha256": "5911fe0ae69264fb74b2956fc66c616580cd392b47f29335fa68ce5db47a4d2f",
+  "font_size_bytes": 109172,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/cabcfe1a422019a88ec4d9e2c0617f22924b9ca677346ebbc5d98d9b480ef11a/source_original_chars_740e9483a9b513bbfe7e7f3d9bafeb0e2911ac98b140c36123cc772e709e7a4e.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/cabcfe1a422019a88ec4d9e2c0617f22924b9ca677346ebbc5d98d9b480ef11a/source_original_chars_740e9483a9b513bbfe7e7f3d9bafeb0e2911ac98b140c36123cc772e709e7a4e.txt",
+  "corpus_sha256": "740e9483a9b513bbfe7e7f3d9bafeb0e2911ac98b140c36123cc772e709e7a4e",
+  "corpus_unique_character_count": 61,
+  "chunk_count": 1,
+  "roundtrip": {
+    "insert_text": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "insert_textbox": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "subset_fonts_tested": true
+  },
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7"
+  }
+}
