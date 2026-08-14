@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/lxgwmarkergothic/LXGWMarkerGothic-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/lxgwmarkergothic/LXGWMarkerGothic-Regular.ttf",
+  "filename": "LXGWMarkerGothic-Regular.ttf",
+  "output_key": "0996ffeb627086469cb34d1441bc196a",
+  "size_bytes": 3187360,
+  "sha256": "e6a55cfd5f18dc393f92670a164397a69242cb4eabe1d3feb5dc22fc4947a8ba",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/0996ffeb627086469cb34d1441bc196a/LXGWMarkerGothic-Regular.ttf.b64.txt",
+  "base64_size_bytes": 4305735
+}
