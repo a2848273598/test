@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "result": "fail",
+  "failure_stage": "coverage",
+  "failure_codes": [
+    "required_characters_missing"
+  ],
+  "missing_count": 3,
+  "missing": [
+    {
+      "char": "±",
+      "codepoint": "U+00B1",
+      "name": "PLUS-MINUS SIGN",
+      "category": "Sm"
+    },
+    {
+      "char": "ƒ",
+      "codepoint": "U+0192",
+      "name": "LATIN SMALL LETTER F WITH HOOK",
+      "category": "Ll"
+    },
+    {
+      "char": "Ÿ",
+      "codepoint": "U+0178",
+      "name": "LATIN CAPITAL LETTER Y WITH DIAERESIS",
+      "category": "Lu"
+    }
+  ],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/6d6918ed8f0374a098b56f671deadb983bb9e2fd/apache/jsmathcmr10/jsMath-cmr10.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/6d6918ed8f0374a098b56f671deadb983bb9e2fd/apache/jsmathcmr10/jsMath-cmr10.ttf",
+  "font_filename": "jsMath-cmr10.ttf",
+  "font_sha256": "9bd5bae936a4af7152f320e3fee7f14ebbb778101903e9c8b2cc8901f40b778b",
+  "font_size_bytes": 50312,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/18439a77200acd1a667caed00565ff106f9dd315cf5d7d9f48e834ebcff464d2/source_original_chars_99f1b0a42945ea0edb0af7c3c4db9f30585ba0903f8007e6a816b413d7dad482.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/18439a77200acd1a667caed00565ff106f9dd315cf5d7d9f48e834ebcff464d2/source_original_chars_99f1b0a42945ea0edb0af7c3c4db9f30585ba0903f8007e6a816b413d7dad482.txt",
+  "corpus_sha256": "99f1b0a42945ea0edb0af7c3c4db9f30585ba0903f8007e6a816b413d7dad482",
+  "corpus_unique_character_count": 4,
+  "environment": {
+    "python_version": "3.13.15",
+    "pymupdf_version": "1.26.7"
+  }
+}
