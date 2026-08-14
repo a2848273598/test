@@ -1,0 +1,299 @@
+{
+  "version": 2,
+  "result": "fail",
+  "failure_stage": "roundtrip",
+  "failure_codes": [
+    "insert_text_exact_roundtrip_failed",
+    "insert_textbox_exact_roundtrip_failed"
+  ],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/lxgwwenkaitc/LXGWWenKaiTC-Light.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/lxgwwenkaitc/LXGWWenKaiTC-Light.ttf",
+  "font_filename": "LXGWWenKaiTC-Light.ttf",
+  "font_sha256": "48cabec60b908f145002192c366d805b674d6e890a98c24f8a39fd33542273fd",
+  "font_size_bytes": 13771744,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/06bc0fb9c054d9b97d577dde597a1552d52a7520b57e574f1bfecb7593297d50/source_original_chars_b0a74cd0e9dc4914a618dd82e23d16297cc1dc6fc7f77926d621ee48d68a5e6d.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/06bc0fb9c054d9b97d577dde597a1552d52a7520b57e574f1bfecb7593297d50/source_original_chars_b0a74cd0e9dc4914a618dd82e23d16297cc1dc6fc7f77926d621ee48d68a5e6d.txt",
+  "corpus_sha256": "b0a74cd0e9dc4914a618dd82e23d16297cc1dc6fc7f77926d621ee48d68a5e6d",
+  "corpus_unique_character_count": 328,
+  "chunk_count": 3,
+  "roundtrip": {
+    "insert_text": {
+      "status": "fail",
+      "exact_roundtrip": false,
+      "subset_fonts_tested": true,
+      "difference_count": 8,
+      "differences": [
+        {
+          "page_index": 0,
+          "char_index": 19,
+          "expected": {
+            "char": "器",
+            "codepoint": "U+5668",
+            "name": "CJK UNIFIED IDEOGRAPH-5668",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "器",
+            "codepoint": "U+FA38",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA38",
+            "category": "Lo"
+          }
+        },
+        {
+          "page_index": 0,
+          "char_index": 41,
+          "expected": {
+            "char": "温",
+            "codepoint": "U+6E29",
+            "name": "CJK UNIFIED IDEOGRAPH-6E29",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "溫",
+            "codepoint": "U+6EAB",
+            "name": "CJK UNIFIED IDEOGRAPH-6EAB",
+            "category": "Lo"
+          }
+        },
+        {
+          "page_index": 0,
+          "char_index": 45,
+          "expected": {
+            "char": "敏",
+            "codepoint": "U+654F",
+            "name": "CJK UNIFIED IDEOGRAPH-654F",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "敏",
+            "codepoint": "U+FA41",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA41",
+            "category": "Lo"
+          }
+        },
+        {
+          "page_index": 0,
+          "char_index": 80,
+          "expected": {
+            "char": "成",
+            "codepoint": "U+6210",
+            "name": "CJK UNIFIED IDEOGRAPH-6210",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "⦚",
+            "codepoint": "U+299A",
+            "name": "VERTICAL ZIGZAG LINE",
+            "category": "Sm"
+          }
+        },
+        {
+          "page_index": 1,
+          "char_index": 33,
+          "expected": {
+            "char": "将",
+            "codepoint": "U+5C06",
+            "name": "CJK UNIFIED IDEOGRAPH-5C06",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "═",
+            "codepoint": "U+2550",
+            "name": "BOX DRAWINGS DOUBLE HORIZONTAL",
+            "category": "So"
+          }
+        },
+        {
+          "page_index": 1,
+          "char_index": 95,
+          "expected": {
+            "char": "概",
+            "codepoint": "U+6982",
+            "name": "CJK UNIFIED IDEOGRAPH-6982",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "槪",
+            "codepoint": "U+69EA",
+            "name": "CJK UNIFIED IDEOGRAPH-69EA",
+            "category": "Lo"
+          }
+        },
+        {
+          "page_index": 1,
+          "char_index": 146,
+          "expected": {
+            "char": "户",
+            "codepoint": "U+6237",
+            "name": "CJK UNIFIED IDEOGRAPH-6237",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "戸",
+            "codepoint": "U+6238",
+            "name": "CJK UNIFIED IDEOGRAPH-6238",
+            "category": "Lo"
+          }
+        },
+        {
+          "page_index": 2,
+          "char_index": 6,
+          "expected": {
+            "char": "者",
+            "codepoint": "U+8005",
+            "name": "CJK UNIFIED IDEOGRAPH-8005",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "者",
+            "codepoint": "U+FA5B",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA5B",
+            "category": "Lo"
+          }
+        }
+      ]
+    },
+    "insert_textbox": {
+      "status": "fail",
+      "exact_roundtrip": false,
+      "subset_fonts_tested": true,
+      "difference_count": 8,
+      "differences": [
+        {
+          "page_index": 0,
+          "char_index": 19,
+          "expected": {
+            "char": "器",
+            "codepoint": "U+5668",
+            "name": "CJK UNIFIED IDEOGRAPH-5668",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "器",
+            "codepoint": "U+FA38",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA38",
+            "category": "Lo"
+          }
+        },
+        {
+          "page_index": 0,
+          "char_index": 41,
+          "expected": {
+            "char": "温",
+            "codepoint": "U+6E29",
+            "name": "CJK UNIFIED IDEOGRAPH-6E29",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "溫",
+            "codepoint": "U+6EAB",
+            "name": "CJK UNIFIED IDEOGRAPH-6EAB",
+            "category": "Lo"
+          }
+        },
+        {
+          "page_index": 0,
+          "char_index": 45,
+          "expected": {
+            "char": "敏",
+            "codepoint": "U+654F",
+            "name": "CJK UNIFIED IDEOGRAPH-654F",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "敏",
+            "codepoint": "U+FA41",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA41",
+            "category": "Lo"
+          }
+        },
+        {
+          "page_index": 0,
+          "char_index": 80,
+          "expected": {
+            "char": "成",
+            "codepoint": "U+6210",
+            "name": "CJK UNIFIED IDEOGRAPH-6210",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "⦚",
+            "codepoint": "U+299A",
+            "name": "VERTICAL ZIGZAG LINE",
+            "category": "Sm"
+          }
+        },
+        {
+          "page_index": 1,
+          "char_index": 33,
+          "expected": {
+            "char": "将",
+            "codepoint": "U+5C06",
+            "name": "CJK UNIFIED IDEOGRAPH-5C06",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "═",
+            "codepoint": "U+2550",
+            "name": "BOX DRAWINGS DOUBLE HORIZONTAL",
+            "category": "So"
+          }
+        },
+        {
+          "page_index": 1,
+          "char_index": 95,
+          "expected": {
+            "char": "概",
+            "codepoint": "U+6982",
+            "name": "CJK UNIFIED IDEOGRAPH-6982",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "槪",
+            "codepoint": "U+69EA",
+            "name": "CJK UNIFIED IDEOGRAPH-69EA",
+            "category": "Lo"
+          }
+        },
+        {
+          "page_index": 1,
+          "char_index": 146,
+          "expected": {
+            "char": "户",
+            "codepoint": "U+6237",
+            "name": "CJK UNIFIED IDEOGRAPH-6237",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "戸",
+            "codepoint": "U+6238",
+            "name": "CJK UNIFIED IDEOGRAPH-6238",
+            "category": "Lo"
+          }
+        },
+        {
+          "page_index": 2,
+          "char_index": 6,
+          "expected": {
+            "char": "者",
+            "codepoint": "U+8005",
+            "name": "CJK UNIFIED IDEOGRAPH-8005",
+            "category": "Lo"
+          },
+          "actual": {
+            "char": "者",
+            "codepoint": "U+FA5B",
+            "name": "CJK COMPATIBILITY IDEOGRAPH-FA5B",
+            "category": "Lo"
+          }
+        }
+      ]
+    },
+    "subset_fonts_tested": true
+  },
+  "environment": {
+    "python_version": "3.13.15",
+    "pymupdf_version": "1.26.7"
+  }
+}
