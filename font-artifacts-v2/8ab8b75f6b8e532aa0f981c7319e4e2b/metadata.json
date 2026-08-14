@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/firasans/FiraSans-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/firasans/FiraSans-BoldItalic.ttf",
+  "filename": "FiraSans-BoldItalic.ttf",
+  "output_key": "8ab8b75f6b8e532aa0f981c7319e4e2b",
+  "size_bytes": 506864,
+  "sha256": "1b96c16db9819bcaa9d588068bb397bb6e977c4874965d3d50d789a1943757eb",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/8ab8b75f6b8e532aa0f981c7319e4e2b/FiraSans-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 684713
+}
