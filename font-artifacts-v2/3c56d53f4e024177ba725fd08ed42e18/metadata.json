@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/roboto/Roboto%5Bwdth%2Cwght%5D.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/roboto/Roboto%5Bwdth%2Cwght%5D.ttf",
+  "filename": "Roboto_wdth_wght_.ttf",
+  "output_key": "3c56d53f4e024177ba725fd08ed42e18",
+  "size_bytes": 488584,
+  "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/3c56d53f4e024177ba725fd08ed42e18/Roboto_wdth_wght_.ttf.b64.txt",
+  "base64_size_bytes": 660020
+}
