@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/carlito/Carlito-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/carlito/Carlito-BoldItalic.ttf",
+  "filename": "Carlito-BoldItalic.ttf",
+  "output_key": "1dd18fb15d5a6c764b34e7b964dc4df8",
+  "size_bytes": 808508,
+  "sha256": "b32928186c119599e03ca6a1ffc680fdcb7fac95772f4b95d989cf6cd3861517",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/1dd18fb15d5a6c764b34e7b964dc4df8/Carlito-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 1092197
+}
