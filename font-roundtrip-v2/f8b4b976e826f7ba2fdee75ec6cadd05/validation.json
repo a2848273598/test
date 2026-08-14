@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "result": "pass",
+  "failure_stage": null,
+  "failure_codes": [],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/ptsansnarrow/PT_Sans-Narrow-Web-Bold.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/ptsansnarrow/PT_Sans-Narrow-Web-Bold.ttf",
+  "font_filename": "PT_Sans-Narrow-Web-Bold.ttf",
+  "font_sha256": "e69d83bcf5bd647892b4e2b22f5098dabd55c989413513197722fc156fb9f00e",
+  "font_size_bytes": 487720,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/24ff33292e8fdc1d505d103476eca9c3ee0046274108d9f0ec454051b38bf6e1/source_original_chars_e7ba04faf3d5d974ecc9bad55fe92b9e4de52b7503bb998629e73c16e2bc373f.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/24ff33292e8fdc1d505d103476eca9c3ee0046274108d9f0ec454051b38bf6e1/source_original_chars_e7ba04faf3d5d974ecc9bad55fe92b9e4de52b7503bb998629e73c16e2bc373f.txt",
+  "corpus_sha256": "e7ba04faf3d5d974ecc9bad55fe92b9e4de52b7503bb998629e73c16e2bc373f",
+  "corpus_unique_character_count": 10,
+  "chunk_count": 1,
+  "roundtrip": {
+    "insert_text": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "insert_textbox": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "subset_fonts_tested": true
+  },
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7"
+  }
+}
