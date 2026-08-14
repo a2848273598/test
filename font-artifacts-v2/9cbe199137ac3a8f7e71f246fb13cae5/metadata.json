@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/ptsans/PT_Sans-Web-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/ptsans/PT_Sans-Web-Bold.ttf",
+  "filename": "PT_Sans-Web-Bold.ttf",
+  "output_key": "9cbe199137ac3a8f7e71f246fb13cae5",
+  "size_bytes": 470240,
+  "sha256": "3128bd5ecf01816e59a23d54c57a7a6b14615b07db53ff277c77376010265b05",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/9cbe199137ac3a8f7e71f246fb13cae5/PT_Sans-Web-Bold.ttf.b64.txt",
+  "base64_size_bytes": 635238
+}
