@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ufl/ubuntu/Ubuntu-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ufl/ubuntu/Ubuntu-Regular.ttf",
+  "filename": "Ubuntu-Regular.ttf",
+  "output_key": "975a11c18b58bbf55cad82b96ff573a1",
+  "size_bytes": 351884,
+  "sha256": "3128df86a31805618436d0ae5651ba4285d0c9de0a39057d025f64ee33bceb64",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/975a11c18b58bbf55cad82b96ff573a1/Ubuntu-Regular.ttf.b64.txt",
+  "base64_size_bytes": 475354
+}
