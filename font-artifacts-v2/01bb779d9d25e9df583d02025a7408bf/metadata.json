@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/carlito/Carlito-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/carlito/Carlito-Bold.ttf",
+  "filename": "Carlito-Bold.ttf",
+  "output_key": "01bb779d9d25e9df583d02025a7408bf",
+  "size_bytes": 682468,
+  "sha256": "bb5d20f79b82599ec72983597437373a80f2d2085fa91fc144fd74e876a594db",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/01bb779d9d25e9df583d02025a7408bf/Carlito-Bold.ttf.b64.txt",
+  "base64_size_bytes": 921934
+}
