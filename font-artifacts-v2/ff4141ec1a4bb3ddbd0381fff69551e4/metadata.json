@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ufl/ubuntu/Ubuntu-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ufl/ubuntu/Ubuntu-BoldItalic.ttf",
+  "filename": "Ubuntu-BoldItalic.ttf",
+  "output_key": "ff4141ec1a4bb3ddbd0381fff69551e4",
+  "size_bytes": 354956,
+  "sha256": "875d776e7f33c50b1d1b594791da0eba9865648f232f08bcba00bba9dfa01d96",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/ff4141ec1a4bb3ddbd0381fff69551e4/Ubuntu-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 479504
+}
