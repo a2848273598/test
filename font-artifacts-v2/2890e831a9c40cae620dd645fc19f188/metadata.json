@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/firasans/FiraSans-Regular.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/firasans/FiraSans-Regular.ttf",
+  "filename": "FiraSans-Regular.ttf",
+  "output_key": "2890e831a9c40cae620dd645fc19f188",
+  "size_bytes": 456996,
+  "sha256": "c29556a2719bf613ef3d5e070e40d903a8965d9c081beca1375dc1e6e0f93c23",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/2890e831a9c40cae620dd645fc19f188/FiraSans-Regular.ttf.b64.txt",
+  "base64_size_bytes": 617346
+}
