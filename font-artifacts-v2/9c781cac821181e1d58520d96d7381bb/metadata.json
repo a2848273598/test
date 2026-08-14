@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/ptsans/PT_Sans-Web-Italic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/ptsans/PT_Sans-Web-Italic.ttf",
+  "filename": "PT_Sans-Web-Italic.ttf",
+  "output_key": "9c781cac821181e1d58520d96d7381bb",
+  "size_bytes": 436452,
+  "sha256": "5a90fe2d0cd798700935240580bdcc12c0ffc9102c0c7163b3418e13bc21debd",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/9c781cac821181e1d58520d96d7381bb/PT_Sans-Web-Italic.ttf.b64.txt",
+  "base64_size_bytes": 589594
+}
