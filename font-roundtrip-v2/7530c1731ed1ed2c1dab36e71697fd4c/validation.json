@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "result": "pass",
+  "failure_stage": null,
+  "failure_codes": [],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/tinos/Tinos-Regular.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/tinos/Tinos-Regular.ttf",
+  "font_filename": "Tinos-Regular.ttf",
+  "font_sha256": "60a0e8ef0c04dd5dd69ffe91025fa2ae5836cbd35600a82ba031977557e2cb61",
+  "font_size_bytes": 521588,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/e21247fc58a4e22b8a38bb8847888e7c5e362e903eb42741412ac53a7f0de921/source_original_chars_8319cd80dc7d09a0729ba43fbdbf2ea559ca3c28a456bffa1ca375550b4f3c28.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/e21247fc58a4e22b8a38bb8847888e7c5e362e903eb42741412ac53a7f0de921/source_original_chars_8319cd80dc7d09a0729ba43fbdbf2ea559ca3c28a456bffa1ca375550b4f3c28.txt",
+  "corpus_sha256": "8319cd80dc7d09a0729ba43fbdbf2ea559ca3c28a456bffa1ca375550b4f3c28",
+  "corpus_unique_character_count": 44,
+  "chunk_count": 1,
+  "roundtrip": {
+    "insert_text": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "insert_textbox": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "subset_fonts_tested": true
+  },
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7"
+  }
+}
