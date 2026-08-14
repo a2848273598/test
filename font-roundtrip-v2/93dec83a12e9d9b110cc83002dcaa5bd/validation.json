@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "result": "pass",
+  "failure_stage": null,
+  "failure_codes": [],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/0763c1c762c4a83cafb37145a064557bb417cf90/ofl/wdxllubrifontsc/WDXLLubrifontSC-Regular.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/0763c1c762c4a83cafb37145a064557bb417cf90/ofl/wdxllubrifontsc/WDXLLubrifontSC-Regular.ttf",
+  "font_filename": "WDXLLubrifontSC-Regular.ttf",
+  "font_sha256": "0134ed261d56aab8fa1860df677858c5d0d3ca899b2aa5430581c458a752e914",
+  "font_size_bytes": 10344488,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/7bb6a80e2f2596ac9be1e99b281a1c352cb88a646cef37a50b13a04eb5187e70/target_reviewed_chinese_9814d441a61110355997e7294c74ad79da49024a35b5129654095c40abb9f527.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/7bb6a80e2f2596ac9be1e99b281a1c352cb88a646cef37a50b13a04eb5187e70/target_reviewed_chinese_9814d441a61110355997e7294c74ad79da49024a35b5129654095c40abb9f527.txt",
+  "corpus_sha256": "9814d441a61110355997e7294c74ad79da49024a35b5129654095c40abb9f527",
+  "corpus_unique_character_count": 241,
+  "chunk_count": 2,
+  "roundtrip": {
+    "insert_text": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "insert_textbox": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "subset_fonts_tested": true
+  },
+  "environment": {
+    "python_version": "3.13.15",
+    "pymupdf_version": "1.26.7"
+  }
+}
