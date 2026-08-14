@@ -1,0 +1,127 @@
+{
+  "version": 2,
+  "result": "fail",
+  "failure_stage": "coverage",
+  "failure_codes": [
+    "required_characters_missing"
+  ],
+  "missing_count": 17,
+  "missing": [
+    {
+      "char": "编",
+      "codepoint": "U+7F16",
+      "name": "CJK UNIFIED IDEOGRAPH-7F16",
+      "category": "Lo"
+    },
+    {
+      "char": "带",
+      "codepoint": "U+5E26",
+      "name": "CJK UNIFIED IDEOGRAPH-5E26",
+      "category": "Lo"
+    },
+    {
+      "char": "盘",
+      "codepoint": "U+76D8",
+      "name": "CJK UNIFIED IDEOGRAPH-76D8",
+      "category": "Lo"
+    },
+    {
+      "char": "宽",
+      "codepoint": "U+5BBD",
+      "name": "CJK UNIFIED IDEOGRAPH-5BBD",
+      "category": "Lo"
+    },
+    {
+      "char": "载",
+      "codepoint": "U+8F7D",
+      "name": "CJK UNIFIED IDEOGRAPH-8F7D",
+      "category": "Lo"
+    },
+    {
+      "char": "纳",
+      "codepoint": "U+7EB3",
+      "name": "CJK UNIFIED IDEOGRAPH-7EB3",
+      "category": "Lo"
+    },
+    {
+      "char": "设",
+      "codepoint": "U+8BBE",
+      "name": "CJK UNIFIED IDEOGRAPH-8BBE",
+      "category": "Lo"
+    },
+    {
+      "char": "计",
+      "codepoint": "U+8BA1",
+      "name": "CJK UNIFIED IDEOGRAPH-8BA1",
+      "category": "Lo"
+    },
+    {
+      "char": "总",
+      "codepoint": "U+603B",
+      "name": "CJK UNIFIED IDEOGRAPH-603B",
+      "category": "Lo"
+    },
+    {
+      "char": "邻",
+      "codepoint": "U+90BB",
+      "name": "CJK UNIFIED IDEOGRAPH-90BB",
+      "category": "Lo"
+    },
+    {
+      "char": "间",
+      "codepoint": "U+95F4",
+      "name": "CJK UNIFIED IDEOGRAPH-95F4",
+      "category": "Lo"
+    },
+    {
+      "char": "链",
+      "codepoint": "U+94FE",
+      "name": "CJK UNIFIED IDEOGRAPH-94FE",
+      "category": "Lo"
+    },
+    {
+      "char": "轮",
+      "codepoint": "U+8F6E",
+      "name": "CJK UNIFIED IDEOGRAPH-8F6E",
+      "category": "Lo"
+    },
+    {
+      "char": "户",
+      "codepoint": "U+6237",
+      "name": "CJK UNIFIED IDEOGRAPH-6237",
+      "category": "Lo"
+    },
+    {
+      "char": "为",
+      "codepoint": "U+4E3A",
+      "name": "CJK UNIFIED IDEOGRAPH-4E3A",
+      "category": "Lo"
+    },
+    {
+      "char": "标",
+      "codepoint": "U+6807",
+      "name": "CJK UNIFIED IDEOGRAPH-6807",
+      "category": "Lo"
+    },
+    {
+      "char": "图",
+      "codepoint": "U+56FE",
+      "name": "CJK UNIFIED IDEOGRAPH-56FE",
+      "category": "Lo"
+    }
+  ],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/shipporimincho/ShipporiMincho-Bold.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/shipporimincho/ShipporiMincho-Bold.ttf",
+  "font_filename": "ShipporiMincho-Bold.ttf",
+  "font_sha256": "63bc4eddc74793f671c3ab827c5175e773ffbe569d0bf50ee65375ea9e3bc286",
+  "font_size_bytes": 8563788,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/bfd7f0d9ab321859c96b0edad086277a233782e313cfe42101af166132b6c1d5/target_reviewed_chinese_67bc8e8fc44b3540c6eb3cb0e4e05741764ca632460a15b8f8257ce7de431c20.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/bfd7f0d9ab321859c96b0edad086277a233782e313cfe42101af166132b6c1d5/target_reviewed_chinese_67bc8e8fc44b3540c6eb3cb0e4e05741764ca632460a15b8f8257ce7de431c20.txt",
+  "corpus_sha256": "67bc8e8fc44b3540c6eb3cb0e4e05741764ca632460a15b8f8257ce7de431c20",
+  "corpus_unique_character_count": 77,
+  "environment": {
+    "python_version": "3.13.15",
+    "pymupdf_version": "1.26.7"
+  }
+}
