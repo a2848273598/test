@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "result": "fail",
+  "failure_stage": "coverage",
+  "failure_codes": [
+    "required_characters_missing"
+  ],
+  "missing_count": 7,
+  "missing": [
+    {
+      "char": "编",
+      "codepoint": "U+7F16",
+      "name": "CJK UNIFIED IDEOGRAPH-7F16",
+      "category": "Lo"
+    },
+    {
+      "char": "带",
+      "codepoint": "U+5E26",
+      "name": "CJK UNIFIED IDEOGRAPH-5E26",
+      "category": "Lo"
+    },
+    {
+      "char": "盘",
+      "codepoint": "U+76D8",
+      "name": "CJK UNIFIED IDEOGRAPH-76D8",
+      "category": "Lo"
+    },
+    {
+      "char": "为",
+      "codepoint": "U+4E3A",
+      "name": "CJK UNIFIED IDEOGRAPH-4E3A",
+      "category": "Lo"
+    },
+    {
+      "char": "标",
+      "codepoint": "U+6807",
+      "name": "CJK UNIFIED IDEOGRAPH-6807",
+      "category": "Lo"
+    },
+    {
+      "char": "图",
+      "codepoint": "U+56FE",
+      "name": "CJK UNIFIED IDEOGRAPH-56FE",
+      "category": "Lo"
+    },
+    {
+      "char": "宽",
+      "codepoint": "U+5BBD",
+      "name": "CJK UNIFIED IDEOGRAPH-5BBD",
+      "category": "Lo"
+    }
+  ],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/shipporimincho/ShipporiMincho-Bold.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/shipporimincho/ShipporiMincho-Bold.ttf",
+  "font_filename": "ShipporiMincho-Bold.ttf",
+  "font_sha256": "63bc4eddc74793f671c3ab827c5175e773ffbe569d0bf50ee65375ea9e3bc286",
+  "font_size_bytes": 8563788,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/92baf3342e937adb28c0c68b117670143793961a4a84461e3ffb288a976298b9/target_reviewed_chinese_0aeb4218c95db179928adf55c039170fd0635d7981c0178a317ead3867843438.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/92baf3342e937adb28c0c68b117670143793961a4a84461e3ffb288a976298b9/target_reviewed_chinese_0aeb4218c95db179928adf55c039170fd0635d7981c0178a317ead3867843438.txt",
+  "corpus_sha256": "0aeb4218c95db179928adf55c039170fd0635d7981c0178a317ead3867843438",
+  "corpus_unique_character_count": 39,
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7"
+  }
+}
