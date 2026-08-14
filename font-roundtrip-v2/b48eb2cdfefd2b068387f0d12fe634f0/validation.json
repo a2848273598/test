@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "result": "pass",
+  "failure_stage": null,
+  "failure_codes": [],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/lxgwmarkergothic/LXGWMarkerGothic-Regular.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/lxgwmarkergothic/LXGWMarkerGothic-Regular.ttf",
+  "font_filename": "LXGWMarkerGothic-Regular.ttf",
+  "font_sha256": "e6a55cfd5f18dc393f92670a164397a69242cb4eabe1d3feb5dc22fc4947a8ba",
+  "font_size_bytes": 3187360,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/7c5ebd0b255074d1cf3b77d3c336fdb7175d0496fc274949cf70d41dbb8dd67f/target_reviewed_chinese_fd1ca43dddaabb087345d3cfbd6e577c6d118856f748aeac5cec713e5548deba.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/7c5ebd0b255074d1cf3b77d3c336fdb7175d0496fc274949cf70d41dbb8dd67f/target_reviewed_chinese_fd1ca43dddaabb087345d3cfbd6e577c6d118856f748aeac5cec713e5548deba.txt",
+  "corpus_sha256": "fd1ca43dddaabb087345d3cfbd6e577c6d118856f748aeac5cec713e5548deba",
+  "corpus_unique_character_count": 699,
+  "chunk_count": 5,
+  "roundtrip": {
+    "insert_text": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "insert_textbox": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "subset_fonts_tested": true
+  },
+  "environment": {
+    "python_version": "3.13.15",
+    "pymupdf_version": "1.26.7"
+  }
+}
