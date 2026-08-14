@@ -1,0 +1,75 @@
+{
+  "version": 2,
+  "result": "fail",
+  "failure_stage": "roundtrip",
+  "failure_codes": [
+    "insert_text_exact_roundtrip_failed",
+    "insert_textbox_exact_roundtrip_failed"
+  ],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/038b637da7b3fd956a4ed93ffc607c3d5e4ce172/ofl/lato/Lato-Regular.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/038b637da7b3fd956a4ed93ffc607c3d5e4ce172/ofl/lato/Lato-Regular.ttf",
+  "font_filename": "Lato-Regular.ttf",
+  "font_sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251",
+  "font_size_bytes": 656568,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/53daa1e7dbdc4153d4a89ee52c44e18fc63059fce1a7a4e37f928035dbdacb06/source_original_chars_5449b2464c66f05a9322fba939027063f6ede866f063398c3227743bda8442b7.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/53daa1e7dbdc4153d4a89ee52c44e18fc63059fce1a7a4e37f928035dbdacb06/source_original_chars_5449b2464c66f05a9322fba939027063f6ede866f063398c3227743bda8442b7.txt",
+  "corpus_sha256": "5449b2464c66f05a9322fba939027063f6ede866f063398c3227743bda8442b7",
+  "corpus_unique_character_count": 91,
+  "chunk_count": 1,
+  "roundtrip": {
+    "insert_text": {
+      "status": "fail",
+      "exact_roundtrip": false,
+      "subset_fonts_tested": true,
+      "difference_count": 1,
+      "differences": [
+        {
+          "page_index": 0,
+          "char_index": 42,
+          "expected": {
+            "char": "-",
+            "codepoint": "U+002D",
+            "name": "HYPHEN-MINUS",
+            "category": "Pd"
+          },
+          "actual": {
+            "char": "‐",
+            "codepoint": "U+2010",
+            "name": "HYPHEN",
+            "category": "Pd"
+          }
+        }
+      ]
+    },
+    "insert_textbox": {
+      "status": "fail",
+      "exact_roundtrip": false,
+      "subset_fonts_tested": true,
+      "difference_count": 1,
+      "differences": [
+        {
+          "page_index": 0,
+          "char_index": 42,
+          "expected": {
+            "char": "-",
+            "codepoint": "U+002D",
+            "name": "HYPHEN-MINUS",
+            "category": "Pd"
+          },
+          "actual": {
+            "char": "‐",
+            "codepoint": "U+2010",
+            "name": "HYPHEN",
+            "category": "Pd"
+          }
+        }
+      ]
+    },
+    "subset_fonts_tested": true
+  },
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7"
+  }
+}
