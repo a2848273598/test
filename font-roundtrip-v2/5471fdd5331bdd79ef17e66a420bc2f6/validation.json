@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "result": "pass",
+  "failure_stage": null,
+  "failure_codes": [],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/zcoolqingkehuangyou/ZCOOLQingKeHuangYou-Regular.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/zcoolqingkehuangyou/ZCOOLQingKeHuangYou-Regular.ttf",
+  "font_filename": "ZCOOLQingKeHuangYou-Regular.ttf",
+  "font_sha256": "54f0c0df4308cd74cd0f2fd3494ae054dbc4a1fd6fa7d71f4807eb4cdd8b4136",
+  "font_size_bytes": 8328684,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/53daa1e7dbdc4153d4a89ee52c44e18fc63059fce1a7a4e37f928035dbdacb06/target_reviewed_chinese_f3429bf376ffd8ca86e78a04ef0326406270f9664a48549836e6631918e6bd72.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/53daa1e7dbdc4153d4a89ee52c44e18fc63059fce1a7a4e37f928035dbdacb06/target_reviewed_chinese_f3429bf376ffd8ca86e78a04ef0326406270f9664a48549836e6631918e6bd72.txt",
+  "corpus_sha256": "f3429bf376ffd8ca86e78a04ef0326406270f9664a48549836e6631918e6bd72",
+  "corpus_unique_character_count": 777,
+  "chunk_count": 5,
+  "roundtrip": {
+    "insert_text": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "insert_textbox": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "subset_fonts_tested": true
+  },
+  "environment": {
+    "python_version": "3.13.14",
+    "pymupdf_version": "1.26.7"
+  }
+}
