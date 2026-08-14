@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/ptserif/PT_Serif-Web-BoldItalic.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/ptserif/PT_Serif-Web-BoldItalic.ttf",
+  "filename": "PT_Serif-Web-BoldItalic.ttf",
+  "output_key": "9e0e1bfe9cb90ea5dbaefe21adf2275e",
+  "size_bytes": 337580,
+  "sha256": "f003788ba08981eb0988b3557a6f224a53dab49c20e283e8b74d5af3c466f8be",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/9e0e1bfe9cb90ea5dbaefe21adf2275e/PT_Serif-Web-BoldItalic.ttf.b64.txt",
+  "base64_size_bytes": 456031
+}
