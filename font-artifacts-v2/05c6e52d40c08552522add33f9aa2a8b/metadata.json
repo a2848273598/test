@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "source_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/ptsansnarrow/PT_Sans-Narrow-Web-Bold.ttf",
+  "final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/ptsansnarrow/PT_Sans-Narrow-Web-Bold.ttf",
+  "filename": "PT_Sans-Narrow-Web-Bold.ttf",
+  "output_key": "05c6e52d40c08552522add33f9aa2a8b",
+  "size_bytes": 487720,
+  "sha256": "e69d83bcf5bd647892b4e2b22f5098dabd55c989413513197722fc156fb9f00e",
+  "detected_format": "TrueType/OpenType",
+  "content_type": "application/octet-stream",
+  "base64_file": "font-artifacts-v2/05c6e52d40c08552522add33f9aa2a8b/PT_Sans-Narrow-Web-Bold.ttf.b64.txt",
+  "base64_size_bytes": 658853
+}
