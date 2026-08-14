@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "result": "pass",
+  "failure_stage": null,
+  "failure_codes": [],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/firasans/FiraSans-Regular.ttf",
+  "font_final_url": "https://raw.githubusercontent.com/google/fonts/73fc2ff52147e34a74804b500cf89ca219eac55d/ofl/firasans/FiraSans-Regular.ttf",
+  "font_filename": "FiraSans-Regular.ttf",
+  "font_sha256": "c29556a2719bf613ef3d5e070e40d903a8965d9c081beca1375dc1e6e0f93c23",
+  "font_size_bytes": 456996,
+  "detected_format": "TrueType/OpenType",
+  "corpus_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/75d381523530f1db18ce2f622caf56076e187730a03ef429a8972c5ceaa9a2be/source_original_chars_e3b98a4da31a127d4bde6e43033f66ba274cab0eb7eb1c70ec41402bf6273dd8.txt",
+  "corpus_final_url": "https://raw.githubusercontent.com/a2848273598/test/main/font-role-corpora-v4/3526e21e33b3521827c3ddcae03d09ee646f2e42b1c7d6f5631bf2aea1c085a2/75d381523530f1db18ce2f622caf56076e187730a03ef429a8972c5ceaa9a2be/source_original_chars_e3b98a4da31a127d4bde6e43033f66ba274cab0eb7eb1c70ec41402bf6273dd8.txt",
+  "corpus_sha256": "e3b98a4da31a127d4bde6e43033f66ba274cab0eb7eb1c70ec41402bf6273dd8",
+  "corpus_unique_character_count": 1,
+  "chunk_count": 1,
+  "roundtrip": {
+    "insert_text": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "insert_textbox": {
+      "status": "pass",
+      "exact_roundtrip": true,
+      "subset_fonts_tested": true,
+      "difference_count": 0,
+      "differences": []
+    },
+    "subset_fonts_tested": true
+  },
+  "environment": {
+    "python_version": "3.13.15",
+    "pymupdf_version": "1.26.7"
+  }
+}
